@@ -1,0 +1,2498 @@
+filename,width,height,class,xmin,ymin,xmax,ymax
+annotations/person_without_helmet (10).jpg,200,270,person without helmet,25,75,180,270
+annotations/worker (849).jpg,225,225,helmet,75,28,202,112
+annotations/worker (831).jpg,260,194,person with helmet,81,62,145,166
+annotations/person_without_helmet (283).jpg,300,200,person without helmet,161,58,252,198
+annotations/worker (362).jpg,194,260,person with helmet,56,1,154,107
+annotations/worker (635).jpg,275,183,person with helmet,122,62,153,170
+annotations/worker (827).jpg,284,177,person with helmet,12,26,73,113
+annotations/worker (456).jpg,275,183,helmet,22,68,71,105
+annotations/worker (584).jpg,300,168,person with helmet,49,30,154,143
+annotations/worker (614).jpg,179,281,helmet,65,48,143,101
+annotations/worker (702).jpg,275,183,helmet,1,28,58,109
+annotations/worker (636).jpg,274,184,helmet,235,81,244,90
+annotations/worker (845).jpg,235,214,helmet,87,18,115,38
+annotations/worker (737).jpg,273,185,person with helmet,41,2,150,184
+annotations/worker (499).jpg,266,189,helmet,139,26,183,55
+annotations/person_without_helmet (112).jpg,310,200,person without helmet,119,15,254,155
+annotations/worker (701).jpg,300,168,person with helmet,26,1,147,146
+annotations/applauding_115.jpg,451,300,person without helmet,89,52,266,300
+annotations/worker (518).jpg,317,159,person with helmet,50,49,98,158
+annotations/person_without_helmet (292).jpg,268,200,person without helmet,174,2,261,181
+annotations/worker (14).jpg,265,190,person with helmet,81,12,138,145
+annotations/worker (760).jpg,290,174,person with helmet,63,18,98,86
+annotations/worker (849).jpg,225,225,person with helmet,68,29,225,222
+annotations/worker (264).jpg,300,168,person,23,1,159,168
+annotations/applauding_102.jpg,300,451,person without helmet,50,1,299,289
+annotations/worker (192).jpg,289,174,helmet,144,76,169,101
+annotations/worker (206).jpg,289,175,person with helmet,113,33,152,158
+annotations/worker (699).jpg,275,183,person with helmet,125,11,196,178
+annotations/worker (316).jpg,265,190,helmet,90,7,162,63
+annotations/worker (337).jpg,299,168,person with helmet,39,1,174,167
+annotations/worker (400).jpg,267,189,helmet,123,1,213,54
+annotations/worker (692).jpg,265,190,helmet,147,7,178,32
+annotations/worker (636).jpg,274,184,person with helmet,232,80,248,137
+annotations/applauding_103.jpg,448,300,person without helmet,281,37,415,300
+annotations/worker (799).jpg,275,183,helmet,66,27,103,54
+annotations/worker (865).jpg,275,183,person with helmet,180,52,275,183
+annotations/worker (709).jpg,275,183,person with helmet,90,28,154,130
+annotations/worker (165).jpg,266,189,person with helmet,179,27,237,176
+annotations/worker (811).jpg,183,275,helmet,94,90,121,109
+annotations/worker (425).jpg,275,183,person with helmet,108,32,167,179
+annotations/worker (575).jpg,190,266,helmet,93,48,156,95
+annotations/worker (860).jpg,183,276,person with helmet,108,26,183,272
+annotations/worker (746).jpg,290,174,helmet,109,1,212,68
+annotations/worker (839).jpg,245,205,person without helmet,128,28,146,153
+annotations/worker (770).jpg,298,169,person with helmet,23,6,89,149
+annotations/applauding_125.jpg,400,300,person without helmet,279,6,400,194
+annotations/worker (473).jpg,265,190,helmet,124,19,217,76
+annotations/worker (841).jpg,290,174,helmet,150,21,191,56
+annotations/person_without_helmet (64).jpg,303,200,person without helmet,64,7,248,169
+annotations/worker (411).jpg,300,168,person with helmet,143,50,200,167
+annotations/worker (687).jpg,276,182,person with helmet,110,80,207,179
+annotations/person_without_helmet (250).jpg,318,200,person without helmet,248,65,318,170
+annotations/person_without_helmet (204).jpg,271,200,person without helmet,73,26,172,137
+annotations/person_without_helmet (262).jpg,200,207,person without helmet,15,5,76,83
+annotations/worker (830).jpg,263,192,helmet,2,1,98,40
+annotations/person_without_helmet (284).jpg,200,305,person without helmet,59,112,182,263
+annotations/worker (363).jpg,352,143,helmet,264,14,306,52
+annotations/worker (837).jpg,426,118,person without helmet,135,49,171,118
+annotations/worker (120).jpg,300,168,person with helmet,130,11,211,167
+annotations/worker (152).jpg,275,183,helmet,47,61,68,77
+annotations/worker (880).jpg,284,177,person with helmet,181,6,280,177
+annotations/worker (563).jpg,262,192,helmet,115,29,153,54
+annotations/worker (98).jpg,266,189,person with helmet,93,2,246,178
+annotations/worker (562).jpg,183,276,helmet,45,101,90,138
+annotations/worker (442).jpg,267,189,helmet,65,19,130,72
+annotations/worker (116).jpg,255,197,helmet,114,46,167,82
+annotations/person_without_helmet (208).jpg,285,200,person without helmet,133,20,248,190
+annotations/worker (785).jpg,266,190,person with helmet,71,55,128,113
+annotations/person_without_helmet (6).jpg,259,200,person without helmet,180,52,235,182
+annotations/worker (805).jpg,266,189,helmet,52,31,115,67
+annotations/applauding_121.jpg,280,200,person without helmet,138,20,280,182
+annotations/worker (305).jpg,274,184,helmet,48,2,168,53
+annotations/worker (484).jpg,275,183,helmet,43,33,98,72
+annotations/worker (139).jpg,251,201,person with helmet,36,30,124,190
+annotations/worker (215).jpg,266,189,helmet,22,17,57,36
+annotations/worker (791).jpg,330,153,helmet,129,7,150,24
+annotations/worker (11).jpg,259,194,helmet,145,30,185,61
+annotations/worker (539).jpg,270,186,helmet,84,60,111,85
+annotations/applauding_069.jpg,400,300,person without helmet,163,63,292,300
+annotations/worker (270).jpg,266,189,helmet,107,2,136,32
+annotations/worker (598).jpg,266,190,helmet,48,111,60,121
+annotations/worker (16).jpg,263,192,helmet,186,17,215,36
+annotations/applauding_086.jpg,400,444,person without helmet,195,122,264,264
+annotations/worker (313).jpg,299,168,helmet,144,22,210,67
+annotations/worker (801).jpg,301,167,person with helmet,101,3,139,117
+annotations/worker (57).jpg,275,183,person with helmet,107,2,239,182
+annotations/worker (736).jpg,201,250,person with helmet,33,8,180,242
+annotations/worker (706).jpg,288,175,person with helmet,204,7,247,139
+annotations/worker (609).jpg,275,183,helmet,105,22,151,64
+annotations/worker (840).jpg,300,168,person with helmet,214,8,239,168
+annotations/applauding_014.jpg,449,300,person without helmet,8,58,123,300
+annotations/worker (577).jpg,262,192,person with helmet,37,32,162,144
+annotations/worker (182).jpg,250,202,helmet,22,37,50,58
+annotations/worker (378).jpg,266,189,person with helmet,74,1,263,177
+annotations/applauding_041.jpg,451,300,person without helmet,44,8,306,277
+annotations/person_without_helmet (197).jpg,219,200,person without helmet,98,35,190,200
+annotations/worker (515).jpg,262,193,person with helmet,118,20,160,76
+annotations/worker (808).jpg,388,130,person with helmet,148,1,221,128
+annotations/worker (191).jpg,270,187,person with helmet,90,17,129,187
+annotations/worker (318).jpg,259,194,helmet,180,1,206,18
+annotations/worker (487).jpg,177,285,helmet,77,34,107,55
+annotations/worker (762).jpg,203,248,person with helmet,121,14,170,208
+annotations/worker (14).jpg,265,190,person with helmet,15,1,76,148
+annotations/applauding_124.jpg,300,451,person without helmet,109,47,265,451
+annotations/worker (56).jpg,300,168,helmet,146,51,179,79
+annotations/worker (17).jpg,275,183,helmet,83,40,109,63
+annotations/worker (571).jpg,177,285,person with helmet,15,39,157,261
+annotations/worker (599).jpg,299,168,person without helmet,225,73,266,99
+annotations/worker (601).jpg,255,198,helmet,131,38,148,53
+annotations/worker (705).jpg,265,190,person with helmet,169,21,245,175
+annotations/worker (735).jpg,299,168,helmet,182,25,206,39
+annotations/worker (541).jpg,265,190,helmet,127,7,171,37
+annotations/worker (541).jpg,265,190,person with helmet,106,7,181,189
+annotations/worker (224).jpg,240,160,helmet,136,9,186,52
+annotations/worker (836).jpg,254,198,helmet,145,44,198,92
+annotations/worker (621).jpg,180,281,person with helmet,71,74,122,121
+annotations/person_without_helmet (14).jpg,282,200,person without helmet,8,11,222,197
+annotations/worker (511).jpg,262,192,person with helmet,103,11,231,174
+annotations/worker (852).jpg,310,162,person with helmet,58,3,208,162
+annotations/worker (300).jpg,300,168,person with helmet,62,3,226,164
+annotations/worker (801).jpg,301,167,helmet,165,14,194,34
+annotations/worker (583).jpg,262,192,person with helmet,110,15,194,118
+annotations/worker (740).jpg,275,183,helmet,96,46,179,106
+annotations/worker (191).jpg,270,187,helmet,58,45,106,76
+annotations/worker (847).jpg,275,183,person with helmet,7,26,106,181
+annotations/worker (377).jpg,184,275,person with helmet,52,27,148,273
+annotations/worker (779).jpg,182,277,person with helmet,16,11,182,250
+annotations/worker (54).jpg,232,217,helmet,106,39,162,89
+annotations/worker (775).jpg,217,232,person with helmet,17,110,57,216
+annotations/worker (781).jpg,275,183,helmet,179,23,218,52
+annotations/worker (686).jpg,276,183,helmet,71,5,189,83
+annotations/applauding_080.jpg,300,450,person without helmet,124,71,200,371
+annotations/worker (790).jpg,322,156,person with helmet,148,32,210,134
+annotations/worker (84).jpg,299,168,helmet,201,13,234,36
+annotations/worker (840).jpg,300,168,helmet,247,7,271,24
+annotations/worker (181).jpg,194,260,person,80,163,128,243
+annotations/worker (379).jpg,261,193,person with helmet,30,1,129,171
+annotations/worker (870).jpg,275,183,person with helmet,147,23,275,170
+annotations/worker (384).jpg,266,189,person with helmet,93,12,266,177
+annotations/person_without_helmet (184).jpg,302,200,person without helmet,117,59,146,91
+annotations/worker (742).jpg,275,183,person with helmet,42,18,131,183
+annotations/worker (797).jpg,180,280,helmet,9,55,56,88
+annotations/worker (599).jpg,299,168,helmet,36,55,48,63
+annotations/worker (606).jpg,260,194,helmet,7,57,40,80
+annotations/worker (814).jpg,275,183,person with helmet,172,47,237,177
+annotations/worker (247).jpg,275,183,person with helmet,178,40,207,173
+annotations/worker (524).jpg,300,168,person with helmet,32,10,141,140
+annotations/person_without_helmet (126).jpg,279,200,person without helmet,145,37,264,186
+annotations/worker (425).jpg,275,183,person with helmet,55,30,111,182
+annotations/person_without_helmet (74).jpg,393,300,person without helmet,35,39,120,294
+annotations/worker (368).jpg,290,174,helmet,217,29,243,43
+annotations/worker (714).jpg,275,184,person with helmet,132,37,181,179
+annotations/worker (775).jpg,217,232,helmet,29,110,44,123
+annotations/person_without_helmet (217).jpg,204,200,person without helmet,10,45,42,89
+annotations/worker (317).jpg,266,189,helmet,30,40,76,72
+annotations/person_without_helmet (96).jpg,267,200,person without helmet,118,34,187,191
+annotations/person_without_helmet (254).jpg,200,425,person without helmet,50,107,192,358
+annotations/worker (452).jpg,259,194,person with helmet,53,18,135,193
+annotations/worker (250).jpg,179,281,person with helmet,1,52,67,263
+annotations/worker (704).jpg,275,183,person with helmet,60,23,142,183
+annotations/worker (467).jpg,260,194,helmet,117,45,154,70
+annotations/worker (582).jpg,275,183,helmet,108,80,139,101
+annotations/person_without_helmet (121).jpg,200,268,person without helmet,1,1,140,212
+annotations/worker (128).jpg,259,194,person without helmet,217,49,259,104
+annotations/worker (787).jpg,275,183,person with helmet,148,126,174,178
+annotations/worker (803).jpg,300,168,person with helmet,60,15,148,162
+annotations/worker (144).jpg,183,275,person with helmet,138,69,176,231
+annotations/worker (435).jpg,275,183,helmet,142,12,197,59
+annotations/worker (271).jpg,183,275,helmet,67,73,121,102
+annotations/applauding_073.jpg,300,451,person without helmet,66,80,300,374
+annotations/worker (390).jpg,183,275,person with helmet,29,17,157,274
+annotations/applauding_014.jpg,449,300,person without helmet,228,57,322,300
+annotations/person_without_helmet (89).jpg,200,200,person without helmet,88,1,200,148
+annotations/worker (837).jpg,426,118,person with helmet,165,4,263,117
+annotations/worker (151).jpg,266,190,person with helmet,183,47,215,150
+annotations/worker (761).jpg,290,174,helmet,181,14,211,37
+annotations/worker (490).jpg,300,168,helmet,106,24,125,42
+annotations/worker (685).jpg,266,189,person with helmet,74,46,175,148
+annotations/worker (299).jpg,262,193,helmet,65,1,173,56
+annotations/worker (431).jpg,275,183,person with helmet,146,18,256,182
+annotations/applauding_005.jpg,300,451,person without helmet,91,60,224,451
+annotations/worker (26).jpg,275,183,helmet,42,3,96,42
+annotations/applauding_004.jpg,300,417,person without helmet,66,19,246,417
+annotations/worker (804).jpg,354,142,helmet,161,19,217,65
+annotations/applauding_059.jpg,400,522,person without helmet,17,14,392,462
+annotations/worker (17).jpg,275,183,helmet,65,44,86,70
+annotations/person_without_helmet (101).jpg,300,200,person without helmet,123,48,186,183
+annotations/worker (792).jpg,300,168,person with helmet,104,15,199,166
+annotations/worker (804).jpg,354,142,person with helmet,155,19,223,134
+annotations/worker (728).jpg,275,183,person without helmet,149,1,170,49
+annotations/worker (507).jpg,225,225,helmet,78,13,133,51
+annotations/worker (771).jpg,207,243,helmet,130,13,144,22
+annotations/worker (619).jpg,275,183,person with helmet,176,1,274,182
+annotations/person_without_helmet (37).jpg,267,200,person without helmet,161,37,209,164
+annotations/applauding_135.jpg,440,300,person without helmet,133,1,336,300
+annotations/applauding_134.jpg,493,400,person without helmet,101,1,266,400
+annotations/worker (105).jpg,275,183,helmet,104,11,163,46
+annotations/worker (712).jpg,284,178,helmet,174,60,193,74
+annotations/worker (681).jpg,225,225,helmet,120,10,169,53
+annotations/worker (484).jpg,275,183,person with helmet,29,33,103,182
+annotations/applauding_032.jpg,379,300,person without helmet,214,22,371,296
+annotations/worker (775).jpg,217,232,helmet,89,2,102,11
+annotations/worker (644).jpg,298,169,helmet,102,64,130,82
+annotations/worker (169).jpg,299,168,person,173,57,214,150
+annotations/applauding_037.jpg,300,400,person without helmet,127,130,177,246
+annotations/worker (575).jpg,190,266,person with helmet,90,49,177,250
+annotations/worker (833).jpg,278,181,person without helmet,121,23,139,48
+annotations/worker (771).jpg,207,243,person with helmet,126,13,158,124
+annotations/worker (794).jpg,275,183,helmet,109,24,138,44
+annotations/worker (99).jpg,204,247,helmet,91,27,160,89
+annotations/worker (435).jpg,275,183,person with helmet,129,10,221,182
+annotations/worker (720).jpg,266,190,person with helmet,56,35,103,142
+annotations/person_without_helmet (250).jpg,318,200,person without helmet,1,81,28,161
+annotations/worker (270).jpg,266,189,person with helmet,196,4,247,75
+annotations/person_without_helmet (82).jpg,200,233,person without helmet,18,1,93,145
+annotations/worker (453).jpg,300,168,helmet,129,16,178,49
+annotations/worker (631).jpg,239,211,helmet,81,58,131,97
+annotations/worker (71).jpg,275,183,person with helmet,73,10,151,181
+annotations/worker (700).jpg,183,275,helmet,86,95,138,129
+annotations/worker (17).jpg,275,183,person with helmet,136,32,168,123
+annotations/worker (632).jpg,219,230,person with helmet,35,19,94,229
+annotations/worker (427).jpg,264,191,person with helmet,118,3,241,176
+annotations/person_without_helmet (113).jpg,331,300,person without helmet,105,26,320,281
+annotations/person_without_helmet (63).jpg,200,255,person without helmet,90,10,191,196
+annotations/worker (833).jpg,278,181,person without helmet,207,20,225,51
+annotations/worker (735).jpg,299,168,person without helmet,146,33,184,156
+annotations/worker (516).jpg,287,176,person without helmet,1,22,89,175
+annotations/worker (310).jpg,275,183,helmet,138,1,205,37
+annotations/worker (211).jpg,275,183,person with helmet,51,9,141,183
+annotations/person_without_helmet (172).jpg,267,200,person without helmet,32,6,91,160
+annotations/applauding_100.jpg,500,751,person without helmet,38,185,236,569
+annotations/worker (101).jpg,288,175,helmet,66,1,140,32
+annotations/worker (204).jpg,300,168,person with helmet,170,85,254,168
+annotations/worker (600).jpg,275,183,helmet,60,21,118,69
+annotations/worker (310).jpg,275,183,person with helmet,135,1,222,183
+annotations/worker (624).jpg,275,183,helmet,45,61,79,85
+annotations/worker (566).jpg,231,219,helmet,60,44,124,88
+annotations/person_without_helmet (79).jpg,200,301,person without helmet,45,120,97,196
+annotations/worker (833).jpg,278,181,person without helmet,64,20,80,50
+annotations/worker (767).jpg,257,196,person with helmet,74,17,129,188
+annotations/worker (862).jpg,259,194,person with helmet,108,103,135,189
+annotations/worker (845).jpg,235,214,helmet,166,2,210,32
+annotations/person_without_helmet (53).jpg,200,281,person without helmet,32,15,95,211
+annotations/applauding_139.jpg,300,451,person without helmet,58,86,268,451
+annotations/worker (628).jpg,299,168,person with helmet,1,1,92,161
+annotations/worker (550).jpg,307,164,helmet,211,34,244,63
+annotations/worker (715).jpg,275,183,helmet,87,45,124,70
+annotations/worker (845).jpg,235,214,helmet,38,11,79,35
+annotations/worker (534).jpg,265,190,helmet,52,4,89,27
+annotations/worker (566).jpg,231,219,helmet,172,2,205,29
+annotations/worker (309).jpg,275,183,person with helmet,12,1,101,175
+annotations/applauding_160.jpg,452,300,person without helmet,204,39,368,300
+annotations/worker (518).jpg,317,159,helmet,108,46,128,60
+annotations/worker (845).jpg,235,214,person with helmet,122,19,168,69
+annotations/worker (693).jpg,266,189,helmet,168,36,213,62
+annotations/worker (791).jpg,330,153,helmet,222,1,251,13
+annotations/worker (706).jpg,288,175,person with helmet,88,6,147,110
+annotations/worker (606).jpg,260,194,person with helmet,194,108,259,192
+annotations/worker (801).jpg,301,167,person with helmet,79,2,104,39
+annotations/worker (829).jpg,275,183,person with helmet,86,12,204,135
+annotations/worker (153).jpg,275,183,person without helmet,10,1,151,181
+annotations/worker (606).jpg,260,194,person with helmet,145,80,212,192
+annotations/person_without_helmet (213).jpg,200,200,person without helmet,64,32,190,141
+annotations/worker (99).jpg,204,247,person with helmet,76,27,192,247
+annotations/worker (29).jpg,275,183,helmet,100,19,138,47
+annotations/worker (515).jpg,262,193,person with helmet,157,11,214,172
+annotations/worker (637).jpg,275,183,helmet,190,53,220,75
+annotations/worker (233).jpg,275,183,helmet,101,24,142,49
+annotations/worker (56).jpg,300,168,person with helmet,141,51,203,167
+annotations/worker (537).jpg,275,183,helmet,112,15,221,89
+annotations/worker (579).jpg,261,193,helmet,120,42,139,61
+annotations/applauding_169.jpg,400,450,person without helmet,9,15,300,450
+annotations/worker (355).jpg,326,155,person with helmet,1,1,100,154
+annotations/worker (795).jpg,275,183,person with helmet,110,23,175,131
+annotations/worker (509).jpg,318,159,helmet,102,17,155,51
+annotations/worker (833).jpg,278,181,person without helmet,9,25,39,170
+annotations/person_without_helmet (168).jpg,200,224,person without helmet,21,4,95,195
+annotations/worker (634).jpg,266,189,person with helmet,20,11,172,176
+annotations/worker (296).jpg,300,168,person without helmet,46,18,225,164
+annotations/worker (8).jpg,263,192,helmet,23,1,82,47
+annotations/worker (847).jpg,275,183,person with helmet,114,34,159,113
+annotations/worker (680).jpg,188,268,person with helmet,24,34,132,249
+annotations/worker (820).jpg,275,183,helmet,122,116,146,132
+annotations/worker (610).jpg,275,183,person with helmet,87,48,168,182
+annotations/worker (742).jpg,275,183,helmet,136,36,168,62
+annotations/worker (599).jpg,299,168,person with helmet,181,56,200,91
+annotations/worker (150).jpg,275,183,person with helmet,75,79,110,180
+annotations/worker (699).jpg,275,183,person with helmet,76,16,132,113
+annotations/worker (209).jpg,275,183,person with helmet,124,38,166,109
+annotations/worker (355).jpg,326,155,helmet,1,1,90,52
+annotations/worker (64).jpg,263,192,helmet,134,14,202,54
+annotations/worker (240).jpg,266,190,helmet,150,103,185,139
+annotations/worker (111).jpg,265,190,person with helmet,152,1,265,176
+annotations/applauding_011.jpg,600,800,person without helmet,302,132,482,728
+annotations/worker (402).jpg,259,194,person with helmet,117,28,191,179
+annotations/worker (446).jpg,275,183,person,1,32,66,182
+annotations/worker (570).jpg,210,240,person with helmet,40,1,149,240
+annotations/worker (684).jpg,275,183,person with helmet,108,30,178,151
+annotations/worker (263).jpg,265,190,person with helmet,123,61,153,166
+annotations/worker (221).jpg,276,183,helmet,81,54,105,72
+annotations/worker (20).jpg,262,193,person with helmet,25,26,117,176
+annotations/worker (800).jpg,275,183,person with helmet,4,35,55,174
+annotations/applauding_101.jpg,500,760,person without helmet,136,43,330,511
+annotations/worker (543).jpg,266,189,helmet,122,8,160,35
+annotations/person_without_helmet (158).jpg,200,211,person without helmet,115,1,192,200
+annotations/worker (639).jpg,275,183,person with helmet,107,70,143,167
+annotations/worker (869).jpg,259,194,person with helmet,25,87,43,152
+annotations/worker (887).jpg,275,183,person with helmet,204,8,275,153
+annotations/worker (623).jpg,280,180,person with helmet,49,1,236,166
+annotations/worker (599).jpg,299,168,person with helmet,88,37,129,135
+annotations/worker (496).jpg,283,178,helmet,136,86,164,105
+annotations/worker (181).jpg,194,260,helmet,158,165,181,187
+annotations/worker (791).jpg,330,153,helmet,56,66,101,89
+annotations/worker (711).jpg,183,275,helmet,74,66,95,81
+annotations/worker (247).jpg,275,183,person with helmet,151,49,175,141
+annotations/applauding_130.jpg,451,300,person without helmet,25,153,127,295
+annotations/worker (634).jpg,266,189,helmet,87,1,133,58
+annotations/person_without_helmet (51).jpg,200,301,person without helmet,68,5,159,241
+annotations/worker (150).jpg,275,183,person with helmet,130,61,193,182
+annotations/worker (619).jpg,275,183,helmet,19,72,45,90
+annotations/person_without_helmet (206).jpg,200,267,person without helmet,34,2,164,231
+annotations/worker (684).jpg,275,183,person with helmet,58,1,117,81
+annotations/worker (601).jpg,255,198,helmet,30,43,49,58
+annotations/worker (25).jpg,275,183,helmet,156,23,211,61
+annotations/worker (703).jpg,275,183,helmet,113,38,130,58
+annotations/worker (846).jpg,276,183,helmet,41,1,105,44
+annotations/worker (839).jpg,245,205,person with helmet,158,31,178,178
+annotations/worker (209).jpg,275,183,person with helmet,152,25,230,112
+annotations/worker (624).jpg,275,183,person with helmet,83,39,188,159
+annotations/worker (756).jpg,251,201,helmet,30,18,47,31
+annotations/worker (644).jpg,298,169,helmet,182,86,200,99
+annotations/applauding_074.jpg,469,300,person without helmet,23,126,221,300
+annotations/worker (539).jpg,270,186,person with helmet,74,62,124,185
+annotations/worker (635).jpg,275,183,helmet,132,62,151,78
+annotations/person_without_helmet (55).jpg,200,249,person without helmet,69,99,135,219
+annotations/worker (123).jpg,266,189,person with helmet,43,1,152,177
+annotations/worker (756).jpg,251,201,person without helmet,167,34,192,135
+annotations/worker (238).jpg,266,189,person with helmet,60,14,140,167
+annotations/worker (252).jpg,286,176,helmet,165,53,216,83
+annotations/worker (712).jpg,284,178,person with helmet,167,56,194,90
+annotations/worker (728).jpg,275,183,helmet,32,39,86,72
+annotations/worker (628).jpg,299,168,person with helmet,93,5,205,162
+annotations/worker (91).jpg,266,190,helmet,101,85,144,123
+annotations/worker (461).jpg,300,168,person with helmet,139,1,300,167
+annotations/worker (834).jpg,279,180,helmet,120,66,160,110
+annotations/applauding_070.jpg,442,300,person without helmet,243,19,372,297
+annotations/worker (851).jpg,344,146,helmet,1,1,87,85
+annotations/applauding_058.jpg,200,466,person without helmet,16,15,162,462
+annotations/worker (752).jpg,275,183,person with helmet,178,6,225,183
+annotations/worker (368).jpg,290,174,helmet,177,11,207,38
+annotations/worker (788).jpg,266,190,person with helmet,139,21,179,173
+annotations/worker (579).jpg,261,193,person with helmet,120,42,163,82
+annotations/person_without_helmet (236).jpg,397,300,person without helmet,12,71,124,187
+annotations/worker (39).jpg,177,284,helmet,73,7,138,59
+annotations/person_without_helmet (47).jpg,200,251,person without helmet,112,16,179,226
+annotations/worker (828).jpg,263,192,helmet,145,41,173,61
+annotations/worker (594).jpg,266,189,helmet,32,4,172,114
+annotations/worker (840).jpg,300,168,helmet,214,6,235,22
+annotations/worker (689).jpg,183,275,helmet,85,49,141,82
+annotations/applauding_163.jpg,451,300,person without helmet,120,9,284,300
+annotations/worker (801).jpg,301,167,helmet,101,2,131,20
+annotations/worker (382).jpg,267,189,helmet,112,6,184,50
+annotations/person_without_helmet (182).jpg,400,300,person without helmet,90,150,108,185
+annotations/worker (203).jpg,275,183,person with helmet,236,80,265,180
+annotations/worker (164).jpg,267,189,person with helmet,136,39,206,177
+annotations/worker (270).jpg,266,189,helmet,253,70,266,91
+annotations/worker (791).jpg,330,153,person with helmet,221,2,259,47
+annotations/worker (705).jpg,265,190,helmet,33,19,88,50
+annotations/worker (479).jpg,197,256,helmet,107,33,150,71
+annotations/person_without_helmet (81).jpg,245,200,person without helmet,6,21,107,193
+annotations/worker (694).jpg,273,185,helmet,101,38,126,53
+annotations/worker (842).jpg,275,184,person with helmet,71,14,112,56
+annotations/worker (152).jpg,275,183,person with helmet,24,64,102,142
+annotations/worker (857).jpg,275,183,helmet,5,27,69,67
+annotations/worker (162).jpg,275,183,helmet,51,29,111,68
+annotations/worker (350).jpg,225,225,helmet,9,1,107,50
+annotations/person_without_helmet (91).jpg,212,200,person without helmet,113,19,207,200
+annotations/worker (392).jpg,183,276,helmet,24,25,108,86
+annotations/worker (113).jpg,314,160,person with helmet,1,1,281,160
+annotations/worker (197).jpg,300,168,helmet,108,25,121,40
+annotations/applauding_043.jpg,425,300,person without helmet,269,39,425,217
+annotations/worker (496).jpg,283,178,person with helmet,177,96,232,149
+annotations/worker (34).jpg,267,189,helmet,126,3,266,128
+annotations/worker (589).jpg,266,189,helmet,194,22,219,43
+annotations/worker (516).jpg,287,176,helmet,188,7,256,59
+annotations/worker (811).jpg,183,275,person with helmet,93,89,137,252
+annotations/worker (829).jpg,275,183,person with helmet,175,6,275,172
+annotations/person_without_helmet (168).jpg,200,224,person without helmet,99,100,185,224
+annotations/applauding_095.jpg,800,600,person without helmet,342,1,764,600
+annotations/worker (71).jpg,275,183,helmet,100,11,151,44
+annotations/applauding_086.jpg,400,444,person without helmet,13,138,77,269
+annotations/person_without_helmet (180).jpg,220,200,person with helmet,79,11,153,100
+annotations/worker (846).jpg,276,183,person with helmet,10,1,103,174
+annotations/worker (150).jpg,275,183,helmet,83,79,110,93
+annotations/person_without_helmet (72).jpg,237,200,person without helmet,142,54,231,165
+annotations/worker (140).jpg,259,194,helmet,147,71,162,83
+annotations/worker (625).jpg,232,217,helmet,109,43,172,87
+annotations/worker (94).jpg,266,189,person without helmet,146,56,195,119
+annotations/applauding_158.jpg,595,400,person without helmet,222,51,252,146
+annotations/worker (192).jpg,289,174,person with helmet,120,71,189,161
+annotations/worker (801).jpg,301,167,person with helmet,125,13,159,50
+annotations/worker (270).jpg,266,189,helmet,222,2,251,33
+annotations/worker (485).jpg,240,195,helmet,37,6,102,47
+annotations/worker (124).jpg,266,190,helmet,44,15,89,44
+annotations/worker (752).jpg,275,183,helmet,141,20,161,31
+annotations/worker (801).jpg,301,167,helmet,192,3,230,27
+annotations/person_without_helmet (252).jpg,334,200,person without helmet,53,74,135,200
+annotations/worker (241).jpg,266,189,person with helmet,147,62,171,116
+annotations/worker (831).jpg,260,194,person with helmet,183,63,238,172
+annotations/person_without_helmet (87).jpg,200,200,person without helmet,48,31,158,188
+annotations/worker (782).jpg,300,168,helmet,50,26,81,46
+annotations/worker (133).jpg,275,183,person with helmet,15,6,123,182
+annotations/worker (869).jpg,259,194,person with helmet,44,90,67,153
+annotations/worker (841).jpg,290,174,person with helmet,148,21,204,168
+annotations/worker (386).jpg,266,189,person with helmet,194,32,250,177
+annotations/worker (559).jpg,299,168,helmet,53,8,92,30
+annotations/worker (591).jpg,300,168,helmet,69,22,124,55
+annotations/applauding_007.jpg,410,400,person without helmet,159,15,396,302
+annotations/applauding_011.jpg,600,800,person without helmet,471,207,535,483
+annotations/worker (726).jpg,225,225,person with helmet,158,120,203,170
+annotations/worker (775).jpg,217,232,person with helmet,133,4,157,103
+annotations/worker (678).jpg,266,189,helmet,113,59,161,105
+annotations/worker (433).jpg,299,168,helmet,192,26,251,76
+annotations/person_without_helmet (43).jpg,200,267,person without helmet,46,10,138,205
+annotations/worker (817).jpg,274,184,helmet,115,29,159,60
+annotations/applauding_125.jpg,400,300,person without helmet,25,4,182,179
+annotations/worker (808).jpg,388,130,person with helmet,91,35,145,130
+annotations/worker (748).jpg,135,180,person with helmet,4,3,118,179
+annotations/worker (185).jpg,260,194,person with helmet,160,10,231,177
+annotations/worker (156).jpg,256,197,person with helmet,1,1,175,195
+annotations/worker (446).jpg,275,183,helmet,68,39,107,72
+annotations/worker (20).jpg,262,193,helmet,29,27,94,62
+annotations/worker (308).jpg,179,282,person with helmet,7,16,179,273
+annotations/worker (843).jpg,275,183,helmet,153,1,225,21
+annotations/worker (790).jpg,322,156,person with helmet,102,49,147,137
+annotations/worker (554).jpg,265,190,helmet,101,12,138,50
+annotations/worker (787).jpg,275,183,helmet,167,93,218,138
+annotations/worker (572).jpg,275,183,person with helmet,1,53,56,182
+annotations/worker (762).jpg,203,248,helmet,128,16,154,33
+annotations/worker (606).jpg,260,194,person with helmet,148,47,168,75
+annotations/worker (712).jpg,284,178,person with helmet,191,69,224,178
+annotations/worker (289).jpg,276,183,person,62,37,108,83
+annotations/person_without_helmet (216).jpg,206,200,person without helmet,76,9,195,168
+annotations/worker (841).jpg,290,174,helmet,102,1,144,27
+annotations/applauding_044.jpg,440,300,person without helmet,28,24,155,298
+annotations/worker (536).jpg,275,183,helmet,127,10,178,48
+annotations/worker (146).jpg,288,175,helmet,117,1,181,37
+annotations/worker (307).jpg,240,160,helmet,85,6,116,29
+annotations/applauding_036.jpg,200,300,person without helmet,39,15,177,294
+annotations/person_without_helmet (267).jpg,200,264,person without helmet,46,151,111,264
+annotations/worker (842).jpg,275,184,person with helmet,166,14,204,60
+annotations/worker (129).jpg,265,190,helmet,184,95,207,120
+annotations/worker (832).jpg,371,136,person without helmet,50,5,81,111
+annotations/person_without_helmet (195).jpg,200,267,person without helmet,66,99,97,217
+annotations/worker (385).jpg,275,183,person with helmet,70,17,130,120
+annotations/worker (616).jpg,183,275,helmet,67,61,124,107
+annotations/worker (135).jpg,259,194,helmet,139,30,181,63
+annotations/worker (397).jpg,275,183,helmet,133,23,209,72
+annotations/applauding_046.jpg,300,451,person without helmet,46,8,222,238
+annotations/worker (409).jpg,275,183,person with helmet,32,40,137,182
+annotations/person_without_helmet (107).jpg,301,200,person without helmet,123,11,263,170
+annotations/worker (279).jpg,263,192,helmet,109,22,140,53
+annotations/person_without_helmet (50).jpg,267,200,person without helmet,79,32,222,191
+annotations/worker (607).jpg,275,183,person with helmet,17,7,160,182
+annotations/worker (838).jpg,310,163,helmet,39,25,80,58
+annotations/worker (415).jpg,288,175,helmet,114,3,176,41
+annotations/worker (822).jpg,262,192,person with helmet,110,22,147,114
+annotations/worker (644).jpg,298,169,person with helmet,20,61,86,168
+annotations/worker (756).jpg,251,201,person without helmet,66,33,89,82
+annotations/applauding_099.jpg,451,400,person without helmet,33,9,113,314
+annotations/worker (140).jpg,259,194,person with helmet,136,70,169,181
+annotations/worker (803).jpg,300,168,helmet,2,1,58,22
+annotations/worker (186).jpg,265,190,person with helmet,155,20,227,172
+annotations/worker (454).jpg,266,189,person with helmet,89,2,247,176
+annotations/worker (776).jpg,300,168,person with helmet,9,17,90,165
+annotations/applauding_138.jpg,300,424,person without helmet,124,29,269,424
+annotations/worker (617).jpg,275,183,person with helmet,49,56,107,130
+annotations/worker (859).jpg,275,183,helmet,64,53,81,64
+annotations/worker (761).jpg,290,174,person with helmet,11,8,64,156
+annotations/person_without_helmet (12).jpg,300,451,person without helmet,101,63,276,447
+annotations/worker (836).jpg,254,198,helmet,60,52,143,106
+annotations/worker (130).jpg,259,195,helmet,26,28,94,74
+annotations/worker (467).jpg,260,194,person with helmet,115,45,169,140
+annotations/worker (817).jpg,274,184,person with helmet,112,29,171,184
+annotations/worker (828).jpg,263,192,person with helmet,142,42,195,162
+annotations/applauding_023.jpg,400,300,person without helmet,1,107,194,300
+annotations/worker (35).jpg,266,189,helmet,23,13,103,61
+annotations/worker (705).jpg,265,190,helmet,178,22,230,53
+annotations/worker (828).jpg,263,192,person with helmet,110,58,144,157
+annotations/worker (282).jpg,266,189,person with helmet,131,46,199,174
+annotations/worker (782).jpg,300,168,helmet,93,22,146,55
+annotations/worker (532).jpg,225,225,helmet,73,54,94,82
+annotations/worker (713).jpg,264,191,helmet,100,9,133,52
+annotations/worker (477).jpg,275,183,helmet,133,70,146,79
+annotations/worker (601).jpg,255,198,helmet,73,46,89,61
+annotations/worker (735).jpg,299,168,person with helmet,52,38,79,110
+annotations/worker (630).jpg,266,189,person with helmet,90,28,201,177
+annotations/worker (752).jpg,275,183,helmet,77,18,99,34
+annotations/worker (18).jpg,300,168,helmet,89,3,144,42
+annotations/person_without_helmet (288).jpg,300,200,person without helmet,141,8,250,120
+annotations/applauding_112.jpg,300,421,person without helmet,106,123,286,348
+annotations/worker (359).jpg,263,191,person without helmet,15,35,142,174
+annotations/worker (768).jpg,275,183,person with helmet,57,14,153,167
+annotations/worker (639).jpg,275,183,helmet,163,51,185,71
+annotations/worker (853).jpg,275,183,person with helmet,93,75,121,179
+annotations/worker (735).jpg,299,168,person with helmet,240,14,286,125
+annotations/worker (639).jpg,275,183,helmet,142,58,160,75
+annotations/worker (694).jpg,273,185,person with helmet,45,44,91,98
+annotations/worker (198).jpg,266,189,person with helmet,83,71,124,134
+annotations/worker (759).jpg,275,184,helmet,42,40,83,68
+annotations/worker (80).jpg,259,194,person with helmet,21,14,122,176
+annotations/worker (353).jpg,197,256,helmet,52,7,151,63
+annotations/worker (161).jpg,275,183,person without helmet,83,1,218,157
+annotations/worker (631).jpg,239,211,person with helmet,71,58,133,126
+annotations/worker (683).jpg,275,183,person with helmet,151,21,221,97
+annotations/worker (550).jpg,307,164,person without helmet,48,100,113,163
+annotations/person_without_helmet (252).jpg,334,200,person without helmet,181,135,223,183
+annotations/person_without_helmet (202).jpg,200,200,person without helmet,45,6,167,192
+annotations/worker (756).jpg,251,201,person with helmet,88,3,180,187
+annotations/worker (630).jpg,266,189,helmet,110,29,174,79
+annotations/worker (754).jpg,290,174,person without helmet,157,5,232,161
+annotations/worker (718).jpg,275,183,person with helmet,155,42,253,157
+annotations/worker (802).jpg,253,199,person with helmet,15,57,90,181
+annotations/applauding_003.jpg,466,300,person without helmet,271,86,435,292
+annotations/worker (257).jpg,275,183,person with helmet,151,24,217,183
+annotations/worker (556).jpg,300,168,helmet,123,1,161,29
+annotations/worker (789).jpg,325,155,helmet,44,1,107,32
+annotations/worker (381).jpg,257,196,person with helmet,6,1,241,195
+annotations/worker (564).jpg,275,183,helmet,159,17,213,53
+annotations/worker (317).jpg,266,189,person with helmet,157,58,221,189
+annotations/worker (569).jpg,267,189,helmet,86,36,131,66
+annotations/worker (242).jpg,300,168,person with helmet,123,34,186,163
+annotations/worker (813).jpg,262,192,person with helmet,23,62,86,133
+annotations/worker (877).jpg,275,183,person with helmet,152,55,180,115
+annotations/worker (875).jpg,300,168,helmet,156,41,177,61
+annotations/worker (703).jpg,275,183,helmet,200,20,230,40
+annotations/worker (618).jpg,300,168,helmet,88,1,149,45
+annotations/worker (640).jpg,262,193,helmet,124,59,145,78
+annotations/worker (212).jpg,275,183,person with helmet,97,47,162,181
+annotations/worker (791).jpg,330,153,helmet,140,39,186,69
+annotations/worker (634).jpg,266,189,person with helmet,87,1,265,89
+annotations/worker (848).jpg,275,183,helmet,197,64,228,94
+annotations/person_without_helmet (85).jpg,267,200,person without helmet,71,38,160,173
+annotations/applauding_107.jpg,348,300,person without helmet,12,60,107,190
+annotations/worker (387).jpg,194,259,person with helmet,1,10,192,258
+annotations/person_without_helmet (219).jpg,354,200,person without helmet,237,34,335,196
+annotations/worker (774).jpg,275,183,helmet,170,32,266,136
+annotations/worker (128).jpg,259,194,person without helmet,63,23,185,193
+annotations/worker (525).jpg,261,193,helmet,175,77,206,98
+annotations/person_without_helmet (139).jpg,207,200,person without helmet,42,15,180,181
+annotations/worker (444).jpg,183,275,helmet,94,71,113,93
+annotations/applauding_117.jpg,300,450,person without helmet,13,11,98,149
+annotations/worker (582).jpg,275,183,person with helmet,148,79,220,181
+annotations/worker (757).jpg,245,206,helmet,216,45,235,59
+annotations/worker (395).jpg,193,262,person with helmet,5,16,150,260
+annotations/worker (196).jpg,225,225,helmet,59,1,192,81
+annotations/worker (791).jpg,330,153,person without helmet,75,36,99,69
+annotations/worker (183).jpg,275,183,person with helmet,139,10,191,125
+annotations/worker (181).jpg,194,260,person,68,25,114,86
+annotations/worker (568).jpg,263,192,helmet,46,1,90,27
+annotations/worker (821).jpg,300,168,person with helmet,32,3,137,162
+annotations/applauding_040.jpg,497,300,person without helmet,32,15,149,237
+annotations/worker (819).jpg,263,192,helmet,48,31,97,64
+annotations/person_without_helmet (62).jpg,356,200,person without helmet,210,21,292,162
+annotations/worker (851).jpg,344,146,person with helmet,135,2,241,146
+annotations/worker (597).jpg,263,192,helmet,71,7,160,63
+annotations/worker (835).jpg,275,183,person with helmet,35,11,122,183
+annotations/worker (773).jpg,246,205,person with helmet,150,2,193,183
+annotations/worker (466).jpg,183,275,helmet,51,60,73,81
+annotations/worker (55).jpg,318,159,person with helmet,111,16,184,158
+annotations/worker (553).jpg,194,259,helmet,104,82,140,107
+annotations/worker (641).jpg,183,276,helmet,70,21,119,58
+annotations/person_without_helmet (293).jpg,200,200,person without helmet,12,14,111,143
+annotations/worker (606).jpg,260,194,helmet,1,29,13,38
+annotations/worker (111).jpg,265,190,helmet,162,1,251,71
+annotations/worker (803).jpg,300,168,person with helmet,1,1,54,164
+annotations/worker (627).jpg,275,183,helmet,63,7,109,44
+annotations/worker (754).jpg,290,174,person with helmet,17,22,63,156
+annotations/worker (809).jpg,275,183,helmet,133,17,195,60
+annotations/worker (126).jpg,275,183,helmet,107,14,200,87
+annotations/person_without_helmet (290).jpg,283,200,person without helmet,107,2,198,97
+annotations/worker (91).jpg,266,190,person with helmet,56,76,157,178
+annotations/worker (527).jpg,275,183,helmet,65,21,130,64
+annotations/worker (757).jpg,245,206,person without helmet,148,37,172,63
+annotations/worker (757).jpg,245,206,person with helmet,12,32,45,164
+annotations/worker (172).jpg,267,189,helmet,160,37,199,71
+annotations/worker (642).jpg,258,195,helmet,107,60,150,92
+annotations/person_without_helmet (245).jpg,200,261,person without helmet,74,100,136,186
+annotations/person_without_helmet (1).jpg,302,200,person without helmet,115,14,257,185
+annotations/worker (577).jpg,262,192,helmet,152,29,221,72
+annotations/worker (757).jpg,245,206,person with helmet,190,45,219,153
+annotations/worker (724).jpg,259,194,person with helmet,26,47,73,125
+annotations/worker (873).jpg,270,186,helmet,168,30,200,55
+annotations/worker (43).jpg,266,189,person with helmet,77,30,211,177
+annotations/worker (71).jpg,275,183,helmet,175,1,236,29
+annotations/person_without_helmet (8).jpg,300,200,person without helmet,10,2,131,200
+annotations/worker (798).jpg,248,203,helmet,56,13,117,58
+annotations/worker (289).jpg,276,183,helmet,70,38,91,51
+annotations/person_without_helmet (244).jpg,200,300,person without helmet,1,57,71,187
+annotations/worker (588).jpg,300,168,helmet,48,1,162,43
+annotations/worker (883).jpg,225,225,helmet,71,42,142,95
+annotations/worker (289).jpg,276,183,helmet,221,58,231,65
+annotations/worker (96).jpg,262,193,person with helmet,90,1,248,175
+annotations/worker (881).jpg,278,181,helmet,121,34,165,72
+annotations/worker (830).jpg,263,192,person with helmet,1,1,91,174
+annotations/worker (639).jpg,275,183,helmet,120,69,136,84
+annotations/applauding_132.jpg,448,300,person without helmet,320,60,403,297
+annotations/worker (552).jpg,262,192,person with helmet,41,21,231,191
+annotations/worker (768).jpg,275,183,helmet,68,17,140,64
+annotations/person_without_helmet (13).jpg,302,200,person without helmet,57,14,235,177
+annotations/worker (754).jpg,290,174,helmet,122,20,143,36
+annotations/worker (789).jpg,325,155,helmet,124,23,167,62
+annotations/worker (603).jpg,300,168,person with helmet,129,1,222,167
+annotations/worker (581).jpg,275,183,helmet,98,20,145,54
+annotations/worker (167).jpg,265,190,person without helmet,37,46,100,175
+annotations/worker (641).jpg,183,276,person with helmet,36,22,150,274
+annotations/worker (200).jpg,189,267,person,48,57,140,251
+annotations/worker (243).jpg,183,275,helmet,39,68,107,110
+annotations/person_without_helmet (137).jpg,209,200,person without helmet,16,15,153,129
+annotations/worker (847).jpg,275,183,helmet,120,33,156,59
+annotations/worker (385).jpg,275,183,helmet,126,12,186,55
+annotations/worker (42).jpg,275,183,helmet,132,6,177,44
+annotations/worker (797).jpg,180,280,person with helmet,109,61,161,139
+annotations/worker (776).jpg,300,168,helmet,88,7,138,38
+annotations/worker (860).jpg,183,276,helmet,4,41,76,91
+annotations/worker (699).jpg,275,183,person with helmet,221,36,275,141
+annotations/worker (801).jpg,301,167,person with helmet,159,11,195,64
+annotations/person_without_helmet (229).jpg,200,268,person without helmet,78,53,179,243
+annotations/worker (607).jpg,275,183,helmet,43,7,134,84
+annotations/person_without_helmet (135).jpg,249,200,person without helmet,39,13,219,200
+annotations/worker (332).jpg,275,183,person with helmet,158,67,185,103
+annotations/worker (525).jpg,261,193,person with helmet,145,77,227,185
+annotations/worker (757).jpg,245,206,helmet,105,1,144,30
+annotations/applauding_132.jpg,448,300,person without helmet,77,70,189,300
+annotations/worker (576).jpg,262,192,helmet,61,20,109,53
+annotations/worker (679).jpg,183,275,person with helmet,89,22,183,215
+annotations/worker (753).jpg,275,184,helmet,115,1,164,34
+annotations/worker (613).jpg,299,168,person with helmet,86,25,112,96
+annotations/applauding_081.jpg,300,400,person without helmet,105,124,208,296
+annotations/worker (855).jpg,156,235,helmet,49,8,96,42
+annotations/worker (863).jpg,275,183,helmet,46,45,65,56
+annotations/worker (724).jpg,259,194,helmet,50,46,73,71
+annotations/applauding_065.jpg,300,433,person without helmet,150,26,239,371
+annotations/person_without_helmet (77).jpg,215,200,person without helmet,42,75,64,143
+annotations/worker (290).jpg,300,168,person,63,1,294,167
+annotations/worker (557).jpg,300,168,person with helmet,130,1,217,167
+annotations/worker (143).jpg,265,190,helmet,164,5,203,34
+annotations/worker (32).jpg,262,193,helmet,141,45,177,68
+annotations/worker (785).jpg,266,190,helmet,77,53,123,86
+annotations/worker (599).jpg,299,168,helmet,188,55,199,67
+annotations/worker (835).jpg,275,183,helmet,40,14,116,73
+annotations/worker (19).jpg,182,276,helmet,19,16,130,94
+annotations/worker (825).jpg,291,173,person with helmet,187,10,289,170
+annotations/worker (842).jpg,275,184,helmet,78,15,103,30
+annotations/worker (839).jpg,245,205,person without helmet,79,16,99,54
+annotations/worker (761).jpg,290,174,helmet,248,11,267,26
+annotations/worker (821).jpg,300,168,helmet,216,15,278,63
+annotations/worker (711).jpg,183,275,person with helmet,65,65,96,201
+annotations/worker (870).jpg,275,183,helmet,146,20,271,95
+annotations/worker (478).jpg,275,183,helmet,168,14,228,59
+annotations/worker (756).jpg,251,201,person with helmet,213,28,243,139
+annotations/worker (591).jpg,300,168,helmet,170,16,242,67
+annotations/worker (541).jpg,265,190,person with helmet,41,4,90,72
+annotations/worker (420).jpg,263,192,helmet,116,52,149,79
+annotations/worker (396).jpg,331,152,person without helmet,1,63,66,150
+annotations/worker (764).jpg,299,168,helmet,224,15,256,39
+annotations/person_without_helmet (146).jpg,206,200,person without helmet,56,32,157,200
+annotations/worker (637).jpg,275,183,helmet,229,41,263,66
+annotations/worker (322).jpg,183,276,person with helmet,76,147,130,274
+annotations/worker (107).jpg,262,192,person with helmet,9,23,125,173
+annotations/worker (792).jpg,300,168,person with helmet,2,1,96,165
+annotations/worker (94).jpg,266,189,helmet,195,42,231,66
+annotations/worker (366).jpg,300,168,person,93,1,225,125
+annotations/worker (838).jpg,310,163,person with helmet,23,25,83,160
+annotations/worker (737).jpg,273,185,helmet,63,3,134,49
+annotations/worker (823).jpg,438,115,helmet,200,4,241,28
+annotations/worker (554).jpg,265,190,person with helmet,136,13,184,137
+annotations/worker (871).jpg,220,229,person with helmet,159,146,218,216
+annotations/worker (150).jpg,275,183,helmet,139,62,164,79
+annotations/worker (257).jpg,275,183,helmet,154,25,192,50
+annotations/worker (678).jpg,266,189,helmet,36,32,85,76
+annotations/worker (813).jpg,262,192,person with helmet,97,24,158,87
+annotations/worker (45).jpg,300,168,person,90,33,178,167
+annotations/worker (600).jpg,275,183,person with helmet,22,21,130,182
+annotations/worker (567).jpg,263,192,helmet,21,1,80,37
+annotations/worker (573).jpg,262,192,person with helmet,103,19,200,133
+annotations/worker (578).jpg,177,285,helmet,83,38,145,90
+annotations/worker (247).jpg,275,183,person with helmet,216,45,241,147
+annotations/worker (276).jpg,265,190,person with helmet,120,57,164,142
+annotations/worker (305).jpg,274,184,person with helmet,46,3,167,180
+annotations/worker (757).jpg,245,206,helmet,190,43,208,56
+annotations/worker (773).jpg,246,205,helmet,201,16,224,32
+annotations/person_without_helmet (71).jpg,350,200,person without helmet,283,78,325,200
+annotations/worker (142).jpg,276,183,person with helmet,90,17,194,183
+annotations/worker (18).jpg,300,168,person with helmet,60,1,182,168
+annotations/worker (862).jpg,259,194,person with helmet,134,97,159,193
+annotations/worker (776).jpg,300,168,helmet,14,15,93,67
+annotations/person_without_helmet (192).jpg,289,200,person without helmet,30,5,144,200
+annotations/worker (801).jpg,301,167,helmet,245,1,288,13
+annotations/worker (481).jpg,275,183,helmet,145,59,180,81
+annotations/worker (791).jpg,330,153,helmet,250,34,293,56
+annotations/worker (15).jpg,225,225,helmet,30,68,70,95
+annotations/worker (471).jpg,183,276,person with helmet,52,46,159,274
+annotations/person_without_helmet (247).jpg,320,200,person without helmet,104,17,255,200
+annotations/worker (29).jpg,275,183,person with helmet,58,15,139,183
+annotations/worker (676).jpg,273,184,person with helmet,177,93,200,176
+annotations/worker (858).jpg,231,218,person with helmet,53,31,223,216
+annotations/worker (573).jpg,262,192,person with helmet,9,14,108,125
+annotations/worker (648).jpg,259,194,person with helmet,170,30,254,191
+annotations/worker (872).jpg,275,183,person with helmet,57,23,110,172
+annotations/worker (584).jpg,300,168,person with helmet,145,14,219,103
+annotations/person_without_helmet (130).jpg,200,230,person without helmet,64,25,133,147
+annotations/worker (492).jpg,265,190,person with helmet,89,1,168,161
+annotations/worker (404).jpg,197,255,person with helmet,1,16,196,254
+annotations/person_without_helmet (272).jpg,200,224,person without helmet,93,66,156,218
+annotations/applauding_179.jpg,300,352,person without helmet,42,29,265,352
+annotations/worker (764).jpg,299,168,person with helmet,222,11,282,164
+annotations/worker (735).jpg,299,168,person without helmet,222,28,242,133
+annotations/person_without_helmet (57).jpg,267,200,person without helmet,173,32,252,200
+annotations/worker (17).jpg,275,183,person with helmet,166,28,213,160
+annotations/applauding_067.jpg,400,552,person without helmet,35,24,362,552
+annotations/worker (726).jpg,225,225,helmet,159,118,186,146
+annotations/worker (633).jpg,300,168,person with helmet,81,22,243,167
+annotations/worker (385).jpg,275,183,helmet,69,17,123,55
+annotations/worker (741).jpg,226,223,helmet,77,23,131,89
+annotations/worker (741).jpg,226,223,person with helmet,4,23,133,217
+annotations/worker (791).jpg,330,153,helmet,214,46,266,81
+annotations/worker (787).jpg,275,183,person with helmet,168,93,243,180
+annotations/worker (540).jpg,262,192,helmet,44,5,98,48
+annotations/worker (302).jpg,275,183,helmet,79,4,134,38
+annotations/worker (125).jpg,183,275,person with helmet,29,117,104,275
+annotations/person_without_helmet (119).jpg,205,200,person without helmet,4,26,131,160
+annotations/worker (788).jpg,266,190,person with helmet,109,24,142,179
+annotations/worker (78).jpg,262,192,person with helmet,101,11,230,174
+annotations/worker (782).jpg,300,168,person with helmet,170,9,247,125
+annotations/worker (73).jpg,262,192,person with helmet,126,22,173,111
+annotations/applauding_049.jpg,451,300,person without helmet,331,224,406,300
+annotations/applauding_177.jpg,451,300,person without helmet,306,43,450,300
+annotations/applauding_122.jpg,420,300,person without helmet,126,12,245,300
+annotations/worker (112).jpg,259,194,person with helmet,13,19,79,193
+annotations/worker (17).jpg,275,183,person with helmet,59,42,93,177
+annotations/worker (374).jpg,300,168,helmet,82,5,144,53
+annotations/worker (827).jpg,284,177,person with helmet,107,62,139,113
+annotations/person_without_helmet (184).jpg,302,200,person without helmet,49,68,82,107
+annotations/worker (470).jpg,183,275,helmet,60,48,106,81
+annotations/worker (456).jpg,275,183,person with helmet,90,53,169,135
+annotations/worker (766).jpg,267,189,helmet,145,7,202,52
+annotations/worker (591).jpg,300,168,person with helmet,28,22,141,167
+annotations/worker (165).jpg,266,189,helmet,193,27,232,52
+annotations/worker (124).jpg,266,190,person with helmet,160,46,186,140
+annotations/worker (685).jpg,266,189,person with helmet,187,60,261,160
+annotations/worker (565).jpg,300,168,helmet,68,1,142,37
+annotations/worker (426).jpg,225,225,person with helmet,21,17,190,224
+annotations/worker (517).jpg,286,176,helmet,163,52,217,89
+annotations/worker (800).jpg,275,183,person with helmet,188,51,220,131
+annotations/worker (775).jpg,217,232,helmet,70,12,83,21
+annotations/worker (727).jpg,275,183,helmet,62,22,99,59
+annotations/worker (516).jpg,287,176,person with helmet,177,7,286,175
+annotations/worker (168).jpg,262,193,person with helmet,24,2,125,168
+annotations/worker (728).jpg,275,183,person with helmet,31,40,90,183
+annotations/worker (148).jpg,275,183,person with helmet,113,9,267,182
+annotations/worker (722).jpg,190,265,helmet,69,14,119,50
+annotations/worker (828).jpg,263,192,helmet,114,57,139,72
+annotations/applauding_019.jpg,599,400,person without helmet,50,42,292,400
+annotations/worker (141).jpg,275,183,helmet,53,1,104,30
+annotations/worker (595).jpg,262,192,person with helmet,129,22,251,174
+annotations/worker (800).jpg,275,183,helmet,69,43,106,71
+annotations/worker (402).jpg,259,194,helmet,143,29,184,62
+annotations/worker (890).jpg,275,183,helmet,92,5,175,62
+annotations/worker (348).jpg,299,168,helmet,75,1,152,38
+annotations/person_without_helmet (6).jpg,259,200,person without helmet,94,13,186,200
+annotations/worker (121).jpg,265,190,helmet,147,1,222,51
+annotations/worker (650).jpg,262,192,person with helmet,3,1,175,175
+annotations/worker (728).jpg,275,183,person without helmet,28,1,60,34
+annotations/worker (284).jpg,267,189,person with helmet,35,3,151,175
+annotations/worker (208).jpg,183,275,person with helmet,59,66,98,200
+annotations/person_without_helmet (250).jpg,318,200,person without helmet,218,66,261,124
+annotations/applauding_017.jpg,601,400,person without helmet,3,147,219,349
+annotations/worker (88).jpg,262,192,person without helmet,1,23,198,175
+annotations/worker (632).jpg,219,230,person with helmet,114,50,194,228
+annotations/worker (458).jpg,275,183,helmet,168,16,252,84
+annotations/worker (73).jpg,262,192,helmet,147,2,193,35
+annotations/worker (685).jpg,266,189,helmet,92,47,140,86
+annotations/worker (539).jpg,270,186,helmet,123,36,158,62
+annotations/person_without_helmet (167).jpg,200,212,person without helmet,16,11,107,145
+annotations/worker (647).jpg,275,183,person with helmet,1,21,83,182
+annotations/worker (791).jpg,330,153,helmet,94,9,127,25
+annotations/worker (799).jpg,275,183,person with helmet,20,48,77,179
+annotations/worker (406).jpg,318,159,helmet,136,17,163,36
+annotations/worker (314).jpg,265,190,person without helmet,1,1,104,177
+annotations/applauding_106.jpg,600,400,person without helmet,393,117,461,239
+annotations/person_without_helmet (220).jpg,200,200,person without helmet,102,19,190,145
+annotations/worker (282).jpg,266,189,helmet,151,49,180,73
+annotations/worker (485).jpg,240,195,person with helmet,23,6,107,178
+annotations/worker (16).jpg,263,192,person with helmet,39,19,75,47
+annotations/applauding_098.jpg,451,300,person without helmet,379,80,432,181
+annotations/worker (783).jpg,275,183,person with helmet,99,10,179,175
+annotations/worker (300).jpg,300,168,helmet,120,2,182,43
+annotations/worker (250).jpg,179,281,person with helmet,63,56,139,249
+annotations/worker (36).jpg,300,168,helmet,140,54,177,88
+annotations/worker (361).jpg,251,200,helmet,139,66,156,82
+annotations/worker (289).jpg,276,183,person,3,40,66,177
+annotations/worker (706).jpg,288,175,helmet,145,1,177,21
+annotations/worker (557).jpg,300,168,helmet,38,12,76,40
+annotations/worker (818).jpg,275,183,person with helmet,57,6,103,67
+annotations/worker (240).jpg,266,190,helmet,79,76,117,110
+annotations/worker (216).jpg,283,178,helmet,58,80,117,177
+annotations/worker (866).jpg,275,183,helmet,28,1,132,65
+annotations/worker (476).jpg,197,256,helmet,58,9,146,78
+annotations/worker (241).jpg,266,189,helmet,214,48,240,65
+annotations/worker (145).jpg,266,189,person with helmet,143,39,178,156
+annotations/worker (173).jpg,270,186,helmet,14,5,152,75
+annotations/worker (158).jpg,183,275,person with helmet,26,54,167,274
+annotations/worker (770).jpg,298,169,helmet,162,27,187,42
+annotations/worker (724).jpg,259,194,helmet,181,44,208,69
+annotations/applauding_050.jpg,300,447,person without helmet,18,26,300,408
+annotations/worker (496).jpg,283,178,person with helmet,118,86,179,154
+annotations/worker (41).jpg,266,190,helmet,160,51,224,110
+annotations/person_without_helmet (207).jpg,200,200,person without helmet,6,5,128,178
+annotations/worker (38).jpg,275,183,person with helmet,43,47,118,183
+annotations/worker (119).jpg,300,168,person with helmet,91,4,194,166
+annotations/worker (36).jpg,300,168,person with helmet,185,40,241,135
+annotations/worker (794).jpg,275,183,person with helmet,141,17,190,108
+annotations/worker (611).jpg,263,192,person with helmet,26,18,73,132
+annotations/worker (557).jpg,300,168,helmet,131,1,178,32
+annotations/worker (725).jpg,259,194,helmet,195,34,226,51
+annotations/person_without_helmet (75).jpg,251,200,person without helmet,153,77,199,172
+annotations/worker (462).jpg,264,191,helmet,133,1,174,37
+annotations/worker (636).jpg,274,184,person with helmet,160,81,180,130
+annotations/worker (595).jpg,262,192,helmet,65,35,114,72
+annotations/worker (385).jpg,275,183,person with helmet,93,13,190,178
+annotations/worker (678).jpg,266,189,person with helmet,114,52,169,132
+annotations/worker (678).jpg,266,189,person with helmet,15,31,112,119
+annotations/worker (839).jpg,245,205,person without helmet,112,19,132,53
+annotations/person_without_helmet (134).jpg,355,200,person without helmet,13,25,150,200
+annotations/worker (14).jpg,265,190,helmet,210,9,250,43
+annotations/worker (148).jpg,275,183,helmet,43,41,112,92
+annotations/worker (163).jpg,266,189,person,1,122,16,147
+annotations/worker (691).jpg,225,224,helmet,51,103,82,125
+annotations/worker (198).jpg,266,189,person with helmet,136,64,157,127
+annotations/worker (819).jpg,263,192,helmet,123,23,160,51
+annotations/worker (817).jpg,274,184,helmet,180,3,226,37
+annotations/worker (158).jpg,183,275,helmet,56,54,126,104
+annotations/worker (100).jpg,179,281,person with helmet,38,67,179,192
+annotations/worker (1).jpg,257,196,person with helmet,100,11,185,181
+annotations/person_without_helmet (239).jpg,267,200,person without helmet,151,67,180,98
+annotations/worker (578).jpg,177,285,person with helmet,63,39,175,204
+annotations/worker (224).jpg,240,160,person with helmet,130,9,203,159
+annotations/worker (443).jpg,275,183,person without helmet,245,51,272,107
+annotations/worker (576).jpg,262,192,person with helmet,35,19,126,117
+annotations/worker (790).jpg,322,156,helmet,50,2,111,42
+annotations/worker (249).jpg,266,190,person with helmet,192,94,264,179
+annotations/worker (77).jpg,266,189,person with helmet,190,32,249,176
+annotations/worker (221).jpg,276,183,person with helmet,146,1,264,183
+annotations/person_without_helmet (145).jpg,200,253,person without helmet,62,39,183,227
+annotations/worker (121).jpg,265,190,person with helmet,145,1,264,178
+annotations/worker (282).jpg,266,189,person with helmet,56,51,114,175
+annotations/worker (368).jpg,290,174,person with helmet,215,29,260,173
+annotations/worker (608).jpg,179,282,helmet,67,16,136,63
+annotations/worker (506).jpg,183,276,person with helmet,11,26,183,275
+annotations/worker (843).jpg,275,183,person with helmet,152,1,268,170
+annotations/worker (859).jpg,275,183,helmet,126,52,142,61
+annotations/worker (646).jpg,273,184,helmet,27,4,143,68
+annotations/worker (889).jpg,272,185,helmet,144,11,235,72
+annotations/worker (412).jpg,262,193,person with helmet,99,23,148,174
+annotations/worker (576).jpg,262,192,person with helmet,117,21,216,171
+annotations/worker (540).jpg,262,192,person with helmet,15,5,98,149
+annotations/worker (264).jpg,300,168,helmet,124,16,149,39
+annotations/worker (785).jpg,266,190,helmet,126,50,205,90
+annotations/worker (278).jpg,259,194,helmet,29,4,233,182
+annotations/worker (554).jpg,265,190,person with helmet,77,13,139,134
+annotations/worker (497).jpg,275,183,person with helmet,119,7,275,182
+annotations/worker (889).jpg,272,185,person with helmet,146,13,243,123
+annotations/worker (456).jpg,275,183,helmet,100,53,153,90
+annotations/worker (706).jpg,288,175,person with helmet,235,11,267,101
+annotations/worker (152).jpg,275,183,person with helmet,174,61,229,145
+annotations/worker (120).jpg,300,168,helmet,134,12,174,40
+annotations/worker (401).jpg,275,183,helmet,70,12,123,46
+annotations/worker (816).jpg,275,183,helmet,118,13,194,64
+annotations/worker (873).jpg,270,186,person with helmet,108,18,166,183
+annotations/worker (369).jpg,266,189,helmet,177,65,202,84
+annotations/worker (788).jpg,266,190,helmet,63,23,84,38
+annotations/worker (800).jpg,275,183,helmet,190,54,219,76
+annotations/worker (839).jpg,245,205,person without helmet,98,28,115,178
+annotations/worker (47).jpg,266,189,person,68,5,199,176
+annotations/worker (199).jpg,300,168,person without helmet,80,41,151,141
+annotations/worker (816).jpg,275,183,person with helmet,67,32,130,168
+annotations/worker (45).jpg,300,168,helmet,117,32,166,67
+annotations/worker (795).jpg,275,183,helmet,113,21,164,58
+annotations/worker (569).jpg,267,189,helmet,146,46,185,84
+annotations/worker (767).jpg,257,196,helmet,45,14,68,29
+annotations/applauding_051.jpg,376,300,person without helmet,42,2,351,300
+annotations/worker (217).jpg,274,184,helmet,223,71,247,89
+annotations/worker (401).jpg,275,183,person with helmet,30,11,141,181
+annotations/worker (596).jpg,183,276,person with helmet,40,20,149,261
+annotations/worker (57).jpg,275,183,helmet,149,2,218,46
+annotations/worker (859).jpg,275,183,helmet,151,46,165,55
+annotations/worker (694).jpg,273,185,helmet,45,44,91,69
+annotations/worker (315).jpg,300,168,person,47,1,237,167
+annotations/worker (393).jpg,262,192,person with helmet,41,22,233,192
+annotations/worker (222).jpg,299,168,helmet,75,1,166,44
+annotations/worker (518).jpg,317,159,helmet,155,48,174,64
+annotations/person_without_helmet (289).jpg,200,267,person without helmet,64,47,124,119
+annotations/worker (188).jpg,265,190,helmet,142,57,172,74
+annotations/worker (324).jpg,260,194,helmet,55,10,147,67
+annotations/worker (521).jpg,328,153,helmet,136,1,218,41
+annotations/worker (699).jpg,275,183,person with helmet,178,1,255,74
+annotations/worker (757).jpg,245,206,person without helmet,60,49,74,64
+annotations/worker (592).jpg,266,189,helmet,122,5,162,35
+annotations/worker (234).jpg,275,183,person with helmet,17,34,80,183
+annotations/worker (791).jpg,330,153,person with helmet,130,7,153,39
+annotations/worker (826).jpg,276,183,person with helmet,43,16,212,183
+annotations/worker (836).jpg,254,198,helmet,195,13,245,48
+annotations/applauding_118.jpg,200,290,person without helmet,25,37,200,290
+annotations/worker (585).jpg,252,200,helmet,34,41,63,65
+annotations/worker (804).jpg,354,142,person without helmet,282,41,317,84
+annotations/worker (535).jpg,243,207,helmet,77,16,120,47
+annotations/worker (350).jpg,225,225,person with helmet,119,1,217,109
+annotations/person_without_helmet (140).jpg,200,267,person without helmet,30,1,121,264
+annotations/worker (676).jpg,273,184,helmet,147,103,155,110
+annotations/person_without_helmet (156).jpg,267,200,person without helmet,70,37,165,198
+annotations/applauding_049.jpg,451,300,person without helmet,337,125,395,232
+annotations/worker (148).jpg,275,183,helmet,129,11,203,75
+annotations/worker (106).jpg,266,189,helmet,34,1,88,32
+annotations/worker (775).jpg,217,232,helmet,113,8,127,17
+annotations/worker (345).jpg,300,168,person,39,5,262,168
+annotations/worker (242).jpg,300,168,helmet,135,36,162,53
+annotations/worker (273).jpg,300,168,person with helmet,52,60,101,168
+annotations/worker (772).jpg,252,200,person with helmet,94,9,186,175
+annotations/worker (639).jpg,275,183,person with helmet,134,59,165,162
+annotations/worker (873).jpg,270,186,helmet,117,18,152,42
+annotations/worker (833).jpg,278,181,person without helmet,194,17,208,49
+annotations/worker (709).jpg,275,183,person with helmet,25,29,91,182
+annotations/applauding_012.jpg,400,300,person without helmet,27,26,213,299
+annotations/worker (502).jpg,183,275,helmet,92,34,140,70
+annotations/worker (857).jpg,275,183,helmet,192,49,225,75
+annotations/worker (443).jpg,275,183,helmet,68,4,122,40
+annotations/worker (699).jpg,275,183,helmet,25,38,79,76
+annotations/worker (728).jpg,275,183,person without helmet,193,21,224,50
+annotations/worker (167).jpg,265,190,person without helmet,142,53,186,168
+annotations/worker (617).jpg,275,183,helmet,109,31,158,65
+annotations/applauding_123.jpg,600,400,person without helmet,144,38,311,400
+annotations/worker (861).jpg,275,183,helmet,235,1,275,41
+annotations/worker (558).jpg,299,168,helmet,91,2,155,50
+annotations/worker (492).jpg,265,190,person with helmet,1,17,98,175
+annotations/worker (330).jpg,183,275,person with helmet,54,166,167,275
+annotations/worker (643).jpg,299,168,helmet,118,8,178,55
+annotations/worker (247).jpg,275,183,person with helmet,25,26,63,162
+annotations/worker (466).jpg,183,275,person with helmet,44,61,101,198
+annotations/worker (384).jpg,266,189,helmet,126,12,216,73
+annotations/worker (338).jpg,299,168,person with helmet,35,1,155,168
+annotations/applauding_158.jpg,595,400,person without helmet,341,60,370,175
+annotations/worker (445).jpg,238,212,helmet,84,12,154,67
+annotations/worker (486).jpg,225,225,person with helmet,14,19,207,203
+annotations/worker (173).jpg,270,186,person with helmet,7,3,156,185
+annotations/worker (116).jpg,255,197,person with helmet,96,47,209,180
+annotations/worker (720).jpg,266,190,helmet,147,29,171,48
+annotations/worker (181).jpg,194,260,helmet,140,161,159,179
+annotations/worker (39).jpg,177,284,person with helmet,54,5,160,264
+annotations/worker (328).jpg,300,168,person with helmet,114,2,174,167
+annotations/worker (784).jpg,262,193,person with helmet,147,49,209,160
+annotations/worker (285).jpg,266,189,helmet,81,77,104,91
+annotations/worker (215).jpg,266,189,person with helmet,76,12,143,178
+annotations/worker (172).jpg,267,189,person with helmet,144,36,230,177
+annotations/worker (236).jpg,275,183,person with helmet,106,45,151,175
+annotations/worker (862).jpg,259,194,helmet,114,103,125,114
+annotations/person_without_helmet (141).jpg,200,200,person without helmet,39,55,192,199
+annotations/worker (383).jpg,264,191,helmet,161,6,236,61
+annotations/worker (732).jpg,233,216,person with helmet,56,7,230,210
+annotations/worker (510).jpg,206,245,helmet,84,62,117,102
+annotations/worker (437).jpg,275,183,helmet,28,28,108,76
+annotations/worker (754).jpg,290,174,person with helmet,64,20,115,157
+annotations/worker (854).jpg,183,275,person with helmet,7,2,178,275
+annotations/worker (684).jpg,275,183,helmet,110,29,156,59
+annotations/applauding_129.jpg,300,500,person without helmet,71,53,261,451
+annotations/worker (727).jpg,275,183,person with helmet,51,23,114,116
+annotations/worker (181).jpg,194,260,helmet,124,121,145,137
+annotations/worker (17).jpg,275,183,helmet,105,38,138,61
+annotations/worker (751).jpg,275,183,helmet,126,7,171,39
+annotations/person_without_helmet (34).jpg,267,200,person without helmet,122,46,167,188
+annotations/worker (522).jpg,275,183,helmet,82,33,118,64
+annotations/worker (407).jpg,267,189,person with helmet,44,28,133,176
+annotations/person_without_helmet (131).jpg,218,200,person without helmet,1,54,197,187
+annotations/worker (791).jpg,330,153,person without helmet,10,39,40,89
+annotations/applauding_061.jpg,300,452,person without helmet,126,84,228,426
+annotations/worker (346).jpg,272,185,person,116,42,269,185
+annotations/worker (794).jpg,275,183,helmet,140,16,169,34
+annotations/worker (871).jpg,220,229,helmet,170,145,210,175
+annotations/worker (877).jpg,275,183,person with helmet,73,49,112,133
+annotations/applauding_181.jpg,400,417,person without helmet,87,44,296,405
+annotations/worker (856).jpg,291,173,person with helmet,25,1,123,173
+annotations/worker (193).jpg,240,160,person with helmet,135,1,208,139
+annotations/worker (541).jpg,265,190,helmet,51,3,89,28
+annotations/worker (804).jpg,354,142,helmet,23,40,56,70
+annotations/worker (704).jpg,275,183,helmet,117,4,172,39
+annotations/worker (398).jpg,276,183,person with helmet,126,9,273,182
+annotations/worker (629).jpg,214,236,helmet,21,10,112,81
+annotations/worker (559).jpg,299,168,person with helmet,42,8,92,131
+annotations/worker (548).jpg,183,276,person with helmet,49,15,124,264
+annotations/worker (841).jpg,290,174,helmet,234,18,274,52
+annotations/worker (601).jpg,255,198,person with helmet,156,45,190,155
+annotations/worker (791).jpg,330,153,helmet,47,13,72,30
+annotations/applauding_035.jpg,300,384,person without helmet,125,19,278,200
+annotations/worker (755).jpg,229,220,helmet,40,26,99,67
+annotations/worker (332).jpg,275,183,person without helmet,186,64,267,183
+annotations/person_without_helmet (291).jpg,200,200,person without helmet,31,11,190,128
+annotations/worker (573).jpg,262,192,helmet,26,13,82,54
+annotations/worker (50).jpg,266,189,person with helmet,92,13,266,177
+annotations/worker (253).jpg,275,183,helmet,120,57,149,78
+annotations/worker (677).jpg,262,192,person with helmet,128,1,218,173
+annotations/worker (878).jpg,355,142,helmet,235,1,294,37
+annotations/worker (449).jpg,179,281,person with helmet,87,56,159,175
+annotations/worker (515).jpg,262,193,person with helmet,212,17,260,167
+annotations/worker (203).jpg,275,183,helmet,216,76,236,92
+annotations/worker (331).jpg,266,189,helmet,70,41,100,64
+annotations/worker (599).jpg,299,168,helmet,102,36,117,47
+annotations/worker (276).jpg,265,190,person with helmet,87,68,123,155
+annotations/worker (52).jpg,193,262,person with helmet,63,30,158,261
+annotations/worker (465).jpg,275,183,helmet,36,49,88,88
+annotations/applauding_089.jpg,600,400,person without helmet,52,60,237,290
+annotations/worker (802).jpg,253,199,person with helmet,157,32,239,159
+annotations/worker (758).jpg,299,168,person with helmet,114,2,221,156
+annotations/applauding_162.jpg,346,201,person without helmet,151,8,282,201
+annotations/worker (549).jpg,183,276,helmet,59,12,152,97
+annotations/worker (712).jpg,284,178,helmet,143,58,165,75
+annotations/worker (737).jpg,273,185,person with helmet,211,26,270,131
+annotations/worker (642).jpg,258,195,person with helmet,66,60,184,193
+annotations/worker (217).jpg,274,184,person with helmet,130,77,176,184
+annotations/worker (291).jpg,255,197,helmet,34,45,90,75
+annotations/worker (873).jpg,270,186,person with helmet,203,17,263,183
+annotations/worker (593).jpg,180,280,person with helmet,7,22,169,271
+annotations/worker (179).jpg,276,183,helmet,131,5,233,59
+annotations/worker (800).jpg,275,183,person with helmet,105,28,185,174
+annotations/worker (28).jpg,225,225,person,2,55,223,225
+annotations/worker (298).jpg,225,225,helmet,79,9,126,49
+annotations/worker (285).jpg,266,189,person with helmet,79,78,107,175
+annotations/worker (856).jpg,291,173,helmet,48,1,104,30
+annotations/worker (624).jpg,275,183,person with helmet,17,60,97,156
+annotations/worker (268).jpg,261,193,helmet,152,23,210,72
+annotations/person_without_helmet (42).jpg,200,264,person without helmet,105,76,192,233
+annotations/worker (591).jpg,300,168,person with helmet,160,16,275,167
+annotations/worker (839).jpg,245,205,person without helmet,58,29,84,176
+annotations/worker (842).jpg,275,184,person with helmet,13,14,76,143
+annotations/person_without_helmet (225).jpg,200,200,person without helmet,51,1,147,124
+annotations/worker (805).jpg,266,189,person with helmet,133,26,240,167
+annotations/worker (550).jpg,307,164,helmet,174,53,209,80
+annotations/worker (495).jpg,275,183,helmet,148,16,232,69
+annotations/worker (771).jpg,207,243,person with helmet,162,10,197,128
+annotations/worker (789).jpg,325,155,person with helmet,25,2,112,146
+annotations/worker (843).jpg,275,183,helmet,27,1,96,39
+annotations/worker (622).jpg,182,276,helmet,48,42,104,78
+annotations/person_without_helmet (92).jpg,200,216,person without helmet,7,46,119,166
+annotations/worker (601).jpg,255,198,person with helmet,63,46,98,160
+annotations/worker (451).jpg,183,276,person with helmet,26,73,183,274
+annotations/worker (259).jpg,275,183,person with helmet,125,48,173,175
+annotations/person_without_helmet (243).jpg,267,200,person without helmet,223,90,248,120
+annotations/worker (845).jpg,235,214,helmet,136,20,163,39
+annotations/worker (819).jpg,263,192,helmet,1,1,59,48
+annotations/worker (615).jpg,267,189,helmet,152,1,216,37
+annotations/worker (827).jpg,284,177,helmet,32,29,59,45
+annotations/worker (193).jpg,240,160,helmet,101,1,134,22
+annotations/worker (40).jpg,262,193,helmet,39,31,66,52
+annotations/worker (148).jpg,275,183,person with helmet,10,40,112,183
+annotations/worker (180).jpg,275,183,helmet,145,60,179,76
+annotations/worker (479).jpg,197,256,person with helmet,21,33,160,207
+annotations/worker (309).jpg,275,183,helmet,25,1,88,39
+annotations/person_without_helmet (217).jpg,204,200,person without helmet,1,37,8,49
+annotations/worker (372).jpg,179,281,person with helmet,1,19,178,268
+annotations/applauding_173.jpg,400,300,person without helmet,192,42,370,299
+annotations/worker (631).jpg,239,211,person with helmet,127,55,237,209
+annotations/person_without_helmet (268).jpg,335,200,person without helmet,99,21,196,197
+annotations/person_without_helmet (198).jpg,209,200,person without helmet,15,16,104,193
+annotations/person_without_helmet (241).jpg,335,200,person without helmet,171,5,283,134
+annotations/worker (443).jpg,275,183,person with helmet,40,3,150,181
+annotations/person_without_helmet (214).jpg,308,300,person without helmet,4,4,151,240
+annotations/worker (282).jpg,266,189,helmet,70,55,103,75
+annotations/worker (155).jpg,225,225,person,18,30,158,126
+annotations/worker (703).jpg,275,183,helmet,86,16,116,47
+annotations/worker (833).jpg,278,181,helmet,176,9,198,25
+annotations/worker (842).jpg,275,184,person with helmet,204,10,274,165
+annotations/worker (225).jpg,304,166,helmet,167,1,215,33
+annotations/worker (572).jpg,275,183,helmet,211,22,263,59
+annotations/worker (151).jpg,266,190,person with helmet,145,71,181,166
+annotations/worker (578).jpg,177,285,person with helmet,1,76,74,220
+annotations/worker (540).jpg,262,192,helmet,165,5,215,45
+annotations/worker (742).jpg,275,183,helmet,48,16,133,75
+annotations/person_without_helmet (278).jpg,251,200,person without helmet,2,32,109,200
+annotations/worker (857).jpg,275,183,helmet,229,51,258,75
+annotations/worker (779).jpg,182,277,helmet,21,15,157,132
+annotations/worker (489).jpg,266,189,person with helmet,151,16,224,178
+annotations/worker (691).jpg,225,224,person with helmet,37,102,105,209
+annotations/worker (745).jpg,275,183,person with helmet,158,16,271,183
+annotations/worker (526).jpg,412,122,helmet,255,5,293,54
+annotations/worker (848).jpg,275,183,person with helmet,135,57,193,177
+annotations/person_without_helmet (266).jpg,334,200,person without helmet,248,163,298,182
+annotations/worker (722).jpg,190,265,person with helmet,36,13,143,265
+annotations/worker (872).jpg,275,183,helmet,9,20,41,46
+annotations/person_without_helmet (41).jpg,200,200,person without helmet,110,23,151,166
+annotations/worker (800).jpg,275,183,helmet,119,29,159,59
+annotations/worker (43).jpg,266,189,helmet,117,33,180,79
+annotations/worker (792).jpg,300,168,helmet,118,15,170,53
+annotations/person_without_helmet (242).jpg,295,200,person without helmet,219,8,295,151
+annotations/worker (833).jpg,278,181,helmet,43,11,67,28
+annotations/worker (754).jpg,290,174,person with helmet,116,20,155,153
+annotations/worker (247).jpg,275,183,helmet,202,46,213,55
+annotations/worker (772).jpg,252,200,helmet,26,14,43,23
+annotations/worker (873).jpg,270,186,helmet,21,24,50,42
+annotations/worker (859).jpg,275,183,person with helmet,164,51,196,174
+annotations/worker (459).jpg,183,276,person with helmet,13,43,152,275
+annotations/worker (237).jpg,265,190,helmet,112,2,213,64
+annotations/worker (845).jpg,235,214,person with helmet,27,11,92,163
+annotations/worker (820).jpg,275,183,helmet,69,131,94,149
+annotations/worker (58).jpg,261,193,person with helmet,55,27,115,160
+annotations/worker (191).jpg,270,187,helmet,212,28,242,46
+annotations/worker (497).jpg,275,183,helmet,154,7,234,66
+annotations/worker (570).jpg,210,240,helmet,86,1,143,43
+annotations/worker (767).jpg,257,196,person with helmet,121,19,158,187
+annotations/worker (729).jpg,302,167,person with helmet,91,6,192,130
+annotations/worker (850).jpg,275,183,person with helmet,166,24,275,136
+annotations/worker (605).jpg,184,275,helmet,53,35,88,62
+annotations/worker (762).jpg,203,248,helmet,86,15,114,37
+annotations/person_without_helmet (209).jpg,214,200,person without helmet,98,49,147,165
+annotations/worker (15).jpg,225,225,helmet,93,69,131,94
+annotations/applauding_126.jpg,300,400,person without helmet,85,153,220,400
+annotations/worker (409).jpg,275,183,helmet,45,41,117,80
+annotations/worker (257).jpg,275,183,helmet,125,22,152,50
+annotations/applauding_151.jpg,400,471,person without helmet,9,8,164,468
+annotations/worker (700).jpg,183,275,person with helmet,33,65,88,152
+annotations/applauding_096.jpg,300,402,person without helmet,1,69,90,276
+annotations/worker (756).jpg,251,201,helmet,85,22,106,33
+annotations/worker (27).jpg,262,193,helmet,64,44,89,63
+annotations/worker (493).jpg,276,183,helmet,120,16,179,60
+annotations/worker (139).jpg,251,201,helmet,59,30,101,57
+annotations/person_without_helmet (94).jpg,200,221,person without helmet,21,11,132,220
+annotations/worker (259).jpg,275,183,helmet,141,50,166,71
+annotations/worker (816).jpg,275,183,person with helmet,1,63,57,171
+annotations/worker (753).jpg,275,184,helmet,81,15,104,29
+annotations/worker (101).jpg,288,175,person with helmet,18,1,138,164
+annotations/worker (321).jpg,275,183,helmet,150,12,208,51
+annotations/worker (245).jpg,275,184,person,56,19,162,184
+annotations/person_without_helmet (277).jpg,263,200,person without helmet,159,45,260,197
+annotations/worker (864).jpg,189,267,helmet,113,145,148,165
+annotations/worker (819).jpg,263,192,person with helmet,99,25,174,173
+annotations/worker (422).jpg,276,183,person with helmet,90,1,275,182
+annotations/worker (619).jpg,275,183,helmet,95,42,151,82
+annotations/worker (814).jpg,275,183,helmet,171,46,197,64
+annotations/worker (550).jpg,307,164,person with helmet,212,33,245,124
+annotations/worker (832).jpg,371,136,helmet,244,1,313,29
+annotations/worker (827).jpg,284,177,person with helmet,238,106,251,123
+annotations/worker (438).jpg,183,276,person with helmet,3,117,183,276
+annotations/worker (847).jpg,275,183,person with helmet,157,26,208,90
+annotations/worker (877).jpg,275,183,helmet,152,54,170,66
+annotations/person_without_helmet (224).jpg,200,220,person without helmet,52,61,99,220
+annotations/worker (834).jpg,279,180,helmet,205,36,272,96
+annotations/worker (611).jpg,263,192,person with helmet,67,19,133,129
+annotations/worker (711).jpg,183,275,helmet,111,68,130,81
+annotations/worker (817).jpg,274,184,person with helmet,20,24,105,181
+annotations/worker (807).jpg,284,177,person with helmet,189,12,280,142
+annotations/worker (26).jpg,275,183,person with helmet,21,5,113,176
+annotations/worker (413).jpg,276,183,helmet,38,8,89,39
+annotations/worker (812).jpg,300,168,person with helmet,207,24,289,168
+annotations/worker (801).jpg,301,167,helmet,78,1,105,14
+annotations/worker (577).jpg,262,192,helmet,84,32,140,67
+annotations/worker (42).jpg,275,183,person with helmet,104,5,222,134
+annotations/worker (686).jpg,276,183,person with helmet,70,4,191,99
+annotations/worker (853).jpg,275,183,person with helmet,117,76,146,181
+annotations/worker (770).jpg,298,169,person with helmet,108,31,135,71
+annotations/worker (887).jpg,275,183,helmet,200,8,275,59
+annotations/worker (872).jpg,275,183,helmet,65,20,95,47
+annotations/worker (716).jpg,269,187,person without helmet,186,44,268,171
+annotations/worker (703).jpg,275,183,helmet,39,42,66,59
+annotations/worker (611).jpg,263,192,helmet,90,19,118,46
+annotations/worker (772).jpg,252,200,helmet,107,9,157,44
+annotations/worker (512).jpg,265,190,helmet,91,3,168,60
+annotations/worker (127).jpg,300,168,person with helmet,141,1,295,168
+annotations/worker (807).jpg,284,177,helmet,142,14,178,43
+annotations/person_without_helmet (228).jpg,200,213,person without helmet,43,8,131,128
+annotations/worker (373).jpg,266,189,person with helmet,122,1,264,179
+annotations/person_without_helmet (171).jpg,224,200,person without helmet,32,56,74,173
+annotations/worker (484).jpg,275,183,helmet,181,24,232,56
+annotations/worker (738).jpg,274,184,helmet,160,25,236,68
+annotations/worker (560).jpg,183,275,helmet,62,6,106,42
+annotations/worker (417).jpg,259,194,person with helmet,160,14,231,193
+annotations/worker (134).jpg,266,189,person with helmet,32,1,156,176
+annotations/worker (5).jpg,183,275,person with helmet,6,54,133,274
+annotations/worker (846).jpg,276,183,helmet,99,1,150,42
+annotations/applauding_082.jpg,451,300,person without helmet,139,98,210,229
+annotations/worker (699).jpg,275,183,person with helmet,24,38,96,183
+annotations/worker (800).jpg,275,183,helmet,10,34,45,65
+annotations/worker (203).jpg,275,183,helmet,119,82,139,98
+annotations/worker (7).jpg,261,193,helmet,15,8,109,80
+annotations/worker (93).jpg,277,182,person with helmet,45,66,97,182
+annotations/worker (371).jpg,275,183,helmet,168,58,186,71
+annotations/worker (181).jpg,194,260,helmet,53,137,76,155
+annotations/worker (808).jpg,388,130,helmet,260,13,288,31
+annotations/worker (436).jpg,275,183,helmet,126,50,160,71
+annotations/worker (761).jpg,290,174,person with helmet,68,17,113,154
+annotations/worker (490).jpg,300,168,person with helmet,92,24,143,166
+annotations/worker (797).jpg,180,280,helmet,67,17,116,50
+annotations/worker (623).jpg,280,180,helmet,97,1,178,57
+annotations/worker (866).jpg,275,183,person with helmet,187,46,275,172
+annotations/worker (291).jpg,255,197,person with helmet,133,3,245,183
+annotations/worker (609).jpg,275,183,person with helmet,66,22,150,181
+annotations/person_without_helmet (243).jpg,267,200,person without helmet,42,86,60,116
+annotations/worker (496).jpg,283,178,helmet,189,96,216,115
+annotations/worker (706).jpg,288,175,helmet,235,12,267,30
+annotations/worker (638).jpg,275,183,helmet,87,34,157,91
+annotations/worker (842).jpg,275,184,helmet,118,4,157,29
+annotations/worker (149).jpg,275,183,person with helmet,124,1,237,180
+annotations/applauding_082.jpg,451,300,person without helmet,276,46,430,281
+annotations/worker (203).jpg,275,183,person with helmet,105,81,143,179
+annotations/person_without_helmet (171).jpg,224,200,person without helmet,112,39,140,78
+annotations/worker (456).jpg,275,183,helmet,151,21,214,59
+annotations/worker (129).jpg,265,190,person with helmet,175,93,225,174
+annotations/worker (676).jpg,273,184,person with helmet,140,102,161,173
+annotations/worker (348).jpg,299,168,person with helmet,72,3,206,129
+annotations/worker (469).jpg,265,190,helmet,111,1,195,54
+annotations/worker (833).jpg,278,181,person with helmet,175,7,197,173
+annotations/worker (361).jpg,251,200,helmet,46,41,71,58
+annotations/worker (803).jpg,300,168,helmet,81,14,126,41
+annotations/person_without_helmet (250).jpg,318,200,person without helmet,21,80,111,196
+annotations/worker (37).jpg,263,191,helmet,80,7,201,79
+annotations/worker (171).jpg,267,189,helmet,79,37,102,54
+annotations/worker (646).jpg,273,184,person with helmet,129,1,258,183
+annotations/worker (637).jpg,275,183,helmet,8,32,45,65
+annotations/worker (551).jpg,300,168,helmet,153,23,289,76
+annotations/worker (411).jpg,300,168,helmet,149,51,177,77
+annotations/worker (37).jpg,263,191,person with helmet,42,43,134,173
+annotations/worker (699).jpg,275,183,helmet,125,12,188,53
+annotations/worker (217).jpg,274,184,helmet,243,81,267,100
+annotations/worker (601).jpg,255,198,person with helmet,128,37,154,154
+annotations/worker (612).jpg,259,195,helmet,64,36,107,67
+annotations/worker (291).jpg,255,197,person with helmet,8,41,114,197
+annotations/worker (331).jpg,266,189,person with helmet,27,53,78,178
+annotations/worker (420).jpg,263,192,person with helmet,106,51,167,176
+annotations/worker (308).jpg,179,282,helmet,30,15,148,90
+annotations/worker (247).jpg,275,183,helmet,217,46,232,54
+annotations/worker (772).jpg,252,200,helmet,44,19,59,30
+annotations/worker (550).jpg,307,164,person with helmet,77,31,116,99
+annotations/applauding_011.jpg,600,800,person without helmet,1,297,181,799
+annotations/applauding_155.jpg,497,300,person without helmet,25,1,286,300
+annotations/worker (832).jpg,371,136,person without helmet,19,13,52,133
+annotations/person_without_helmet (262).jpg,200,207,person without helmet,55,72,132,207
+annotations/person_without_helmet (105).jpg,223,200,person without helmet,1,5,81,173
+annotations/worker (735).jpg,299,168,helmet,76,35,97,48
+annotations/worker (805).jpg,266,189,person with helmet,35,30,124,154
+annotations/worker (331).jpg,266,189,person with helmet,69,39,116,173
+annotations/worker (818).jpg,275,183,person with helmet,93,20,157,98
+annotations/worker (439).jpg,300,168,helmet,188,87,234,134
+annotations/worker (761).jpg,290,174,person with helmet,168,11,234,160
+annotations/worker (504).jpg,275,183,person with helmet,93,33,164,182
+annotations/worker (825).jpg,291,173,helmet,193,13,256,51
+annotations/person_without_helmet (210).jpg,300,200,person without helmet,177,25,251,173
+annotations/worker (181).jpg,194,260,helmet,52,60,71,75
+annotations/person_without_helmet (194).jpg,302,200,person without helmet,125,73,181,200
+annotations/worker (518).jpg,317,159,person with helmet,144,48,185,158
+annotations/worker (5).jpg,183,275,helmet,39,54,96,95
+annotations/worker (46).jpg,262,192,person,40,24,259,174
+annotations/worker (677).jpg,262,192,helmet,128,2,197,51
+annotations/person_without_helmet (260).jpg,233,200,person without helmet,170,87,219,190
+annotations/worker (456).jpg,275,183,person with helmet,151,20,232,137
+annotations/worker (756).jpg,251,201,person with helmet,189,26,214,136
+annotations/person_without_helmet (124).jpg,235,200,person without helmet,1,18,119,171
+annotations/worker (421).jpg,280,180,helmet,45,17,88,48
+annotations/person_without_helmet (253).jpg,224,200,person without helmet,92,40,175,165
+annotations/person_without_helmet (128).jpg,506,200,person without helmet,112,25,206,157
+annotations/worker (397).jpg,275,183,person with helmet,79,21,275,182
+annotations/worker (791).jpg,330,153,helmet,158,15,189,32
+annotations/worker (518).jpg,317,159,person with helmet,183,55,231,158
+annotations/worker (492).jpg,265,190,helmet,6,17,67,65
+annotations/worker (362).jpg,194,260,helmet,107,104,194,202
+annotations/person_without_helmet (149).jpg,200,200,person without helmet,51,81,137,179
+annotations/person_without_helmet (143).jpg,200,300,person without helmet,53,21,172,300
+annotations/worker (475).jpg,192,262,person with helmet,40,58,97,188
+annotations/worker (824).jpg,343,147,person with helmet,176,25,205,72
+annotations/worker (720).jpg,266,190,helmet,75,33,98,60
+annotations/worker (218).jpg,288,175,helmet,196,1,269,24
+annotations/worker (372).jpg,179,281,helmet,38,17,127,79
+annotations/worker (478).jpg,275,183,person with helmet,125,15,261,182
+annotations/worker (862).jpg,259,194,helmet,138,98,153,113
+annotations/worker (872).jpg,275,183,helmet,45,14,69,28
+annotations/person_without_helmet (147).jpg,200,300,person without helmet,64,113,127,300
+annotations/person_without_helmet (272).jpg,200,224,person without helmet,148,14,200,104
+annotations/worker (480).jpg,194,259,helmet,114,1,152,29
+annotations/worker (193).jpg,240,160,person with helmet,86,1,152,107
+annotations/worker (255).jpg,263,191,helmet,79,50,109,71
+annotations/worker (563).jpg,262,192,person with helmet,27,23,97,129
+annotations/worker (216).jpg,283,178,helmet,138,87,162,104
+annotations/worker (453).jpg,300,168,person with helmet,109,17,219,167
+annotations/worker (447).jpg,267,189,helmet,79,32,131,64
+annotations/worker (502).jpg,183,275,person with helmet,69,33,179,274
+annotations/worker (38).jpg,275,183,helmet,68,45,95,68
+annotations/worker (692).jpg,265,190,person with helmet,142,116,193,171
+annotations/worker (309).jpg,275,183,helmet,145,18,181,48
+annotations/applauding_109.jpg,600,400,person without helmet,162,10,498,400
+annotations/worker (312).jpg,299,168,person with helmet,108,2,242,168
+annotations/worker (260).jpg,275,183,person with helmet,107,1,272,180
+annotations/worker (603).jpg,300,168,person with helmet,30,12,117,166
+annotations/worker (811).jpg,183,275,person with helmet,55,97,93,247
+annotations/worker (590).jpg,179,282,helmet,65,20,115,55
+annotations/worker (147).jpg,266,189,person with helmet,7,1,129,178
+annotations/worker (726).jpg,225,225,helmet,96,26,133,59
+annotations/worker (8).jpg,263,192,person with helmet,1,1,109,176
+annotations/worker (256).jpg,284,160,helmet,1,1,94,65
+annotations/worker (522).jpg,275,183,helmet,136,36,166,59
+annotations/person_without_helmet (266).jpg,334,200,person without helmet,201,105,258,165
+annotations/applauding_100.jpg,500,751,person without helmet,199,161,429,652
+annotations/worker (830).jpg,263,192,person with helmet,179,1,257,144
+annotations/worker (691).jpg,225,224,person with helmet,104,102,169,180
+annotations/worker (182).jpg,250,202,person with helmet,3,37,77,199
+annotations/worker (446).jpg,275,183,person,39,41,107,183
+annotations/worker (368).jpg,290,174,helmet,142,28,168,48
+annotations/worker (860).jpg,183,276,person with helmet,5,42,114,273
+annotations/worker (75).jpg,275,183,helmet,128,33,170,61
+annotations/worker (115).jpg,266,189,helmet,77,3,120,33
+annotations/worker (167).jpg,265,190,helmet,102,42,137,68
+annotations/person_without_helmet (97).jpg,200,200,person without helmet,106,26,175,173
+annotations/person_without_helmet (108).jpg,200,200,person without helmet,1,11,97,183
+annotations/worker (827).jpg,284,177,helmet,242,104,248,111
+annotations/person_without_helmet (68).jpg,269,200,person without helmet,39,8,170,170
+annotations/worker (190).jpg,266,189,person with helmet,99,22,183,174
+annotations/worker (520).jpg,274,184,person with helmet,120,24,232,182
+annotations/worker (700).jpg,183,275,person with helmet,79,94,162,220
+annotations/worker (863).jpg,275,183,helmet,108,53,125,64
+annotations/worker (289).jpg,276,183,helmet,140,42,156,53
+annotations/applauding_111.jpg,482,300,person without helmet,61,29,296,300
+annotations/person_without_helmet (100).jpg,200,239,person without helmet,43,15,121,154
+annotations/worker (262).jpg,300,168,person,139,111,160,157
+annotations/worker (534).jpg,265,190,helmet,214,4,256,35
+annotations/worker (827).jpg,284,177,helmet,114,64,137,75
+annotations/person_without_helmet (243).jpg,267,200,person without helmet,84,80,94,90
+annotations/worker (759).jpg,275,184,person with helmet,94,22,167,184
+annotations/worker (628).jpg,299,168,person with helmet,206,1,293,144
+annotations/worker (762).jpg,203,248,person with helmet,21,9,80,235
+annotations/applauding_127.jpg,451,300,person without helmet,150,11,419,300
+annotations/worker (208).jpg,183,275,helmet,74,68,92,80
+annotations/worker (349).jpg,222,227,helmet,1,1,111,62
+annotations/worker (529).jpg,276,183,person with helmet,47,8,239,182
+annotations/worker (554).jpg,265,190,person with helmet,187,8,265,154
+annotations/worker (751).jpg,275,183,person with helmet,115,7,181,182
+annotations/worker (694).jpg,273,185,helmet,87,62,126,94
+annotations/applauding_116.jpg,300,200,person without helmet,114,34,175,200
+annotations/worker (351).jpg,196,257,person,1,20,94,188
+annotations/worker (241).jpg,266,189,helmet,149,63,164,76
+annotations/worker (108).jpg,283,178,person with helmet,2,1,132,159
+annotations/worker (733).jpg,276,183,helmet,167,2,276,68
+annotations/worker (17).jpg,275,183,person with helmet,81,37,107,119
+annotations/worker (692).jpg,265,190,helmet,156,118,189,153
+annotations/worker (868).jpg,199,144,helmet,118,30,148,47
+annotations/worker (854).jpg,183,275,helmet,54,1,174,109
+annotations/person_without_helmet (45).jpg,284,200,person without helmet,102,79,138,155
+annotations/worker (208).jpg,183,275,person with helmet,102,68,139,202
+annotations/worker (710).jpg,251,201,helmet,84,1,160,47
+annotations/worker (840).jpg,300,168,helmet,123,3,149,21
+annotations/worker (851).jpg,344,146,helmet,139,5,227,69
+annotations/worker (378).jpg,266,189,helmet,97,1,221,65
+annotations/worker (840).jpg,300,168,person without helmet,95,18,127,168
+annotations/worker (690).jpg,275,183,person with helmet,184,37,260,176
+annotations/applauding_013.jpg,300,436,person without helmet,2,4,149,436
+annotations/worker (181).jpg,194,260,helmet,153,117,171,137
+annotations/worker (725).jpg,259,194,person with helmet,191,34,237,105
+annotations/worker (756).jpg,251,201,person with helmet,154,21,171,87
+annotations/worker (147).jpg,266,189,helmet,75,1,121,27
+annotations/worker (774).jpg,275,183,helmet,16,15,78,54
+annotations/worker (731).jpg,225,225,person with helmet,60,11,168,215
+annotations/worker (632).jpg,219,230,helmet,134,49,168,77
+annotations/person_without_helmet (259).jpg,267,200,person without helmet,89,20,175,178
+annotations/worker (332).jpg,275,183,person with helmet,61,42,146,137
+annotations/person_without_helmet (246).jpg,202,200,person without helmet,13,28,100,179
+annotations/worker (628).jpg,299,168,helmet,207,1,261,51
+annotations/worker (385).jpg,275,183,helmet,183,1,251,41
+annotations/worker (839).jpg,245,205,person with helmet,173,19,190,41
+annotations/applauding_090.jpg,300,448,person without helmet,182,195,300,445
+annotations/person_without_helmet (59).jpg,200,253,person without helmet,96,14,200,197
+annotations/worker (640).jpg,262,193,person with helmet,146,54,186,170
+annotations/worker (505).jpg,300,168,helmet,136,34,165,56
+annotations/worker (198).jpg,266,189,person with helmet,155,10,250,171
+annotations/worker (266).jpg,251,201,person with helmet,29,7,140,196
+annotations/worker (60).jpg,262,193,person with helmet,12,61,73,175
+annotations/worker (330).jpg,183,275,helmet,69,168,137,213
+annotations/person_without_helmet (243).jpg,267,200,person without helmet,69,81,83,93
+annotations/worker (221).jpg,276,183,helmet,153,1,258,52
+annotations/worker (544).jpg,217,232,helmet,81,1,161,61
+annotations/worker (730).jpg,259,194,helmet,111,19,158,51
+annotations/worker (872).jpg,275,183,helmet,2,16,18,35
+annotations/worker (735).jpg,299,168,person with helmet,71,34,111,165
+annotations/person_without_helmet (170).jpg,200,200,person without helmet,100,15,175,163
+annotations/worker (768).jpg,275,183,person with helmet,169,5,242,88
+annotations/worker (506).jpg,183,276,helmet,39,25,128,90
+annotations/worker (408).jpg,275,183,person,118,35,234,182
+annotations/worker (695).jpg,275,183,person with helmet,90,1,265,181
+annotations/applauding_113.jpg,400,300,person without helmet,66,84,132,276
+annotations/worker (53).jpg,252,200,person with helmet,143,22,246,189
+annotations/worker (688).jpg,264,191,helmet,129,60,162,90
+annotations/worker (719).jpg,263,192,person with helmet,69,11,178,173
+annotations/worker (886).jpg,275,183,helmet,97,3,175,83
+annotations/worker (231).jpg,289,175,helmet,180,18,220,65
+annotations/worker (610).jpg,275,183,helmet,103,48,156,84
+annotations/applauding_043.jpg,425,300,person without helmet,1,7,102,299
+annotations/worker (175).jpg,249,202,person with helmet,99,34,232,188
+annotations/worker (718).jpg,275,183,helmet,3,72,85,136
+annotations/worker (729).jpg,302,167,helmet,120,7,165,37
+annotations/worker (770).jpg,298,169,person with helmet,194,21,231,69
+annotations/worker (23).jpg,262,193,helmet,52,33,97,61
+annotations/worker (383).jpg,264,191,person with helmet,131,6,258,174
+annotations/worker (9).jpg,262,193,person with helmet,91,34,164,175
+annotations/worker (700).jpg,183,275,helmet,48,65,92,95
+annotations/worker (584).jpg,300,168,helmet,85,33,139,86
+annotations/person_without_helmet (215).jpg,300,200,person without helmet,40,25,274,162
+annotations/worker (240).jpg,266,190,person with helmet,136,102,193,178
+annotations/worker (181).jpg,194,260,person,50,157,84,241
+annotations/worker (874).jpg,310,162,person with helmet,171,3,253,162
+annotations/worker (637).jpg,275,183,person with helmet,1,32,63,141
+annotations/person_without_helmet (86).jpg,200,253,person without helmet,76,75,166,174
+annotations/worker (770).jpg,298,169,helmet,230,11,272,40
+annotations/worker (703).jpg,275,183,helmet,227,30,241,43
+annotations/applauding_159.jpg,448,300,person without helmet,198,48,439,300
+annotations/person_without_helmet (222).jpg,271,200,person without helmet,162,2,266,188
+annotations/worker (702).jpg,275,183,person with helmet,32,1,191,183
+annotations/worker (156).jpg,256,197,helmet,57,5,169,71
+annotations/worker (446).jpg,275,183,person,79,28,193,183
+annotations/worker (206).jpg,289,175,helmet,127,32,146,53
+annotations/worker (753).jpg,275,184,person with helmet,72,13,114,69
+annotations/worker (102).jpg,177,285,person with helmet,5,1,174,285
+annotations/worker (675).jpg,266,190,person with helmet,123,17,192,190
+annotations/worker (535).jpg,243,207,person with helmet,60,17,139,194
+annotations/worker (566).jpg,231,219,person with helmet,60,43,152,204
+annotations/person_without_helmet (167).jpg,200,212,person without helmet,148,1,198,52
+annotations/applauding_106.jpg,600,400,person without helmet,521,91,600,217
+annotations/worker (561).jpg,309,163,helmet,181,18,202,49
+annotations/worker (759).jpg,275,184,helmet,183,51,222,81
+annotations/worker (727).jpg,275,183,person with helmet,123,11,189,100
+annotations/worker (769).jpg,266,189,person with helmet,150,3,257,165
+annotations/worker (275).jpg,275,183,helmet,175,5,222,29
+annotations/worker (559).jpg,299,168,person with helmet,153,1,204,142
+annotations/worker (180).jpg,275,183,person with helmet,138,59,194,183
+annotations/worker (14).jpg,265,190,person with helmet,139,13,182,141
+annotations/worker (852).jpg,310,162,helmet,86,2,169,56
+annotations/worker (681).jpg,225,225,person with helmet,85,10,201,222
+annotations/worker (778).jpg,300,168,helmet,61,1,109,32
+annotations/worker (381).jpg,257,196,helmet,55,1,184,65
+annotations/worker (752).jpg,275,183,person with helmet,226,15,268,174
+annotations/person_without_helmet (118).jpg,200,267,person without helmet,1,14,109,248
+annotations/worker (322).jpg,183,276,helmet,78,147,112,166
+annotations/worker (770).jpg,298,169,helmet,139,31,157,44
+annotations/worker (788).jpg,266,190,person with helmet,181,6,266,181
+annotations/worker (331).jpg,266,189,helmet,127,27,166,54
+annotations/worker (456).jpg,275,183,helmet,219,39,275,78
+annotations/worker (23).jpg,262,193,person with helmet,41,32,114,173
+annotations/worker (254).jpg,275,183,person with helmet,47,33,115,179
+annotations/worker (48).jpg,262,193,person with helmet,107,1,214,120
+annotations/applauding_093.jpg,400,300,person without helmet,16,137,162,300
+annotations/worker (73).jpg,262,192,helmet,126,21,157,42
+annotations/worker (636).jpg,274,184,helmet,97,75,112,88
+annotations/worker (802).jpg,253,199,helmet,166,33,216,65
+annotations/worker (703).jpg,275,183,person with helmet,182,18,237,182
+annotations/worker (806).jpg,275,183,person with helmet,109,29,175,149
+annotations/worker (241).jpg,266,189,person with helmet,205,48,252,182
+annotations/worker (787).jpg,275,183,helmet,91,113,120,145
+annotations/applauding_056.jpg,200,393,person without helmet,1,1,157,392
+annotations/worker (389).jpg,267,189,helmet,46,39,67,55
+annotations/worker (508).jpg,300,168,person with helmet,116,1,274,167
+annotations/worker (189).jpg,266,189,person with helmet,2,4,116,180
+annotations/worker (151).jpg,266,190,helmet,190,47,206,58
+annotations/worker (391).jpg,183,276,person with helmet,23,30,103,267
+annotations/worker (840).jpg,300,168,person with helmet,73,9,98,54
+annotations/person_without_helmet (252).jpg,334,200,person without helmet,221,141,262,181
+annotations/applauding_084.jpg,300,300,person without helmet,31,97,121,249
+annotations/worker (207).jpg,275,183,helmet,167,1,233,61
+annotations/worker (72).jpg,252,200,person with helmet,114,17,219,158
+annotations/worker (539).jpg,270,186,helmet,14,26,51,49
+annotations/worker (9).jpg,262,193,helmet,116,34,147,65
+annotations/worker (802).jpg,253,199,person with helmet,89,27,168,172
+annotations/worker (731).jpg,225,225,helmet,87,13,135,45
+annotations/worker (763).jpg,281,179,person with helmet,195,8,281,144
+annotations/person_without_helmet (226).jpg,240,200,person without helmet,87,29,132,136
+annotations/worker (806).jpg,275,183,helmet,33,23,91,62
+annotations/worker (428).jpg,225,225,helmet,81,21,145,61
+annotations/worker (840).jpg,300,168,person with helmet,243,6,278,168
+annotations/worker (790).jpg,322,156,helmet,148,40,192,74
+annotations/worker (167).jpg,265,190,person with helmet,95,43,143,172
+annotations/applauding_024.jpg,300,479,person without helmet,45,7,244,307
+annotations/worker (804).jpg,354,142,helmet,103,42,134,67
+annotations/worker (448).jpg,275,183,helmet,54,37,102,72
+annotations/worker (369).jpg,266,189,helmet,60,9,114,45
+annotations/person_without_helmet (234).jpg,301,200,person without helmet,205,119,271,197
+annotations/person_without_helmet (69).jpg,200,205,person without helmet,51,12,138,195
+annotations/worker (843).jpg,275,183,person with helmet,9,1,115,177
+annotations/person_without_helmet (201).jpg,200,264,person without helmet,70,12,200,241
+annotations/worker (590).jpg,179,282,person with helmet,40,21,146,271
+annotations/worker (233).jpg,275,183,person with helmet,84,23,145,183
+annotations/worker (568).jpg,263,192,person with helmet,11,1,107,132
+annotations/worker (773).jpg,246,205,person with helmet,116,16,152,179
+annotations/worker (798).jpg,248,203,person with helmet,40,15,167,179
+annotations/worker (203).jpg,275,183,person with helmet,147,79,182,176
+annotations/worker (371).jpg,275,183,helmet,146,57,161,69
+annotations/worker (643).jpg,299,168,person with helmet,80,8,186,166
+annotations/worker (688).jpg,264,191,person with helmet,39,47,96,145
+annotations/worker (183).jpg,275,183,helmet,145,13,185,43
+annotations/worker (482).jpg,176,287,person with helmet,29,56,89,169
+annotations/worker (414).jpg,276,183,helmet,124,1,218,58
+annotations/worker (221).jpg,276,183,person with helmet,126,63,153,136
+annotations/person_without_helmet (297).jpg,238,200,person without helmet,73,2,205,137
+annotations/applauding_142.jpg,300,565,person without helmet,54,39,191,528
+annotations/worker (804).jpg,354,142,person with helmet,100,41,145,103
+annotations/worker (550).jpg,307,164,person with helmet,44,43,88,100
+annotations/worker (754).jpg,290,174,helmet,32,23,54,39
+annotations/worker (715).jpg,275,183,helmet,126,27,182,67
+annotations/worker (680).jpg,188,268,helmet,33,33,97,82
+annotations/worker (555).jpg,275,183,person with helmet,82,7,244,182
+annotations/worker (761).jpg,290,174,helmet,73,18,93,30
+annotations/worker (757).jpg,245,206,helmet,79,37,100,53
+annotations/worker (272).jpg,325,155,person without helmet,130,1,313,144
+annotations/worker (419).jpg,262,192,helmet,136,24,214,74
+annotations/worker (498).jpg,275,183,helmet,102,29,143,62
+annotations/worker (539).jpg,270,186,person with helmet,179,100,219,185
+annotations/worker (542).jpg,265,190,helmet,175,3,231,40
+annotations/worker (833).jpg,278,181,person without helmet,136,24,165,179
+annotations/applauding_060.jpg,300,435,person without helmet,62,38,265,418
+annotations/person_without_helmet (77).jpg,215,200,person without helmet,55,100,72,151
+annotations/worker (760).jpg,290,174,helmet,209,8,227,22
+annotations/worker (50).jpg,266,189,helmet,125,12,225,74
+annotations/person_without_helmet (110).jpg,209,200,person without helmet,4,4,147,145
+annotations/worker (771).jpg,207,243,helmet,52,9,66,18
+annotations/worker (688).jpg,264,191,person with helmet,110,61,167,167
+annotations/worker (554).jpg,265,190,helmet,34,1,82,26
+annotations/person_without_helmet (266).jpg,334,200,person without helmet,35,137,86,174
+annotations/worker (638).jpg,275,183,helmet,182,77,212,98
+annotations/worker (420).jpg,263,192,person with helmet,59,61,104,176
+annotations/worker (815).jpg,275,183,helmet,117,11,192,56
+annotations/person_without_helmet (90).jpg,267,200,person without helmet,7,56,162,200
+annotations/worker (587).jpg,194,259,helmet,62,11,126,51
+annotations/worker (750).jpg,275,183,person with helmet,45,3,142,182
+annotations/worker (219).jpg,232,217,person with helmet,107,27,205,201
+annotations/worker (714).jpg,275,184,helmet,130,35,177,63
+annotations/worker (819).jpg,263,192,person with helmet,1,1,61,158
+annotations/worker (109).jpg,275,183,person with helmet,67,6,152,183
+annotations/worker (818).jpg,275,183,helmet,72,8,106,29
+annotations/worker (719).jpg,263,192,helmet,88,9,142,53
+annotations/worker (887).jpg,275,183,helmet,127,45,192,98
+annotations/applauding_106.jpg,600,400,person without helmet,160,69,285,225
+annotations/worker (569).jpg,267,189,person with helmet,76,36,134,111
+annotations/worker (408).jpg,275,183,helmet,143,35,195,71
+annotations/worker (611).jpg,263,192,helmet,38,19,76,47
+annotations/worker (872).jpg,275,183,helmet,95,39,115,54
+annotations/worker (753).jpg,275,184,helmet,222,11,253,34
+annotations/worker (806).jpg,275,183,helmet,207,26,250,57
+annotations/worker (816).jpg,275,183,person with helmet,183,51,275,176
+annotations/worker (178).jpg,265,190,person with helmet,131,2,265,187
+annotations/worker (396).jpg,331,152,person without helmet,150,38,179,90
+annotations/person_without_helmet (31).jpg,200,253,person without helmet,40,8,106,233
+annotations/person_without_helmet (40).jpg,200,200,person without helmet,11,6,82,190
+annotations/worker (181).jpg,194,260,helmet,54,157,75,175
+annotations/applauding_123.jpg,600,400,person without helmet,301,57,407,295
+annotations/worker (583).jpg,262,192,person with helmet,47,26,116,117
+annotations/worker (244).jpg,275,183,helmet,147,92,243,155
+annotations/applauding_077.jpg,600,650,person without helmet,109,1,502,380
+annotations/worker (209).jpg,275,183,helmet,155,26,199,55
+annotations/worker (557).jpg,300,168,person with helmet,27,12,100,167
+annotations/worker (33).jpg,267,189,person without helmet,1,1,155,178
+annotations/worker (788).jpg,266,190,helmet,143,25,161,38
+annotations/worker (178).jpg,265,190,helmet,147,3,219,41
+annotations/worker (589).jpg,266,189,helmet,82,32,104,54
+annotations/worker (298).jpg,225,225,helmet,136,5,198,56
+annotations/person_without_helmet (249).jpg,275,200,person without helmet,35,34,130,180
+annotations/worker (44).jpg,262,193,person,113,37,262,174
+annotations/worker (304).jpg,275,183,helmet,121,49,228,129
+annotations/worker (170).jpg,266,189,person,36,30,164,178
+annotations/person_without_helmet (235).jpg,313,200,person without helmet,153,90,212,186
+annotations/worker (550).jpg,307,164,helmet,15,98,51,124
+annotations/worker (103).jpg,275,183,helmet,166,1,242,47
+annotations/person_without_helmet (218).jpg,200,200,person without helmet,1,18,66,146
+annotations/worker (52).jpg,193,262,helmet,80,30,135,70
+annotations/worker (496).jpg,283,178,person with helmet,56,82,117,177
+annotations/worker (736).jpg,201,250,helmet,75,7,153,63
+annotations/worker (327).jpg,266,189,person,92,45,231,176
+annotations/worker (386).jpg,266,189,helmet,204,33,249,64
+annotations/worker (183).jpg,275,183,person without helmet,186,11,268,178
+annotations/person_without_helmet (61).jpg,200,273,person without helmet,16,1,179,223
+annotations/worker (574).jpg,183,276,helmet,73,19,127,59
+annotations/worker (486).jpg,225,225,helmet,65,18,150,73
+annotations/worker (114).jpg,271,186,person with helmet,105,1,271,184
+annotations/worker (168).jpg,262,193,helmet,71,3,114,36
+annotations/worker (198).jpg,266,189,helmet,178,12,216,37
+annotations/worker (811).jpg,183,275,helmet,59,95,81,114
+annotations/worker (568).jpg,263,192,person with helmet,95,24,156,89
+annotations/worker (77).jpg,266,189,helmet,203,31,248,65
+annotations/person_without_helmet (116).jpg,209,200,person without helmet,10,6,142,171
+annotations/worker (12).jpg,255,198,helmet,36,25,135,77
+annotations/person_without_helmet (174).jpg,341,200,person with helmet,141,79,172,171
+annotations/worker (771).jpg,207,243,person with helmet,45,7,84,121
+annotations/worker (529).jpg,276,183,helmet,96,7,192,87
+annotations/worker (71).jpg,275,183,person with helmet,166,1,268,181
+annotations/worker (622).jpg,182,276,helmet,11,43,117,275
+annotations/worker (614).jpg,179,281,person with helmet,1,29,91,143
+annotations/worker (204).jpg,300,168,helmet,185,85,231,131
+annotations/worker (289).jpg,276,183,person,245,52,263,103
+annotations/worker (777).jpg,177,285,person with helmet,59,5,167,202
+annotations/worker (791).jpg,330,153,person with helmet,253,33,315,137
+annotations/worker (685).jpg,266,189,helmet,1,60,47,88
+annotations/applauding_173.jpg,400,300,person without helmet,12,65,194,300
+annotations/worker (783).jpg,275,183,person with helmet,172,9,265,182
+annotations/worker (239).jpg,275,183,helmet,127,30,144,43
+annotations/applauding_171.jpg,383,300,person without helmet,210,1,378,300
+annotations/worker (575).jpg,190,266,person with helmet,2,50,96,185
+annotations/worker (844).jpg,183,275,helmet,90,29,183,95
+annotations/worker (16).jpg,263,192,person with helmet,179,16,229,124
+annotations/worker (791).jpg,330,153,helmet,21,20,53,36
+annotations/worker (606).jpg,260,194,helmet,110,113,148,138
+annotations/worker (813).jpg,262,192,helmet,45,59,79,85
+annotations/worker (501).jpg,262,193,helmet,39,30,66,52
+annotations/worker (836).jpg,254,198,person with helmet,144,41,195,99
+annotations/applauding_020.jpg,413,400,person without helmet,74,30,244,400
+annotations/worker (872).jpg,275,183,person with helmet,113,39,151,81
+annotations/worker (592).jpg,266,189,person with helmet,18,18,84,176
+annotations/worker (81).jpg,243,207,helmet,101,46,139,73
+annotations/worker (518).jpg,317,159,helmet,233,49,258,66
+annotations/worker (430).jpg,275,183,helmet,100,22,142,54
+annotations/worker (712).jpg,284,178,helmet,221,64,232,77
+annotations/worker (774).jpg,275,183,helmet,188,32,254,89
+annotations/worker (741).jpg,226,223,helmet,200,26,226,73
+annotations/worker (162).jpg,275,183,person with helmet,47,28,135,180
+annotations/worker (739).jpg,276,182,person with helmet,208,43,252,157
+annotations/worker (877).jpg,275,183,helmet,84,49,103,61
+annotations/applauding_025.jpg,802,600,person without helmet,142,124,409,600
+annotations/worker (847).jpg,275,183,person with helmet,196,8,251,78
+annotations/worker (446).jpg,275,183,helmet,9,32,46,66
+annotations/worker (853).jpg,275,183,helmet,118,76,143,94
+annotations/person_without_helmet (56).jpg,226,201,person without helmet,54,45,149,197
+annotations/worker (551).jpg,300,168,person with helmet,20,23,150,145
+annotations/worker (886).jpg,275,183,person with helmet,97,3,268,146
+annotations/worker (283).jpg,275,183,helmet,102,30,137,52
+annotations/worker (773).jpg,246,205,helmet,41,10,68,30
+annotations/worker (269).jpg,311,162,helmet,130,1,246,71
+annotations/worker (693).jpg,266,189,person with helmet,52,25,138,144
+annotations/worker (871).jpg,220,229,person without helmet,3,148,56,217
+annotations/worker (549).jpg,183,276,person with helmet,23,11,169,275
+annotations/worker (693).jpg,266,189,helmet,78,26,128,54
+annotations/worker (875).jpg,300,168,person with helmet,134,38,178,76
+annotations/worker (869).jpg,259,194,helmet,66,95,88,111
+annotations/worker (368).jpg,290,174,person with helmet,153,11,224,172
+annotations/worker (760).jpg,290,174,helmet,64,19,81,32
+annotations/worker (758).jpg,299,168,helmet,13,14,124,86
+annotations/worker (449).jpg,179,281,helmet,45,112,88,148
+annotations/worker (78).jpg,262,192,helmet,147,10,209,57
+annotations/worker (513).jpg,300,168,helmet,213,44,243,69
+annotations/worker (232).jpg,269,188,person,113,4,251,179
+annotations/worker (115).jpg,266,189,person with helmet,56,2,134,177
+annotations/worker (60).jpg,262,193,helmet,24,62,58,92
+annotations/worker (133).jpg,275,183,person with helmet,174,47,220,181
+annotations/worker (801).jpg,301,167,person with helmet,247,1,301,105
+annotations/worker (141).jpg,275,183,person with helmet,27,1,129,183
+annotations/worker (365).jpg,259,194,person,36,1,162,193
+annotations/worker (829).jpg,275,183,helmet,192,3,275,60
+annotations/person_without_helmet (30).jpg,200,247,person without helmet,75,50,154,148
+annotations/worker (359).jpg,263,191,person without helmet,133,40,237,175
+annotations/worker (848).jpg,275,183,helmet,154,57,190,85
+annotations/worker (863).jpg,275,183,person with helmet,128,55,145,90
+annotations/worker (839).jpg,245,205,helmet,158,29,176,42
+annotations/worker (598).jpg,266,190,person with helmet,43,111,67,133
+annotations/person_without_helmet (199).jpg,308,300,person without helmet,3,164,263,289
+annotations/worker (718).jpg,275,183,person with helmet,4,76,163,183
+annotations/person_without_helmet (223).jpg,302,200,person without helmet,78,43,120,181
+annotations/person_without_helmet (243).jpg,267,200,person without helmet,17,77,45,104
+annotations/applauding_154.jpg,451,300,person without helmet,182,82,309,300
+annotations/worker (644).jpg,298,169,person with helmet,175,86,207,168
+annotations/person_without_helmet (164).jpg,267,200,person without helmet,146,10,257,190
+annotations/worker (85).jpg,260,194,helmet,164,39,191,58
+annotations/worker (237).jpg,265,190,person with helmet,96,1,245,173
+annotations/person_without_helmet (209).jpg,214,200,person without helmet,61,34,101,108
+annotations/worker (615).jpg,267,189,person with helmet,116,1,234,188
+annotations/applauding_052.jpg,410,300,person without helmet,164,72,317,300
+annotations/worker (406).jpg,318,159,person with helmet,113,15,182,157
+annotations/worker (510).jpg,206,245,person with helmet,84,62,192,149
+annotations/worker (696).jpg,275,183,person with helmet,49,30,143,158
+annotations/worker (649).jpg,262,192,person with helmet,108,1,221,173
+annotations/person_without_helmet (120).jpg,200,231,person without helmet,28,1,200,175
+annotations/worker (221).jpg,276,183,person with helmet,1,65,65,182
+annotations/worker (884).jpg,275,183,person with helmet,162,1,275,133
+annotations/worker (187).jpg,299,168,person with helmet,79,15,159,163
+annotations/worker (21).jpg,275,183,person with helmet,115,8,226,183
+annotations/worker (696).jpg,275,183,person with helmet,131,33,225,154
+annotations/worker (601).jpg,255,198,helmet,165,44,184,60
+annotations/worker (565).jpg,300,168,helmet,154,37,210,81
+annotations/worker (778).jpg,300,168,person with helmet,104,6,162,163
+annotations/applauding_106.jpg,600,400,person without helmet,316,124,414,367
+annotations/worker (94).jpg,266,189,person with helmet,47,45,105,176
+annotations/worker (560).jpg,183,275,person with helmet,39,5,137,274
+annotations/worker (797).jpg,180,280,helmet,105,60,158,95
+annotations/worker (772).jpg,252,200,helmet,83,15,101,28
+annotations/worker (152).jpg,275,183,helmet,178,61,199,76
+annotations/worker (471).jpg,183,276,helmet,78,46,127,90
+annotations/worker (866).jpg,275,183,person with helmet,15,1,155,171
+annotations/worker (637).jpg,275,183,person with helmet,43,42,108,167
+annotations/applauding_156.jpg,419,300,person without helmet,90,25,247,300
+annotations/worker (404).jpg,197,255,helmet,28,18,165,117
+annotations/applauding_116.jpg,300,200,person without helmet,41,77,73,124
+annotations/worker (181).jpg,194,260,helmet,27,158,46,178
+annotations/worker (214).jpg,250,202,helmet,91,10,211,184
+annotations/worker (628).jpg,299,168,helmet,27,1,92,45
+annotations/worker (441).jpg,275,183,helmet,160,7,215,48
+annotations/worker (782).jpg,300,168,helmet,178,7,220,41
+annotations/worker (89).jpg,275,183,helmet,55,18,128,67
+annotations/worker (601).jpg,255,198,person with helmet,106,38,128,153
+annotations/worker (482).jpg,176,287,helmet,57,56,86,82
+annotations/worker (17).jpg,275,183,helmet,213,18,259,55
+annotations/worker (775).jpg,217,232,person with helmet,156,4,184,105
+annotations/worker (791).jpg,330,153,person without helmet,9,2,30,22
+annotations/worker (565).jpg,300,168,person with helmet,32,1,139,167
+annotations/worker (693).jpg,266,189,person with helmet,148,34,231,130
+annotations/worker (775).jpg,217,232,person with helmet,111,5,133,105
+annotations/worker (793).jpg,257,196,person with helmet,76,54,127,179
+annotations/worker (770).jpg,298,169,helmet,77,20,108,37
+annotations/worker (119).jpg,300,168,helmet,124,4,171,37
+annotations/worker (62).jpg,177,285,person with helmet,1,1,176,264
+annotations/worker (449).jpg,179,281,helmet,99,57,141,85
+annotations/worker (639).jpg,275,183,person with helmet,161,50,203,165
+annotations/worker (438).jpg,183,276,person with helmet,20,118,140,199
+annotations/worker (298).jpg,225,225,person with helmet,48,1,136,222
+annotations/worker (461).jpg,300,168,helmet,139,1,258,64
+annotations/worker (772).jpg,252,200,helmet,188,21,205,32
+annotations/worker (94).jpg,266,189,helmet,63,45,105,70
+annotations/worker (243).jpg,183,275,person with helmet,23,67,124,275
+annotations/worker (813).jpg,262,192,helmet,95,24,117,50
+annotations/worker (181).jpg,194,260,helmet,141,121,158,134
+annotations/applauding_047.jpg,451,300,person without helmet,129,8,326,300
+annotations/worker (872).jpg,275,183,helmet,120,29,138,39
+annotations/worker (873).jpg,270,186,helmet,78,25,109,46
+annotations/worker (836).jpg,254,198,person with helmet,36,49,138,197
+annotations/applauding_098.jpg,451,300,person without helmet,201,28,359,300
+annotations/worker (683).jpg,275,183,helmet,152,23,192,52
+annotations/person_without_helmet (210).jpg,300,200,person without helmet,54,4,152,179
+annotations/worker (191).jpg,270,187,helmet,178,41,217,65
+annotations/worker (376).jpg,300,168,person with helmet,142,5,248,168
+annotations/worker (380).jpg,267,189,person with helmet,71,5,219,171
+annotations/person_without_helmet (278).jpg,251,200,person without helmet,165,46,210,149
+annotations/worker (713).jpg,264,191,helmet,164,30,203,67
+annotations/worker (455).jpg,263,192,person with helmet,131,14,201,176
+annotations/worker (770).jpg,298,169,helmet,35,10,71,35
+annotations/worker (558).jpg,299,168,person with helmet,26,2,201,154
+annotations/worker (514).jpg,300,168,person with helmet,59,12,157,167
+annotations/worker (460).jpg,266,189,person with helmet,72,10,192,177
+annotations/worker (166).jpg,345,146,helmet,103,13,139,36
+annotations/worker (319).jpg,300,168,helmet,94,40,152,75
+annotations/worker (801).jpg,301,167,person with helmet,194,4,251,120
+annotations/applauding_113.jpg,400,300,person without helmet,300,103,367,300
+annotations/person_without_helmet (114).jpg,200,207,person without helmet,6,24,160,192
+annotations/worker (842).jpg,275,184,helmet,170,16,194,31
+annotations/worker (873).jpg,270,186,helmet,210,17,243,40
+annotations/worker (807).jpg,284,177,person with helmet,131,13,202,124
+annotations/person_without_helmet (266).jpg,334,200,person without helmet,243,177,309,199
+annotations/worker (845).jpg,235,214,person with helmet,82,17,122,67
+annotations/worker (484).jpg,275,183,person with helmet,173,25,265,182
+annotations/worker (809).jpg,275,183,person with helmet,130,17,199,109
+annotations/worker (198).jpg,266,189,helmet,138,67,160,83
+annotations/worker (733).jpg,276,183,helmet,8,1,166,74
+annotations/worker (640).jpg,262,193,helmet,149,52,171,70
+annotations/worker (519).jpg,300,168,person with helmet,62,2,223,167
+annotations/worker (830).jpg,263,192,helmet,94,3,153,50
+annotations/worker (597).jpg,263,192,person with helmet,3,7,201,175
+annotations/worker (685).jpg,266,189,helmet,189,61,236,107
+annotations/worker (606).jpg,260,194,helmet,202,79,224,93
+annotations/person_without_helmet (65).jpg,200,200,person without helmet,38,11,195,177
+annotations/worker (760).jpg,290,174,person with helmet,203,6,229,61
+annotations/person_without_helmet (163).jpg,200,206,person without helmet,43,41,154,193
+annotations/worker (840).jpg,300,168,person without helmet,184,12,214,168
+annotations/worker (753).jpg,275,184,person with helmet,108,2,184,168
+annotations/worker (431).jpg,275,183,helmet,167,20,226,65
+annotations/person_without_helmet (123).jpg,258,200,person without helmet,123,1,258,148
+annotations/worker (533).jpg,275,183,helmet,72,5,118,37
+annotations/worker (783).jpg,275,183,helmet,107,10,155,43
+annotations/worker (106).jpg,266,189,person with helmet,14,1,100,177
+annotations/worker (644).jpg,298,169,helmet,45,62,73,86
+annotations/applauding_049.jpg,451,300,person without helmet,16,87,87,300
+annotations/applauding_158.jpg,595,400,person without helmet,291,54,334,167
+annotations/worker (124).jpg,266,190,person with helmet,132,48,155,138
+annotations/worker (808).jpg,388,130,helmet,106,37,130,56
+annotations/worker (385).jpg,275,183,helmet,217,35,275,80
+annotations/worker (534).jpg,265,190,helmet,130,9,169,36
+annotations/worker (572).jpg,275,183,person with helmet,192,22,274,182
+annotations/person_without_helmet (93).jpg,200,235,person without helmet,95,17,166,235
+annotations/worker (179).jpg,276,183,person with helmet,118,3,256,183
+annotations/worker (388).jpg,276,183,person with helmet,61,27,195,182
+annotations/person_without_helmet (39).jpg,200,256,person without helmet,39,1,136,222
+annotations/worker (368).jpg,290,174,person with helmet,129,27,171,172
+annotations/worker (747).jpg,275,183,person with helmet,123,1,275,182
+annotations/worker (474).jpg,183,276,person with helmet,42,56,131,275
+annotations/worker (797).jpg,180,280,person with helmet,61,17,114,104
+annotations/worker (133).jpg,275,183,helmet,177,48,197,68
+annotations/worker (528).jpg,180,281,helmet,82,75,103,92
+annotations/worker (709).jpg,275,183,helmet,101,37,136,65
+annotations/worker (185).jpg,260,194,helmet,166,11,222,47
+annotations/worker (756).jpg,251,201,person with helmet,22,19,56,142
+annotations/worker (812).jpg,300,168,person with helmet,114,51,147,91
+annotations/worker (645).jpg,300,168,person with helmet,40,17,156,167
+annotations/worker (55).jpg,318,159,helmet,135,15,165,39
+annotations/worker (125).jpg,183,275,helmet,60,118,92,137
+annotations/worker (555).jpg,275,183,helmet,125,6,203,67
+annotations/applauding_176.jpg,300,376,person without helmet,117,80,254,266
+annotations/worker (554).jpg,265,190,person with helmet,9,1,83,153
+annotations/worker (756).jpg,251,201,helmet,192,25,208,38
+annotations/worker (728).jpg,275,183,person without helmet,86,6,148,180
+annotations/person_without_helmet (54).jpg,200,300,person without helmet,62,9,141,263
+annotations/worker (241).jpg,266,189,person without helmet,104,60,146,189
+annotations/applauding_086.jpg,400,444,person without helmet,241,169,320,310
+annotations/worker (427).jpg,264,191,helmet,143,5,186,42
+annotations/worker (836).jpg,254,198,person with helmet,194,15,254,103
+annotations/worker (15).jpg,225,225,helmet,155,67,196,94
+annotations/worker (735).jpg,299,168,helmet,31,46,52,60
+annotations/worker (703).jpg,275,183,person with helmet,78,16,131,173
+annotations/applauding_012.jpg,400,300,person without helmet,219,19,335,298
+annotations/worker (804).jpg,354,142,person without helmet,316,45,354,113
+annotations/worker (499).jpg,266,189,person with helmet,123,27,224,177
+annotations/person_without_helmet (159).jpg,200,264,person without helmet,68,4,191,260
+annotations/worker (699).jpg,275,183,helmet,219,35,275,77
+annotations/worker (604).jpg,266,189,helmet,86,19,116,42
+annotations/worker (261).jpg,300,168,helmet,154,57,166,66
+annotations/worker (561).jpg,309,163,person with helmet,155,18,202,115
+annotations/worker (806).jpg,275,183,person with helmet,201,27,269,162
+annotations/worker (228).jpg,275,183,helmet,151,4,197,32
+annotations/worker (563).jpg,262,192,person with helmet,156,21,254,150
+annotations/worker (786).jpg,291,173,person with helmet,138,1,267,160
+annotations/worker (176).jpg,250,202,helmet,141,16,204,53
+annotations/person_without_helmet (38).jpg,450,300,person without helmet,121,69,325,259
+annotations/worker (859).jpg,275,183,person with helmet,121,53,152,170
+annotations/worker (181).jpg,194,260,person,81,98,121,191
+annotations/worker (833).jpg,278,181,person without helmet,98,15,121,66
+annotations/worker (742).jpg,275,183,person with helmet,128,35,187,181
+annotations/worker (728).jpg,275,183,person with helmet,161,50,228,183
+annotations/worker (611).jpg,263,192,helmet,136,13,164,36
+annotations/worker (322).jpg,183,276,person with helmet,20,140,78,272
+annotations/worker (780).jpg,300,168,helmet,120,1,178,38
+annotations/worker (391).jpg,183,276,helmet,45,32,74,52
+annotations/worker (47).jpg,266,189,helmet,83,4,138,54
+annotations/worker (840).jpg,300,168,helmet,71,8,94,21
+annotations/worker (606).jpg,260,194,helmet,165,80,210,110
+annotations/worker (54).jpg,232,217,person with helmet,74,40,181,216
+annotations/worker (219).jpg,232,217,helmet,112,29,162,54
+annotations/worker (551).jpg,300,168,helmet,35,25,128,97
+annotations/worker (393).jpg,262,192,helmet,100,23,176,71
+annotations/person_without_helmet (32).jpg,356,200,person without helmet,181,8,240,155
+annotations/worker (16).jpg,263,192,helmet,91,22,118,45
+annotations/person_without_helmet (292).jpg,268,200,person without helmet,28,38,122,147
+annotations/applauding_113.jpg,400,300,person without helmet,198,106,274,300
+annotations/person_without_helmet (66).jpg,200,200,person without helmet,85,14,182,200
+annotations/worker (203).jpg,275,183,person with helmet,180,86,215,176
+annotations/worker (276).jpg,265,190,helmet,100,67,117,81
+annotations/worker (752).jpg,275,183,helmet,189,9,210,25
+annotations/worker (144).jpg,183,275,helmet,35,40,87,79
+annotations/worker (410).jpg,245,205,helmet,154,39,220,98
+annotations/worker (3).jpg,182,276,helmet,32,20,142,92
+annotations/worker (799).jpg,275,183,person with helmet,64,28,137,172
+annotations/applauding_090.jpg,300,448,person without helmet,80,96,190,263
+annotations/applauding_178.jpg,400,960,person without helmet,117,54,318,918
+annotations/worker (541).jpg,265,190,person with helmet,1,25,66,189
+annotations/person_without_helmet (142).jpg,200,202,person without helmet,49,46,176,202
+annotations/worker (275).jpg,275,183,person with helmet,174,4,238,176
+annotations/person_without_helmet (176).jpg,267,200,person with helmet,52,1,169,159
+annotations/worker (456).jpg,275,183,person with helmet,220,39,275,156
+annotations/worker (840).jpg,300,168,person with helmet,40,1,79,166
+annotations/worker (786).jpg,291,173,helmet,148,1,201,45
+annotations/worker (617).jpg,275,183,helmet,57,56,96,89
+annotations/worker (447).jpg,267,189,person,38,31,153,176
+annotations/worker (749).jpg,259,194,helmet,19,10,55,29
+annotations/worker (595).jpg,262,192,helmet,156,22,207,57
+annotations/worker (647).jpg,275,183,helmet,8,20,75,61
+annotations/worker (778).jpg,300,168,person with helmet,15,1,106,167
+annotations/worker (399).jpg,276,183,helmet,152,21,205,58
+annotations/worker (738).jpg,274,184,person with helmet,160,24,271,178
+annotations/worker (266).jpg,251,201,helmet,52,7,125,53
+annotations/worker (796).jpg,300,168,helmet,42,1,178,62
+annotations/worker (772).jpg,252,200,person without helmet,165,27,189,104
+annotations/worker (211).jpg,275,183,helmet,69,12,123,45
+annotations/worker (491).jpg,178,284,person with helmet,72,84,112,199
+annotations/worker (835).jpg,275,183,helmet,121,47,169,84
+annotations/worker (589).jpg,266,189,person with helmet,193,23,233,177
+annotations/worker (592).jpg,266,189,person with helmet,121,4,197,178
+annotations/worker (845).jpg,235,214,person with helmet,160,7,235,213
+annotations/worker (396).jpg,331,152,helmet,78,24,102,48
+annotations/worker (216).jpg,283,178,person with helmet,175,91,234,176
+annotations/worker (195).jpg,186,272,person without helmet,51,31,157,268
+annotations/person_without_helmet (282).jpg,300,386,person without helmet,17,14,113,359
+annotations/worker (793).jpg,257,196,person with helmet,25,57,64,184
+annotations/worker (780).jpg,300,168,person with helmet,100,1,200,129
+annotations/person_without_helmet (235).jpg,313,200,person without helmet,35,66,87,122
+annotations/worker (51).jpg,275,183,person with helmet,111,9,195,179
+annotations/worker (827).jpg,284,177,helmet,228,97,237,104
+annotations/worker (827).jpg,284,177,person with helmet,224,97,240,123
+annotations/worker (400).jpg,267,189,person with helmet,94,1,259,177
+annotations/worker (492).jpg,265,190,helmet,194,25,224,49
+annotations/worker (334).jpg,259,195,helmet,120,26,237,160
+annotations/worker (177).jpg,279,181,helmet,1,2,170,63
+annotations/person_without_helmet (36).jpg,300,354,person without helmet,23,80,112,289
+annotations/applauding_057.jpg,534,400,person without helmet,97,116,353,394
+annotations/person_without_helmet (205).jpg,200,300,person without helmet,27,7,169,300
+annotations/worker (291).jpg,255,197,helmet,155,4,209,38
+annotations/worker (712).jpg,284,178,person with helmet,225,63,265,172
+annotations/worker (753).jpg,275,184,helmet,171,15,194,30
+annotations/worker (318).jpg,259,194,person with helmet,153,1,224,183
+annotations/worker (846).jpg,276,183,person with helmet,100,1,154,105
+annotations/worker (425).jpg,275,183,helmet,75,31,105,52
+annotations/worker (602).jpg,275,183,helmet,123,1,174,37
+annotations/worker (735).jpg,299,168,person with helmet,182,25,224,142
+annotations/worker (270).jpg,266,189,person with helmet,212,66,266,121
+annotations/worker (181).jpg,194,260,helmet,88,167,112,186
+annotations/worker (861).jpg,275,183,helmet,150,1,233,44
+annotations/worker (756).jpg,251,201,helmet,219,28,236,40
+annotations/worker (791).jpg,330,153,person with helmet,22,20,57,58
+annotations/worker (181).jpg,194,260,person,127,161,163,231
+annotations/worker (788).jpg,266,190,helmet,114,25,135,39
+annotations/worker (827).jpg,284,177,helmet,161,73,179,83
+annotations/worker (218).jpg,288,175,helmet,92,5,153,44
+annotations/worker (735).jpg,299,168,helmet,50,41,72,57
+annotations/worker (859).jpg,275,183,person with helmet,84,55,119,173
+annotations/worker (187).jpg,299,168,helmet,101,15,144,46
+annotations/worker (694).jpg,273,185,person with helmet,142,36,192,112
+annotations/worker (515).jpg,262,193,helmet,180,10,200,24
+annotations/worker (340).jpg,309,163,person,3,3,235,162
+annotations/person_without_helmet (83).jpg,200,200,person without helmet,3,25,101,166
+annotations/person_without_helmet (173).jpg,401,300,person without helmet,180,95,260,255
+annotations/person_without_helmet (232).jpg,226,200,person without helmet,1,6,77,140
+annotations/person_without_helmet (6).jpg,259,200,person without helmet,11,64,79,199
+annotations/worker (462).jpg,264,191,person with helmet,131,1,261,176
+annotations/worker (760).jpg,290,174,helmet,120,13,138,25
+annotations/person_without_helmet (3).jpg,200,283,person without helmet,37,8,162,283
+annotations/worker (841).jpg,290,174,person with helmet,213,18,290,169
+annotations/worker (197).jpg,300,168,person with helmet,93,25,141,162
+annotations/worker (789).jpg,325,155,helmet,182,20,207,34
+annotations/worker (712).jpg,284,178,helmet,3,2,144,80
+annotations/worker (151).jpg,266,190,helmet,151,72,166,81
+annotations/worker (181).jpg,194,260,helmet,92,102,112,118
+annotations/worker (452).jpg,259,194,helmet,85,17,135,46
+annotations/worker (186).jpg,265,190,helmet,174,22,215,43
+annotations/applauding_132.jpg,448,300,person without helmet,2,63,81,293
+annotations/worker (253).jpg,275,183,person with helmet,102,56,162,182
+annotations/worker (789).jpg,325,155,person with helmet,173,18,220,107
+annotations/worker (594).jpg,266,189,helmet,138,19,240,132
+annotations/worker (196).jpg,225,225,person with helmet,24,1,218,223
+annotations/worker (17).jpg,275,183,helmet,169,29,216,66
+annotations/worker (744).jpg,192,262,person with helmet,50,2,152,258
+annotations/worker (855).jpg,156,235,person with helmet,20,8,128,209
+annotations/worker (806).jpg,275,183,helmet,115,32,155,54
+annotations/worker (24).jpg,248,203,person with helmet,61,35,222,186
+annotations/worker (131).jpg,275,183,helmet,215,1,275,27
+annotations/worker (748).jpg,135,180,helmet,3,1,113,56
+annotations/worker (782).jpg,300,168,person with helmet,83,16,148,133
+annotations/applauding_082.jpg,451,300,person without helmet,97,105,148,215
+annotations/worker (792).jpg,300,168,helmet,8,1,85,24
+annotations/worker (850).jpg,275,183,person with helmet,51,50,112,123
+annotations/worker (773).jpg,246,205,helmet,126,17,150,37
+annotations/worker (683).jpg,275,183,helmet,107,36,154,72
+annotations/worker (319).jpg,300,168,person with helmet,86,40,157,165
+annotations/applauding_120.jpg,300,451,person without helmet,49,12,189,450
+annotations/worker (848).jpg,275,183,person with helmet,193,65,250,183
+annotations/person_without_helmet (211).jpg,200,210,person without helmet,34,9,176,186
+annotations/worker (825).jpg,291,173,helmet,102,21,168,58
+annotations/worker (602).jpg,275,183,person with helmet,109,2,224,170
+annotations/worker (532).jpg,225,225,person with helmet,45,54,102,221
+annotations/worker (833).jpg,278,181,person with helmet,40,13,67,177
+annotations/worker (817).jpg,274,184,helmet,46,24,92,54
+annotations/person_without_helmet (248).jpg,302,200,person without helmet,76,5,246,196
+annotations/worker (260).jpg,275,183,helmet,110,1,274,63
+annotations/worker (465).jpg,275,183,person with helmet,16,50,106,182
+annotations/worker (863).jpg,275,183,person with helmet,61,50,96,167
+annotations/worker (759).jpg,275,184,person with helmet,25,41,90,171
+annotations/worker (410).jpg,245,205,person with helmet,76,39,225,188
+annotations/worker (214).jpg,250,202,helmet,115,12,196,66
+annotations/worker (859).jpg,275,183,helmet,163,49,181,61
+annotations/worker (122).jpg,263,192,helmet,47,3,97,41
+annotations/worker (395).jpg,193,262,helmet,43,17,113,62
+annotations/person_without_helmet (240).jpg,314,200,person without helmet,100,2,229,147
+annotations/worker (550).jpg,307,164,helmet,151,35,189,58
+annotations/worker (728).jpg,275,183,person without helmet,1,1,32,183
+annotations/worker (191).jpg,270,187,person with helmet,210,27,252,91
+annotations/applauding_028.jpg,300,410,person without helmet,43,48,294,398
+annotations/worker (489).jpg,266,189,helmet,169,15,209,43
+annotations/worker (112).jpg,259,194,helmet,29,20,74,46
+annotations/worker (753).jpg,275,184,person with helmet,167,11,203,74
+annotations/worker (863).jpg,275,183,person with helmet,143,54,179,170
+annotations/applauding_122.jpg,420,300,person without helmet,278,79,413,294
+annotations/worker (791).jpg,330,153,person with helmet,202,48,277,153
+annotations/worker (83).jpg,266,190,person with helmet,137,23,242,178
+annotations/worker (835).jpg,275,183,person with helmet,212,41,275,174
+annotations/worker (301).jpg,275,183,helmet,175,12,234,60
+annotations/worker (507).jpg,225,225,person with helmet,37,13,155,166
+annotations/worker (62).jpg,177,285,helmet,10,1,170,84
+annotations/worker (760).jpg,290,174,person without helmet,38,20,65,117
+annotations/worker (756).jpg,251,201,person with helmet,50,25,68,73
+annotations/worker (580).jpg,262,192,helmet,51,29,115,81
+annotations/worker (716).jpg,269,187,helmet,119,46,169,88
+annotations/worker (621).jpg,180,281,helmet,82,74,103,92
+annotations/worker (816).jpg,275,183,person with helmet,117,15,192,90
+annotations/worker (775).jpg,217,232,helmet,80,112,96,124
+annotations/person_without_helmet (35).jpg,200,298,person without helmet,51,5,191,298
+annotations/worker (387).jpg,194,259,helmet,47,12,157,84
+annotations/worker (750).jpg,275,183,helmet,72,4,119,38
+annotations/worker (882).jpg,89,218,person with helmet,16,1,82,210
+annotations/person_without_helmet (52).jpg,200,300,person without helmet,48,23,150,227
+annotations/worker (113).jpg,314,160,helmet,133,1,276,88
+annotations/worker (247).jpg,275,183,helmet,38,28,55,39
+annotations/worker (80).jpg,259,194,helmet,48,14,96,50
+annotations/worker (74).jpg,183,275,person with helmet,47,5,132,271
+annotations/worker (227).jpg,258,195,person with helmet,131,1,236,175
+annotations/worker (399).jpg,276,183,person with helmet,129,20,210,182
+annotations/worker (133).jpg,275,183,helmet,29,5,85,43
+annotations/worker (735).jpg,299,168,person with helmet,14,45,65,163
+annotations/worker (800).jpg,275,183,helmet,52,50,73,75
+annotations/worker (706).jpg,288,175,person with helmet,141,1,199,103
+annotations/worker (646).jpg,273,184,helmet,138,1,211,54
+annotations/worker (770).jpg,298,169,person with helmet,160,26,192,77
+annotations/worker (781).jpg,275,183,person with helmet,163,25,234,176
+annotations/worker (676).jpg,273,184,helmet,77,77,133,138
+annotations/worker (709).jpg,275,183,helmet,49,29,95,60
+annotations/worker (773).jpg,246,205,person with helmet,30,14,73,184
+annotations/worker (216).jpg,283,178,helmet,189,96,215,112
+annotations/person_without_helmet (186).jpg,200,250,person without helmet,91,5,166,227
+annotations/worker (650).jpg,262,192,person with helmet,135,8,250,163
+annotations/worker (331).jpg,266,189,helmet,29,53,62,82
+annotations/worker (679).jpg,183,275,helmet,94,31,147,79
+annotations/worker (269).jpg,311,162,person with helmet,120,1,282,162
+annotations/applauding_094.jpg,535,400,person without helmet,238,2,482,400
+annotations/worker (771).jpg,207,243,person with helmet,11,11,43,124
+annotations/worker (198).jpg,266,189,helmet,94,73,116,94
+annotations/worker (752).jpg,275,183,helmet,232,17,256,32
+annotations/applauding_097.jpg,451,300,person without helmet,91,94,237,274
+annotations/worker (190).jpg,266,189,helmet,114,23,152,47
+annotations/worker (611).jpg,263,192,helmet,183,14,216,38
+annotations/worker (324).jpg,260,194,person with helmet,46,7,187,193
+annotations/worker (392).jpg,183,276,person with helmet,1,23,167,275
+annotations/person_without_helmet (117).jpg,200,229,person without helmet,1,1,167,173
+annotations/worker (375).jpg,225,225,person with helmet,3,5,145,211
+annotations/applauding_153.jpg,200,318,person without helmet,29,1,200,262
+annotations/worker (207).jpg,275,183,person with helmet,160,2,275,166
+annotations/worker (136).jpg,266,189,helmet,45,45,91,71
+annotations/worker (703).jpg,275,183,helmet,241,33,258,48
+annotations/worker (90).jpg,288,175,person with helmet,53,8,158,162
+annotations/worker (796).jpg,300,168,helmet,158,40,263,99
+annotations/worker (721).jpg,300,168,person with helmet,151,10,210,165
+annotations/person_without_helmet (264).jpg,395,200,person without helmet,85,10,216,196
+annotations/worker (271).jpg,183,275,person with helmet,46,75,152,274
+annotations/worker (781).jpg,275,183,person with helmet,91,10,166,133
+annotations/worker (604).jpg,266,189,person with helmet,11,28,75,177
+annotations/worker (181).jpg,194,260,helmet,112,63,133,81
+annotations/worker (543).jpg,266,189,person with helmet,14,12,103,176
+annotations/worker (649).jpg,262,192,helmet,115,6,219,80
+annotations/worker (635).jpg,275,183,person with helmet,148,55,193,171
+annotations/worker (602).jpg,275,183,person with helmet,65,30,125,102
+annotations/worker (768).jpg,275,183,helmet,173,6,233,49
+annotations/worker (445).jpg,238,212,person with helmet,58,12,172,210
+annotations/worker (396).jpg,331,152,person with helmet,64,23,121,151
+annotations/worker (16).jpg,263,192,helmet,37,19,73,47
+annotations/worker (542).jpg,265,190,person with helmet,137,3,265,189
+annotations/worker (416).jpg,266,189,person with helmet,10,15,147,179
+annotations/applauding_086.jpg,400,444,person without helmet,322,170,386,313
+annotations/worker (723).jpg,275,183,person with helmet,169,12,266,182
+annotations/person_without_helmet (182).jpg,400,300,person without helmet,187,129,210,166
+annotations/worker (181).jpg,194,260,person,152,166,184,235
+annotations/person_without_helmet (127).jpg,224,200,person without helmet,83,52,222,199
+annotations/worker (773).jpg,246,205,person with helmet,195,11,235,184
+annotations/worker (136).jpg,266,189,person with helmet,34,44,107,177
+annotations/worker (609).jpg,275,183,helmet,173,31,226,72
+annotations/worker (758).jpg,299,168,helmet,120,1,187,47
+annotations/worker (795).jpg,275,183,helmet,42,5,107,47
+annotations/worker (16).jpg,263,192,person with helmet,122,15,169,120
+annotations/worker (290).jpg,300,168,helmet,91,1,263,42
+annotations/worker (122).jpg,263,192,person with helmet,19,1,124,176
+annotations/worker (159).jpg,299,168,helmet,58,1,156,26
+annotations/worker (444).jpg,183,275,person with helmet,84,70,133,191
+annotations/applauding_030.jpg,400,300,person without helmet,27,37,173,300
+annotations/worker (618).jpg,300,168,person with helmet,48,1,194,167
+annotations/worker (822).jpg,262,192,helmet,109,27,147,51
+annotations/worker (175).jpg,249,202,helmet,160,37,223,96
+annotations/worker (247).jpg,275,183,helmet,180,42,200,54
+annotations/worker (534).jpg,265,190,person with helmet,36,4,91,66
+annotations/person_without_helmet (4).jpg,268,200,person without helmet,58,7,162,200
+annotations/worker (601).jpg,255,198,person with helmet,184,45,219,144
+annotations/worker (772).jpg,252,200,person without helmet,61,29,85,108
+annotations/worker (841).jpg,290,174,helmet,13,18,56,46
+annotations/worker (818).jpg,275,183,person with helmet,252,28,275,74
+annotations/worker (833).jpg,278,181,person without helmet,240,25,268,167
+annotations/worker (226).jpg,274,184,helmet,116,7,151,33
+annotations/worker (728).jpg,275,183,helmet,159,49,215,79
+annotations/worker (423).jpg,275,183,person,65,5,270,149
+annotations/worker (221).jpg,276,183,helmet,130,65,147,76
+annotations/worker (331).jpg,266,189,person with helmet,119,27,178,176
+annotations/worker (451).jpg,183,276,helmet,56,73,148,136
+annotations/worker (755).jpg,229,220,person with helmet,101,9,207,208
+annotations/worker (703).jpg,275,183,person with helmet,157,19,200,115
+annotations/worker (264).jpg,300,168,helmet,179,4,205,25
+annotations/worker (328).jpg,300,168,helmet,139,2,158,17
+annotations/person_without_helmet (261).jpg,307,200,person without helmet,18,44,91,164
+annotations/worker (878).jpg,355,142,person with helmet,223,1,318,142
+annotations/worker (205).jpg,266,189,helmet,136,22,189,56
+annotations/person_without_helmet (187).jpg,200,306,person without helmet,66,31,130,259
+annotations/person_without_helmet (296).jpg,269,200,person without helmet,13,36,69,100
+annotations/worker (683).jpg,275,183,person with helmet,86,36,155,112
+annotations/worker (16).jpg,263,192,person with helmet,76,22,120,126
+annotations/worker (424).jpg,263,192,person with helmet,1,7,97,172
+annotations/applauding_121.jpg,280,200,person without helmet,14,5,138,182
+annotations/worker (814).jpg,275,183,person with helmet,133,48,175,164
+annotations/worker (144).jpg,183,275,person with helmet,9,39,105,271
+annotations/worker (91).jpg,266,190,person with helmet,157,103,222,179
+annotations/applauding_096.jpg,300,402,person without helmet,49,46,300,392
+annotations/worker (511).jpg,262,192,helmet,145,10,210,62
+annotations/applauding_054.jpg,200,300,person without helmet,1,30,199,245
+annotations/person_without_helmet (166).jpg,200,267,person without helmet,62,1,171,110
+annotations/worker (496).jpg,283,178,helmet,83,82,111,103
+annotations/worker (690).jpg,275,183,person with helmet,97,33,179,179
+annotations/person_without_helmet (234).jpg,301,200,person without helmet,14,1,127,147
+annotations/worker (632).jpg,219,230,helmet,87,27,119,54
+annotations/person_without_helmet (132).jpg,208,200,person without helmet,68,12,135,179
+annotations/worker (543).jpg,266,189,helmet,30,11,69,38
+annotations/worker (61).jpg,262,193,person with helmet,18,59,133,175
+annotations/worker (76).jpg,259,194,helmet,168,15,213,42
+annotations/worker (715).jpg,275,183,person with helmet,124,30,199,180
+annotations/worker (720).jpg,266,190,helmet,131,17,149,29
+annotations/worker (696).jpg,275,183,helmet,66,29,109,57
+annotations/worker (16).jpg,263,192,helmet,136,15,161,34
+annotations/worker (295).jpg,267,189,person with helmet,136,10,229,185
+annotations/worker (313).jpg,299,168,person with helmet,138,22,225,167
+annotations/applauding_018.jpg,400,300,person without helmet,205,16,347,300
+annotations/worker (289).jpg,276,183,person,129,42,158,137
+annotations/worker (612).jpg,259,195,helmet,126,40,181,79
+annotations/person_without_helmet (191).jpg,302,201,person without helmet,28,6,122,197
+annotations/worker (441).jpg,275,183,person with helmet,128,6,234,181
+annotations/worker (335).jpg,277,182,helmet,82,1,148,49
+annotations/worker (194).jpg,275,183,person with helmet,183,78,231,177
+annotations/worker (616).jpg,183,275,person with helmet,1,32,88,136
+annotations/applauding_072.jpg,534,400,person without helmet,97,83,265,400
+annotations/worker (806).jpg,275,183,person with helmet,26,24,119,166
+annotations/person_without_helmet (224).jpg,200,220,person without helmet,132,71,186,217
+annotations/person_without_helmet (144).jpg,200,233,person without helmet,90,45,158,218
+annotations/worker (884).jpg,275,183,person with helmet,13,1,143,165
+annotations/worker (405).jpg,300,168,person with helmet,110,8,247,166
+annotations/worker (586).jpg,231,219,helmet,106,42,172,87
+annotations/worker (600).jpg,275,183,person with helmet,167,20,256,182
+annotations/worker (865).jpg,275,183,helmet,181,51,248,94
+annotations/person_without_helmet (296).jpg,269,200,person without helmet,136,14,257,191
+annotations/worker (191).jpg,270,187,person with helmet,27,45,106,186
+annotations/worker (547).jpg,276,183,helmet,40,6,105,51
+annotations/worker (821).jpg,300,168,helmet,44,1,120,55
+annotations/worker (648).jpg,259,194,helmet,188,29,212,49
+annotations/applauding_114.jpg,300,461,person without helmet,1,1,170,304
+annotations/person_without_helmet (243).jpg,267,200,person without helmet,156,89,187,122
+annotations/worker (501).jpg,262,193,person with helmet,24,30,97,165
+annotations/worker (816).jpg,275,183,helmet,76,32,121,78
+annotations/worker (492).jpg,265,190,person with helmet,184,25,235,175
+annotations/worker (247).jpg,275,183,person with helmet,126,44,162,151
+annotations/worker (230).jpg,275,183,person with helmet,97,33,161,182
+annotations/worker (637).jpg,275,183,person with helmet,82,32,183,181
+annotations/worker (403).jpg,266,189,helmet,135,6,185,48
+annotations/person_without_helmet (230).jpg,267,200,person without helmet,27,1,146,144
+annotations/applauding_083.jpg,835,600,person without helmet,546,56,748,419
+annotations/worker (371).jpg,275,183,person with helmet,133,57,166,160
+annotations/person_without_helmet (111).jpg,251,200,person without helmet,16,11,173,167
+annotations/worker (518).jpg,317,159,person with helmet,98,46,149,158
+annotations/worker (767).jpg,257,196,person with helmet,202,18,243,189
+annotations/worker (268).jpg,261,193,person with helmet,118,23,213,193
+annotations/worker (217).jpg,274,184,helmet,173,75,194,94
+annotations/worker (70).jpg,188,268,person with helmet,98,37,157,225
+annotations/worker (839).jpg,245,205,person without helmet,144,21,160,53
+annotations/worker (375).jpg,225,225,helmet,61,6,130,60
+annotations/worker (118).jpg,262,192,person with helmet,108,40,191,174
+annotations/worker (563).jpg,262,192,person with helmet,95,29,162,129
+annotations/worker (580).jpg,262,192,person with helmet,111,12,185,115
+annotations/worker (534).jpg,265,190,person with helmet,180,4,265,188
+annotations/worker (442).jpg,267,189,person with helmet,40,18,158,176
+annotations/worker (755).jpg,229,220,person with helmet,39,24,110,209
+annotations/worker (675).jpg,266,190,helmet,137,16,173,39
+annotations/worker (379).jpg,261,193,helmet,51,1,106,44
+annotations/person_without_helmet (231).jpg,200,200,person without helmet,132,16,194,96
+annotations/applauding_008.jpg,450,300,person without helmet,211,28,314,232
+annotations/worker (129).jpg,265,190,person with helmet,104,80,173,177
+annotations/worker (645).jpg,300,168,helmet,66,17,134,61
+annotations/applauding_002.jpg,421,300,person without helmet,205,16,420,277
+annotations/worker (493).jpg,276,183,person with helmet,75,17,200,182
+annotations/worker (863).jpg,275,183,helmet,142,56,160,66
+annotations/worker (646).jpg,273,184,person with helmet,1,5,142,183
+annotations/worker (130).jpg,259,195,person with helmet,140,1,259,193
+annotations/worker (705).jpg,265,190,person with helmet,28,17,99,174
+annotations/worker (164).jpg,267,189,helmet,142,39,184,58
+annotations/worker (687).jpg,276,182,helmet,120,83,175,124
+annotations/worker (764).jpg,299,168,person with helmet,186,14,228,154
+annotations/worker (65).jpg,262,192,helmet,54,9,121,57
+annotations/applauding_132.jpg,448,300,person without helmet,197,73,304,300
+annotations/worker (760).jpg,290,174,helmet,232,9,253,23
+annotations/worker (689).jpg,183,275,person with helmet,15,79,91,268
+annotations/worker (632).jpg,219,230,person with helmet,78,27,116,230
+annotations/worker (533).jpg,275,183,person with helmet,40,5,163,182
+annotations/worker (761).jpg,290,174,person with helmet,238,11,282,154
+annotations/person_without_helmet (275).jpg,200,200,person without helmet,10,28,88,200
+annotations/worker (89).jpg,275,183,helmet,161,1,273,90
+annotations/worker (95).jpg,240,160,helmet,147,10,191,43
+annotations/worker (215).jpg,266,189,helmet,77,14,129,42
+annotations/worker (63).jpg,300,168,person with helmet,83,12,237,167
+annotations/worker (612).jpg,259,195,person with helmet,17,36,131,136
+annotations/worker (800).jpg,275,183,helmet,230,41,263,64
+annotations/worker (439).jpg,300,168,person with helmet,166,85,255,167
+annotations/worker (636).jpg,274,184,person with helmet,90,75,113,149
+annotations/worker (757).jpg,245,206,person with helmet,210,44,242,170
+annotations/worker (567).jpg,263,192,person with helmet,70,25,139,119
+annotations/worker (697).jpg,177,284,helmet,108,78,149,103
+annotations/person_without_helmet (276).jpg,267,200,person without helmet,38,52,107,194
+annotations/worker (320).jpg,177,285,person with helmet,43,8,129,257
+annotations/worker (503).jpg,275,183,helmet,98,22,145,51
+annotations/worker (832).jpg,371,136,person with helmet,222,2,316,128
+annotations/person_without_helmet (103).jpg,200,300,person without helmet,54,110,115,265
+annotations/worker (727).jpg,275,183,helmet,135,10,174,42
+annotations/worker (807).jpg,284,177,helmet,187,7,241,44
+annotations/worker (24).jpg,248,203,helmet,73,36,155,80
+annotations/worker (713).jpg,264,191,person with helmet,83,9,149,86
+annotations/worker (561).jpg,309,163,person with helmet,45,1,188,123
+annotations/worker (688).jpg,264,191,helmet,57,46,94,72
+annotations/worker (698).jpg,275,183,helmet,4,15,126,88
+annotations/worker (831).jpg,260,194,helmet,90,63,126,95
+annotations/worker (559).jpg,299,168,person with helmet,202,13,257,143
+annotations/worker (735).jpg,299,168,helmet,244,15,270,33
+annotations/worker (760).jpg,290,174,person with helmet,120,14,150,62
+annotations/applauding_085.jpg,300,451,person without helmet,115,76,195,335
+annotations/worker (584).jpg,300,168,helmet,164,10,218,66
+annotations/worker (835).jpg,275,183,helmet,217,41,260,72
+annotations/worker (629).jpg,214,236,person with helmet,2,11,159,236
+annotations/worker (634).jpg,266,189,helmet,19,12,80,65
+annotations/worker (10).jpg,262,192,person with helmet,73,32,158,175
+annotations/worker (73).jpg,262,192,person with helmet,91,22,134,81
+annotations/worker (861).jpg,275,183,person with helmet,235,2,275,121
+annotations/worker (767).jpg,257,196,helmet,210,18,234,33
+annotations/worker (871).jpg,220,229,helmet,102,73,131,90
+annotations/worker (760).jpg,290,174,person with helmet,231,9,264,111
+annotations/person_without_helmet (217).jpg,204,200,person without helmet,41,51,143,172
+annotations/worker (799).jpg,275,183,helmet,26,47,58,66
+annotations/worker (534).jpg,265,190,helmet,8,26,46,49
+annotations/worker (188).jpg,265,190,person with helmet,133,56,188,173
+annotations/worker (35).jpg,266,189,person with helmet,1,13,104,188
+annotations/worker (241).jpg,266,189,person with helmet,15,57,66,181
+annotations/applauding_151.jpg,400,471,person without helmet,242,84,364,468
+annotations/worker (130).jpg,259,195,person with helmet,1,28,90,193
+annotations/worker (635).jpg,275,183,helmet,157,54,178,73
+annotations/worker (617).jpg,275,183,person with helmet,74,31,189,179
+annotations/applauding_158.jpg,595,400,person without helmet,363,43,407,207
+annotations/worker (385).jpg,275,183,person with helmet,176,1,251,176
+annotations/worker (804).jpg,354,142,person with helmet,9,44,55,122
+annotations/worker (19).jpg,182,276,person with helmet,15,14,156,257
+annotations/worker (45).jpg,300,168,person,168,7,259,167
+annotations/worker (58).jpg,261,193,person with helmet,3,37,88,176
+annotations/worker (684).jpg,275,183,helmet,82,1,121,24
+annotations/person_without_helmet (235).jpg,313,200,person without helmet,237,55,267,93
+annotations/worker (565).jpg,300,168,person with helmet,129,38,241,166
+annotations/worker (608).jpg,179,282,person with helmet,25,18,154,270
+annotations/worker (302).jpg,275,183,person with helmet,51,4,146,173
+annotations/worker (339).jpg,225,225,helmet,17,13,202,125
+annotations/worker (376).jpg,300,168,helmet,141,5,220,55
+annotations/applauding_089.jpg,600,400,person without helmet,190,65,473,320
+annotations/worker (323).jpg,266,190,helmet,76,28,260,151
+annotations/worker (863).jpg,275,183,person with helmet,30,46,63,165
+annotations/worker (872).jpg,275,183,helmet,119,38,140,55
+annotations/worker (606).jpg,260,194,helmet,113,77,138,95
+annotations/worker (369).jpg,266,189,person with helmet,38,9,151,175
+annotations/worker (540).jpg,262,192,person with helmet,168,6,251,155
+annotations/worker (598).jpg,266,190,helmet,15,83,29,95
+annotations/worker (753).jpg,275,184,helmet,26,12,58,38
+annotations/worker (823).jpg,438,115,person with helmet,173,5,250,103
+annotations/worker (805).jpg,266,189,helmet,147,27,214,65
+annotations/worker (32).jpg,262,193,person with helmet,128,43,191,174
+annotations/worker (430).jpg,275,183,person with helmet,40,21,143,178
+annotations/worker (81).jpg,243,207,person with helmet,83,46,166,196
+annotations/person_without_helmet (212).jpg,200,255,person without helmet,27,82,115,247
+annotations/person_without_helmet (46).jpg,200,224,person without helmet,57,47,132,221
+annotations/worker (432).jpg,275,183,person with helmet,187,32,255,182
+annotations/worker (762).jpg,203,248,person with helmet,84,10,127,217
+annotations/worker (75).jpg,275,183,person with helmet,103,32,190,180
+annotations/applauding_044.jpg,440,300,person without helmet,273,8,418,300
+annotations/worker (6).jpg,262,193,helmet,152,14,194,43
+annotations/worker (606).jpg,260,194,person with helmet,1,29,20,57
+annotations/worker (264).jpg,300,168,helmet,107,14,131,31
+annotations/worker (864).jpg,189,267,person with helmet,101,142,162,255
+annotations/worker (483).jpg,252,194,helmet,20,11,99,59
+annotations/worker (860).jpg,183,276,helmet,112,25,175,74
+annotations/worker (212).jpg,275,183,person with helmet,166,12,240,182
+annotations/person_without_helmet (280).jpg,200,233,person without helmet,12,22,104,221
+annotations/applauding_037.jpg,300,400,person without helmet,207,33,295,375
+annotations/worker (859).jpg,275,183,person with helmet,149,45,165,89
+annotations/worker (752).jpg,275,183,person with helmet,12,16,56,180
+annotations/worker (753).jpg,275,184,person with helmet,19,12,78,154
+annotations/worker (249).jpg,266,190,helmet,199,95,235,120
+annotations/person_without_helmet (49).jpg,200,305,person without helmet,104,36,178,251
+annotations/worker (234).jpg,275,183,person with helmet,81,62,165,177
+annotations/worker (827).jpg,284,177,person with helmet,157,73,181,95
+annotations/worker (838).jpg,310,163,helmet,100,27,139,56
+annotations/worker (8).jpg,263,192,helmet,147,6,182,37
+annotations/worker (215).jpg,266,189,person with helmet,12,16,86,177
+annotations/worker (847).jpg,275,183,helmet,41,27,93,59
+annotations/worker (556).jpg,300,168,helmet,49,5,85,30
+annotations/worker (299).jpg,262,193,person with helmet,61,1,235,174
+annotations/person_without_helmet (58).jpg,217,200,person without helmet,43,1,137,200
+annotations/worker (760).jpg,290,174,person without helmet,95,18,121,89
+annotations/worker (773).jpg,246,205,helmet,152,6,178,23
+annotations/worker (690).jpg,275,183,helmet,124,33,161,59
+annotations/person_without_helmet (237).jpg,261,200,person without helmet,179,119,251,198
+annotations/worker (229).jpg,183,275,person with helmet,1,50,177,272
+annotations/worker (258).jpg,275,183,helmet,108,6,147,30
+annotations/worker (888).jpg,347,145,helmet,29,6,152,80
+annotations/worker (702).jpg,275,183,helmet,35,1,177,88
+annotations/worker (746).jpg,290,174,person with helmet,113,1,277,170
+annotations/worker (213).jpg,183,275,person with helmet,11,17,178,275
+annotations/worker (518).jpg,317,159,person with helmet,230,50,279,158
+annotations/worker (647).jpg,275,183,helmet,88,6,142,46
+annotations/worker (794).jpg,275,183,person with helmet,107,24,147,111
+annotations/applauding_158.jpg,595,400,person without helmet,252,55,277,141
+annotations/worker (40).jpg,262,193,person with helmet,28,30,106,165
+annotations/applauding_097.jpg,451,300,person without helmet,255,100,401,249
+annotations/applauding_086.jpg,400,444,person without helmet,130,119,201,417
+annotations/person_without_helmet (271).jpg,200,387,person without helmet,98,98,200,376
+annotations/worker (61).jpg,262,193,helmet,87,59,124,99
+annotations/worker (775).jpg,217,232,person with helmet,69,110,111,213
+annotations/worker (118).jpg,262,192,helmet,128,40,165,66
+annotations/worker (607).jpg,275,183,helmet,133,78,198,132
+annotations/worker (715).jpg,275,183,person with helmet,60,46,129,178
+annotations/worker (369).jpg,266,189,person with helmet,169,67,217,166
+annotations/applauding_158.jpg,595,400,person without helmet,470,23,547,244
+annotations/worker (72).jpg,252,200,helmet,122,18,181,70
+annotations/worker (850).jpg,275,183,helmet,86,50,112,79
+annotations/worker (839).jpg,245,205,person without helmet,25,29,61,179
+annotations/worker (191).jpg,270,187,helmet,147,30,177,51
+annotations/worker (601).jpg,255,198,helmet,188,45,202,58
+annotations/worker (789).jpg,325,155,person with helmet,113,20,189,146
+annotations/worker (238).jpg,266,189,person with helmet,148,20,227,161
+annotations/worker (840).jpg,300,168,helmet,48,1,70,15
+annotations/worker (756).jpg,251,201,person with helmet,87,22,109,70
+annotations/applauding_172.jpg,400,300,person without helmet,4,67,28,118
+annotations/worker (865).jpg,275,183,helmet,120,42,175,78
+annotations/worker (638).jpg,275,183,person with helmet,167,77,227,127
+annotations/applauding_038.jpg,488,400,person without helmet,45,30,466,400
+annotations/applauding_104.jpg,600,801,person without helmet,34,36,560,801
+annotations/worker (633).jpg,300,168,helmet,97,21,202,118
+annotations/person_without_helmet (109).jpg,268,200,person without helmet,41,22,149,137
+annotations/worker (818).jpg,275,183,helmet,97,21,143,53
+annotations/worker (364).jpg,299,168,person,138,21,206,111
+annotations/person_without_helmet (88).jpg,200,268,person without helmet,17,27,113,251
+annotations/person_without_helmet (73).jpg,201,200,person without helmet,56,114,96,181
+annotations/applauding_106.jpg,600,400,person without helmet,105,225,280,400
+annotations/applauding_117.jpg,300,450,person without helmet,47,84,238,388
+annotations/worker (472).jpg,252,200,person with helmet,31,13,109,188
+annotations/worker (454).jpg,266,189,helmet,119,1,192,51
+annotations/worker (522).jpg,275,183,person with helmet,59,34,132,182
+annotations/worker (724).jpg,259,194,person with helmet,180,45,248,120
+annotations/applauding_158.jpg,595,400,person without helmet,16,12,150,393
+annotations/worker (679).jpg,183,275,helmet,50,65,92,104
+annotations/worker (446).jpg,275,183,helmet,113,27,160,59
+annotations/worker (213).jpg,183,275,helmet,31,19,144,96
+annotations/worker (583).jpg,262,192,helmet,120,15,160,45
+annotations/worker (394).jpg,179,281,person with helmet,53,24,145,270
+annotations/worker (229).jpg,183,275,helmet,20,49,122,144
+annotations/applauding_097.jpg,451,300,person without helmet,1,93,88,250
+annotations/applauding_014.jpg,449,300,person without helmet,324,52,440,299
+annotations/worker (606).jpg,260,194,helmet,151,74,175,92
+annotations/worker (763).jpg,281,179,person with helmet,20,22,130,131
+annotations/worker (317).jpg,266,189,person with helmet,9,40,93,189
+annotations/worker (800).jpg,275,183,helmet,104,49,122,63
+annotations/worker (804).jpg,354,142,helmet,234,35,270,61
+annotations/worker (14).jpg,265,190,person with helmet,195,7,262,147
+annotations/worker (595).jpg,262,192,person with helmet,36,35,131,174
+annotations/worker (389).jpg,267,189,person with helmet,26,39,89,148
+annotations/worker (576).jpg,262,192,helmet,133,21,202,56
+annotations/person_without_helmet (138).jpg,200,215,person without helmet,12,2,184,214
+annotations/worker (477).jpg,275,183,person with helmet,130,69,162,160
+annotations/applauding_039.jpg,300,451,person without helmet,76,18,226,388
+annotations/worker (698).jpg,275,183,helmet,141,16,253,99
+annotations/worker (350).jpg,225,225,person with helmet,60,118,158,224
+annotations/worker (103).jpg,275,183,person with helmet,163,1,273,166
+annotations/worker (630).jpg,266,189,person with helmet,54,78,107,170
+annotations/worker (363).jpg,352,143,person with helmet,229,16,341,142
+annotations/worker (884).jpg,275,183,helmet,42,1,112,38
+annotations/person_without_helmet (257).jpg,200,200,person without helmet,133,46,200,182
+annotations/worker (83).jpg,266,190,helmet,152,23,208,73
+annotations/applauding_045.jpg,300,400,person without helmet,211,140,273,380
+annotations/applauding_064.jpg,268,200,person without helmet,60,5,143,199
+annotations/worker (891).jpg,275,183,helmet,43,41,117,81
+annotations/worker (872).jpg,275,183,helmet,94,29,111,39
+annotations/worker (217).jpg,274,184,helmet,199,83,234,105
+annotations/worker (249).jpg,266,190,helmet,145,81,178,109
+annotations/worker (428).jpg,225,225,person with helmet,43,20,186,224
+annotations/applauding_091.jpg,451,300,person without helmet,161,74,296,262
+annotations/worker (335).jpg,277,182,person with helmet,5,14,85,113
+annotations/worker (808).jpg,388,130,person with helmet,240,12,312,128
+annotations/worker (554).jpg,265,190,helmet,143,13,171,38
+annotations/applauding_062.jpg,602,400,person without helmet,400,33,532,268
+annotations/worker (556).jpg,300,168,person with helmet,111,2,202,167
+annotations/worker (63).jpg,300,168,helmet,125,12,209,80
+annotations/worker (698).jpg,275,183,person with helmet,4,12,125,179
+annotations/worker (876).jpg,183,275,person with helmet,108,32,161,263
+annotations/person_without_helmet (270).jpg,207,200,person without helmet,45,23,127,122
+annotations/worker (582).jpg,275,183,person with helmet,96,80,148,181
+annotations/worker (265).jpg,275,183,person with helmet,194,37,253,183
+annotations/worker (353).jpg,197,256,person with helmet,1,7,177,254
+annotations/worker (703).jpg,275,183,helmet,166,23,190,45
+annotations/applauding_133.jpg,306,300,person without helmet,137,55,298,300
+annotations/worker (227).jpg,258,195,helmet,150,1,205,32
+annotations/worker (767).jpg,257,196,helmet,158,6,183,25
+annotations/worker (14).jpg,265,190,helmet,102,13,136,48
+annotations/worker (822).jpg,262,192,person with helmet,42,22,115,151
+annotations/worker (518).jpg,317,159,helmet,199,55,219,71
+annotations/worker (809).jpg,275,183,helmet,201,28,275,80
+annotations/worker (775).jpg,217,232,helmet,53,2,67,11
+annotations/worker (771).jpg,207,243,helmet,170,11,185,21
+annotations/worker (559).jpg,299,168,person with helmet,99,9,153,136
+annotations/worker (616).jpg,183,275,helmet,25,31,69,65
+annotations/worker (695).jpg,275,183,helmet,110,1,261,80
+annotations/worker (763).jpg,281,179,helmet,27,22,95,79
+annotations/worker (250).jpg,179,281,helmet,1,55,68,114
+annotations/worker (602).jpg,275,183,helmet,75,30,114,58
+annotations/worker (426).jpg,225,225,helmet,55,19,165,96
+annotations/worker (377).jpg,184,275,helmet,67,25,128,71
+annotations/worker (604).jpg,266,189,person with helmet,85,19,141,177
+annotations/applauding_116.jpg,300,200,person without helmet,169,54,211,149
+annotations/worker (834).jpg,279,180,helmet,178,99,217,143
+annotations/worker (123).jpg,266,189,helmet,78,1,145,48
+annotations/worker (712).jpg,284,178,helmet,198,68,225,89
+annotations/worker (863).jpg,275,183,person with helmet,99,52,129,171
+annotations/worker (564).jpg,275,183,person with helmet,120,17,235,182
+annotations/worker (839).jpg,245,205,helmet,169,17,190,31
+annotations/worker (247).jpg,275,183,person with helmet,59,42,88,147
+annotations/worker (10).jpg,262,192,helmet,101,33,144,62
+annotations/person_without_helmet (261).jpg,307,200,person without helmet,67,13,94,40
+annotations/worker (568).jpg,263,192,helmet,112,24,139,47
+annotations/worker (838).jpg,310,163,person with helmet,95,29,154,159
+annotations/person_without_helmet (274).jpg,240,200,person without helmet,23,42,87,200
+annotations/worker (611).jpg,263,192,person with helmet,118,13,175,124
+annotations/worker (458).jpg,275,183,person with helmet,129,17,275,182
+annotations/worker (13).jpg,262,193,helmet,156,26,190,52
+annotations/worker (561).jpg,309,163,helmet,127,1,188,43
+annotations/worker (538).jpg,300,168,helmet,80,5,196,97
+annotations/worker (698).jpg,275,183,person with helmet,140,16,271,183
+annotations/worker (464).jpg,183,276,person with helmet,64,63,172,275
+annotations/worker (818).jpg,275,183,helmet,1,1,40,48
+annotations/worker (236).jpg,275,183,helmet,121,47,147,68
+annotations/person_without_helmet (71).jpg,350,200,person without helmet,232,99,287,200
+annotations/worker (863).jpg,275,183,helmet,75,51,94,63
+annotations/worker (289).jpg,276,183,person,1,40,13,118
+annotations/worker (550).jpg,307,164,helmet,44,43,78,64
+annotations/worker (349).jpg,222,227,person with helmet,1,2,115,225
+annotations/worker (603).jpg,300,168,helmet,137,1,194,25
+annotations/worker (446).jpg,275,183,helmet,230,40,263,67
+annotations/worker (822).jpg,262,192,helmet,59,21,117,52
+annotations/worker (181).jpg,194,260,helmet,80,26,101,47
+annotations/worker (138).jpg,262,192,person with helmet,41,42,82,61
+annotations/worker (541).jpg,265,190,helmet,212,3,257,36
+annotations/worker (374).jpg,300,168,person with helmet,39,5,183,167
+annotations/worker (247).jpg,275,183,helmet,65,43,80,55
+annotations/worker (701).jpg,300,168,helmet,142,13,175,44
+annotations/worker (388).jpg,276,183,helmet,109,28,173,82
+annotations/worker (298).jpg,225,225,person with helmet,131,6,223,221
+annotations/worker (252).jpg,286,176,person with helmet,152,52,255,173
+annotations/worker (247).jpg,275,183,helmet,101,44,117,54
+annotations/worker (261).jpg,300,168,person with helmet,144,55,180,143
+annotations/worker (4).jpg,266,189,helmet,41,40,112,78
+annotations/worker (787).jpg,275,183,person with helmet,78,114,127,183
+annotations/worker (443).jpg,275,183,person without helmet,198,40,237,107
+annotations/worker (706).jpg,288,175,helmet,95,9,134,39
+annotations/worker (863).jpg,275,183,helmet,127,54,143,63
+annotations/worker (721).jpg,300,168,helmet,160,11,194,40
+annotations/worker (433).jpg,299,168,person with helmet,177,26,288,161
+annotations/worker (487).jpg,177,285,person with helmet,41,33,145,257
+annotations/worker (371).jpg,275,183,person with helmet,168,57,197,164
+annotations/worker (716).jpg,269,187,person with helmet,105,49,182,173
+annotations/worker (771).jpg,207,243,helmet,18,13,37,23
+annotations/worker (717).jpg,275,183,person with helmet,123,5,245,179
+annotations/worker (1).jpg,257,196,helmet,125,12,162,38
+annotations/person_without_helmet (171).jpg,224,200,person without helmet,82,40,115,161
+annotations/worker (773).jpg,246,205,person with helmet,78,16,123,183
+annotations/worker (515).jpg,262,193,person with helmet,4,15,55,172
+annotations/worker (650).jpg,262,192,helmet,1,1,144,59
+annotations/worker (757).jpg,245,206,person without helmet,168,50,186,62
+annotations/worker (373).jpg,266,189,helmet,146,1,257,52
+annotations/worker (483).jpg,252,194,person with helmet,1,12,100,178
+annotations/worker (627).jpg,275,183,person with helmet,23,5,122,92
+annotations/worker (601).jpg,255,198,person with helmet,21,43,61,160
+annotations/worker (606).jpg,260,194,helmet,150,47,163,59
+annotations/worker (93).jpg,277,182,helmet,56,68,87,87
+annotations/worker (254).jpg,275,183,helmet,67,34,102,71
+annotations/worker (878).jpg,355,142,person with helmet,149,3,224,140
+annotations/person_without_helmet (164).jpg,267,200,person without helmet,69,76,104,140
+annotations/worker (772).jpg,252,200,person with helmet,21,13,52,137
+annotations/person_without_helmet (122).jpg,267,200,person without helmet,131,11,192,84
+annotations/worker (216).jpg,283,178,helmet,82,81,110,102
+annotations/worker (267).jpg,240,160,helmet,119,1,230,66
+annotations/person_without_helmet (157).jpg,200,267,person without helmet,50,71,118,262
+annotations/worker (295).jpg,267,189,helmet,151,10,221,52
+annotations/worker (526).jpg,412,122,person with helmet,173,1,270,121
+annotations/worker (250).jpg,179,281,helmet,66,55,114,113
+annotations/worker (723).jpg,275,183,helmet,171,12,228,46
+annotations/applauding_108.jpg,424,300,person without helmet,186,26,385,295
+annotations/worker (422).jpg,276,183,helmet,115,1,238,55
+annotations/worker (117).jpg,267,189,helmet,131,8,188,49
+annotations/worker (73).jpg,262,192,helmet,101,23,129,45
+annotations/worker (606).jpg,260,194,person with helmet,7,1,111,193
+annotations/worker (270).jpg,266,189,person with helmet,148,2,193,73
