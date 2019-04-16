@@ -116,7 +116,7 @@ class Vaico_helmet_detection:
     def draw_boundig_box(self, data, original_img_path='/home/josh/MEGA/U_S_VII/P2/repo/vaico_works/models/static/img/temp_img.jpg'):
         img = cv2.imread(original_img_path)
 
-        for label,coords in data:
+        for label,coords,_ in data:
             y1,y2,x1,x2 = coords
             if label == 'Tiene casco':
                 cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0),thickness = 3)
