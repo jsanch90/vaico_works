@@ -1,14 +1,14 @@
 #install pip install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.2/imageai-2.0.2-py3-none-any.whl
-from keras.models import load_model
-from imageai.Detection import ObjectDetection
-from PIL import Image
-from skimage import transform
+import base64
 import numpy as np
 import os
 import cv2
 import io
+from keras.models import load_model
+from imageai.Detection import ObjectDetection
+from PIL import Image
+from skimage import transform
 from imageio import imread
-import base64
 
 
 class Vaico_helmet_detection:
@@ -130,6 +130,7 @@ class Vaico_helmet_detection:
     def clear_temp_imgs(self):
         for _,_,path in self.current_detection:
             os.remove(path)
+        os.remove('static/img/temp_img.jpg')
     
     
 #model = Vaico_helmet_detection()
