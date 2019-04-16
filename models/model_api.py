@@ -34,7 +34,6 @@ def predict_on_image():
 
     I = cv2.cvtColor(res_img, cv2.COLOR_BGR2RGB)
     pil_img = Image.fromarray(I,mode='RGB')
-    pil_img.show()
     buff = BytesIO()
     pil_img.save(buff, format="JPEG")
     new_image_string = base64.b64encode(buff.getvalue()).decode("utf-8")
@@ -42,4 +41,4 @@ def predict_on_image():
     return jsonify({"predicted": new_image_string})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)

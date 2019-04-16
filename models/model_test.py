@@ -30,9 +30,9 @@ class Vaico_helmet_detection:
         self.current_detection = current_detection
 
     def find_persons(self, img_base64, margin=0.01):
-        detections = self.detector.detectObjectsFromImage(input_image='/home/josh/MEGA/U_S_VII/P2/repo/vaico_works/models/static/img/temp_img.jpg', minimum_percentage_probability=30)
+        detections = self.detector.detectObjectsFromImage(input_image='static/img/temp_img.jpg', minimum_percentage_probability=30)
         os.remove('.png')
-        img = cv2.imread('/home/josh/MEGA/U_S_VII/P2/repo/vaico_works/models/static/img/temp_img.jpg')
+        img = cv2.imread('static/img/temp_img.jpg')
         persons_in_image =[]
         count = 0
 
@@ -72,7 +72,7 @@ class Vaico_helmet_detection:
                     x2_new = int((x2+(x2*margin)))
 
                 person = img[y1_new:y2_new , x1_new:x2_new]
-                person_path = '/home/josh/MEGA/U_S_VII/P2/repo/vaico_works/models/static/img/test{0}.jpg'.format(count)
+                person_path = 'static/img/test{0}.jpg'.format(count)
                 count +=1
                 cv2.imwrite(person_path, person)
                 person_points = (person,(y1_new, y2_new, x1_new, x2_new),person_path)
@@ -101,9 +101,9 @@ class Vaico_helmet_detection:
         #b64_string = base64_str.decode()
         img_temp = imread(io.BytesIO(base64.b64decode(base64_str)))
         cv2_img = cv2.cvtColor(img_temp, cv2.COLOR_RGB2BGR)
-        cv2.imwrite("/home/josh/MEGA/U_S_VII/P2/repo/vaico_works/models/static/img/temp_img.jpg", cv2_img)
+        cv2.imwrite("static/img/temp_img.jpg", cv2_img)
     
-    def compute_current_detection(self,img_path='/home/josh/MEGA/U_S_VII/P2/repo/vaico_works/models/static/img/temp_img.jpg'):
+    def compute_current_detection(self,img_path='static/img/temp_img.jpg'):
         res = self.find_persons(img_path)
         current_detection = []
         for image,coord,path in res:
@@ -113,7 +113,7 @@ class Vaico_helmet_detection:
 
         self.set_current_detection(current_detection)
 
-    def draw_boundig_box(self, data, original_img_path='/home/josh/MEGA/U_S_VII/P2/repo/vaico_works/models/static/img/temp_img.jpg'):
+    def draw_boundig_box(self, data, original_img_path='static/img/temp_img.jpg'):
         img = cv2.imread(original_img_path)
 
         for label,coords,_ in data:
