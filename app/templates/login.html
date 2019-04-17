@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <title>Bootstrap Simple Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <!-- Custom styles for this template -->
+    <link href="css/validation.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="signup-form">
+        <form action="/examples/actions/confirmation.php" method="post">
+            <h2>Ingresa</h2>
+            <p class="hint-text">Ingresa a tu cuenta</p>
+
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+            </div>
+
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg btn-block">Ingresa</button>
+            </div>
+        </form>
+        <div class="text-center">¿No tienes cuenta? <a href="register.html">Regístrate</a></div>
+    </div>
+</body>
+
+</html>

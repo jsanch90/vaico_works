@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <title>Página de registro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="../static/css/validation.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="signup-form">
+        <form action="{{ url_for('register') }}" method="POST" >
+            <h2>Registro</h2>
+            <p class="hint-text">Crea tu cuenta. Tomará tan solo unos minutos.</p>
+            <div class="form-group">
+                <input type="text" class="form-control" name="first_name" placeholder="Nombre" required="required">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="cel" placeholder="Celular" required="required">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="occupation" placeholder="Ocupación" required="required">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Contraseña"
+                    required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="confirm_password" placeholder="Confirmar contraseña"
+                    required="required">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg btn-block">Regístrate ahora</button>
+            </div>
+        </form>
+        <div class="text-center">¿Ya tienes cuenta? <a href="login.html">Ingresa</a></div>
+    </div>
+</body>
+
+</html>
