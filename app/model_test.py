@@ -89,6 +89,7 @@ class Vaico_helmet_detection:
     
     def predict_on_image(self,image):
         res = self.classifier.predict(image)
+        print(res,'-------------------------debug---------------------------------\n borrar est en /app/model_test.py metodo predict_on_image()')
         return res
     
     def prediction_map(self,res,threshold=0.8):

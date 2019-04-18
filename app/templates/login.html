@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <title>Bootstrap Simple Registration Form</title>
+    <title>Página de inicio de sesion</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
     <!-- Custom styles for this template -->
-    <link href="css/validation.css" rel="stylesheet">
+    <link href="../static/css/validation.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="signup-form">
-        <form action="/examples/actions/confirmation.php" method="post">
+        <form action="{{ url_for('login') }}" method="POST">
             <h2>Ingresa</h2>
             <p class="hint-text">Ingresa a tu cuenta</p>
 
@@ -34,8 +34,8 @@
                 <button type="submit" class="btn btn-success btn-lg btn-block">Ingresa</button>
             </div>
         </form>
-        <div class="text-center">¿No tienes cuenta? <a href="register.html">Regístrate</a></div>
-    </div>
+        <div class="text-center">¿No tienes cuenta? <a href="register">Regístrate</a></div>
+    </div>  
 </body>
 
 </html>
