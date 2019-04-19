@@ -82,6 +82,18 @@ class Image_Register(db.Document):
     processed = db.StringField()
     date = db.StringField()
 
+class Report(db.Document):                                                                                            
+    meta = {'collection': 'reports'}  
+    name = db.StringField()
+    email = db.StringField()
+    cel = db.StringField()
+    occupation = db.StringField()                                                                                           
+    original_img = db.StringField()
+    processed_img = db.StringField()
+    date_img = db.StringField()
+    date_report = db.StringField()
+    description = db.StringField()
+
 @login_manager.user_loader
 def load_user(user_id):
     return User.objects(pk=user_id).first()
@@ -154,22 +166,74 @@ def save_register(original_img, proc_img, date):
     Image_Register(original_img,proc_img,date).save()
 
 
-@app.route('/show_gallery', methods=['GET', 'POST'])
+@app.route('/original_gallery', methods=['GET', 'POST'])
 @login_required
-def show_gallery():
+def original_gallery():
     imgs = Image_Register.objects
-    return render_template('portfolio-4-col.html',data=imgs)
+    return render_template('original_gallery.html',data=imgs)
+
+@app.route('/processed_gallery', methods=['GET', 'POST'])
+@login_required
+def processed_gallery():
+    imgs = Image_Register.objects
+    return render_template('processed_gallery.html',data=imgs)
+
+@app.route('/image/<date>', methods=['GET', 'POST'])
+@login_required
+def view_image(date):
+    img = Image_Register.objects(date=date)
+    info = img._query
+    year = info['date'].split(" ")[0].split("-")[0]
+    month = info['date'].split(" ")[0].split("-")[1]
+    day = info['date'].split(" ")[0].split("-")[2]
+    time = info['date'].split(" ")[1].split(".")[0]
+
+    return render_template('view_image.html', data=img, year=year, month=month, day=day, time=time)
 
 @app.route('/gallery', methods=['GET', 'POST'])
 @login_required
 def gallery():
-    return render_template('portfolio-2-col.html')
+    return render_template('gallery.html')
 
+@app.route('/report/<date>', methods=['GET', 'POST'])
+@login_required
+def generate_report(date):
+    img = Image_Register.objects(date=date)
+    info = img._query
+    year = info['date'].split(" ")[0].split("-")[0]
+    month = info['date'].split(" ")[0].split("-")[1]
+    day = info['date'].split(" ")[0].split("-")[2]
+    time = info['date'].split(" ")[1].split(".")[0]
+    print(year, month, day, time)
+    return render_template('report.html', data=img, year=year, month=month, day=day, time=time)
 
+def save_report(name, email, cel, occupation, original_img, processed_img, date_img, date_report, description):
+    Report(name, email, cel, occupation, original_img, processed_img, date_img, date_report, description).save()
 
+@app.route('/reports/<date>', methods=['GET', 'POST'])
+@login_required
+def view_reports(date):
+    if request.method == 'POST':
+        for i in Image_Register.objects:
+            if (i.date == date):
+                original_img = i.original
+                processed_img = i.processed
+                complete_date = i.date
 
+        year = complete_date.split(" ")[0].split("-")[0]
+        month = complete_date.split(" ")[0].split("-")[1]
+        day = complete_date.split(" ")[0].split("-")[2]
+        time = complete_date.split(" ")[1].split(".")[0]
+        user = current_user
+        name = user['name']
+        email = user['email']
+        cel = user['cel']
+        occupation = user['occupation']
 
-
+        description = request.form['description']
+        save_report(name, email, cel, occupation, original_img, processed_img, complete_date, str(datetime.datetime.now()), description)
+        reports = Report.objects()
+        return render_template("reports.html",data = reports)
 
 
 if __name__ == '__main__':
