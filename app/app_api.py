@@ -158,19 +158,13 @@ def save_register(original_img, proc_img, date):
 @login_required
 def show_gallery():
     imgs = Image_Register.objects
-    return render_template('portfolio-4-col.html',data=imgs)
+    print("cantidad de imagenes", len(imgs))
+    return render_template('original_gallery.html',data=imgs)
 
 @app.route('/gallery', methods=['GET', 'POST'])
 @login_required
 def gallery():
-    return render_template('portfolio-2-col.html')
-
-
-
-
-
-
-
+    return render_template('gallery.html')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',debug=True)
