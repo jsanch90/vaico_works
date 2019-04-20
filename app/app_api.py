@@ -84,13 +84,17 @@ class Image_Register(db.Document):
 
 class Report(db.Document):                                                                                            
     meta = {'collection': 'reports'}  
+    title = db.StringField()
     name = db.StringField()
     email = db.StringField()
     cel = db.StringField()
     occupation = db.StringField()                                                                                           
     original_img = db.StringField()
     processed_img = db.StringField()
-    date_img = db.StringField()
+    year_img = db.StringField()
+    month_img = db.StringField()
+    day_img = db.StringField()
+    time_img = db.StringField()
     date_report = db.StringField()
     description = db.StringField()
 
@@ -170,7 +174,6 @@ def save_register(original_img, proc_img, date):
 @login_required
 def original_gallery():
     imgs = Image_Register.objects
-    print("cantidad de imagenes", len(imgs))
     return render_template('original_gallery.html',data=imgs)
 
 @app.route('/processed_gallery', methods=['GET', 'POST'])
@@ -208,8 +211,8 @@ def generate_report(date):
     print(year, month, day, time)
     return render_template('report.html', data=img, year=year, month=month, day=day, time=time)
 
-def save_report(name, email, cel, occupation, original_img, processed_img, date_img, date_report, description):
-    Report(name, email, cel, occupation, original_img, processed_img, date_img, date_report, description).save()
+def save_report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description):
+    Report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description).save()
 
 @app.route('/reports/<date>', methods=['GET', 'POST'])
 @login_required
@@ -221,18 +224,18 @@ def view_reports(date):
                 processed_img = i.processed
                 complete_date = i.date
 
-        year = complete_date.split(" ")[0].split("-")[0]
-        month = complete_date.split(" ")[0].split("-")[1]
-        day = complete_date.split(" ")[0].split("-")[2]
-        time = complete_date.split(" ")[1].split(".")[0]
+        year_img = complete_date.split(" ")[0].split("-")[0]
+        month_img = complete_date.split(" ")[0].split("-")[1]
+        day_img = complete_date.split(" ")[0].split("-")[2]
+        time_img = complete_date.split(" ")[1].split(".")[0]
         user = current_user
         name = user['name']
         email = user['email']
         cel = user['cel']
         occupation = user['occupation']
-
+        title = request.form['title']
         description = request.form['description']
-        save_report(name, email, cel, occupation, original_img, processed_img, complete_date, str(datetime.datetime.now()), description)
+        save_report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, str(datetime.datetime.now()), description)
         reports = Report.objects()
         return render_template("reports.html",data = reports)
 

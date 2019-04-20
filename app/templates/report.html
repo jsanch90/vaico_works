@@ -137,9 +137,16 @@
         <form action="/reports/{{img.date}}" method="POST">
           <div class="control-group form-group">
             <div class="controls">
+              <label>Título</label>
+              <input type="text" class="form-control" name="title" required data-validation-required-message="Ingrese un título por favor.">
+              <p class="help-block"></p>
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
               <label>Descripción:</label>
               <textarea rows="10" cols="100" class="form-control" name="description" required
-                data-validation-required-message="Please enter your message" maxlength="999"
+                data-validation-required-message="Ingrese una descripción por favor" maxlength="999"
                 style="resize:none"></textarea>
             </div>
           </div>
