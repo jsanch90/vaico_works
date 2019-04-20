@@ -26,7 +26,7 @@
       <!-- La idea es poner el logo de Vaico Works aquí -->
       <!-- Una duda es si cargar el método o sólo la página -->
       <!-- Por ahora en esta línea sólo carga la página como tal, pero realiza todo por la ruta url -->
-      <a class="navbar-brand" href="index">Vaico Works</a>
+      <a class="navbar-brand" href="/index">Vaico Works</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -86,59 +86,80 @@
   </nav>
 
   <!-- Page Content -->
+  {% for img in data %}
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Galería
-      <!-- <small>Subheading</small> -->
+    <h1 class="mt-4 mb-3">Contact
+      <small>Subheading</small>
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="index">Inicio</a>
+        <a href="/index">Home</a>
       </li>
-      <li class="breadcrumb-item active">Galería</li>
+      <li class="breadcrumb-item active">Contact</li>
     </ol>
 
-    <!-- La idea es poner una imagen de una costrucción sin identificar nada -->
-
+    <!-- Content Row -->
     <div class="row">
-      <div class="col-lg-6 portfolio-item">
-        <div class="card h-100">
-          <a href="original_gallery"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="original_gallery">Imágenes sin clasificación</a>
-            </h4>
-            <p class="card-text">Una pequeña descripción que relate la cotidianidad de los obreros</p>
-          </div>
-        </div>
+      <div class="col-md-8">
+        <img class="img-fluid" src="data:image/png;base64, {{img.processed}}" alt="original">
       </div>
+      <!-- Contact Details Column -->
+      <div class="col-lg-4 mb-4">
+        <h3>Contact Details</h3>
+        <p>
+          3481 Melrose Place
+          <br>Beverly Hills, CA 90210
+          <br>
+        </p>
+        <p>
+          <abbr title="Phone">P</abbr>: (123) 456-7890
+        </p>
+        <p>
+          <abbr title="Email">E</abbr>:
+          <a href="mailto:name@example.com">name@example.com
+          </a>
+        </p>
+        <p>
+          <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
+        </p>
+      </div>
+    </div>
+    <!-- /.row -->
 
-      <!-- En cambio acá, la idea es poner imágenes con la clasificación -->
-
-      <div class="col-lg-6 portfolio-item">
-        <div class="card h-100">
-          <a href="processed_gallery"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="processed_gallery">Imágenes clasificadas</a>
-            </h4>
-            <p class="card-text">Pequeña descripción de la clasificación de imágenes</p>
+    <!-- Contact Form -->
+    <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <div class="row">
+      <div class="col-lg-8 mb-4">
+        <h3>Send us a Message</h3>
+        <form action="/reports/{{img.date}}" method="POST">
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Descripción:</label>
+              <textarea rows="10" cols="100" class="form-control" name="description" required
+                data-validation-required-message="Please enter your message" maxlength="999"
+                style="resize:none"></textarea>
+            </div>
           </div>
-        </div>
+          <div id="success"></div>
+          <!-- For success/fail messages -->
+          <button type="submit" value="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+        </form>
       </div>
 
     </div>
     <!-- /.row -->
 
   </div>
+  {% endfor %}
   <!-- /.container -->
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Vaico Works</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
     </div>
     <!-- /.container -->
   </footer>
@@ -146,6 +167,11 @@
   <!-- Bootstrap core JavaScript -->
   <script src="../static/vendor/jquery/jquery.min.js"></script>
   <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+  <script src="../static/js/jqBootstrapValidation.js"></script>
+  <script src="../static/js/contact_me.js"></script>
 
 </body>
 

@@ -26,12 +26,18 @@
       <!-- La idea es poner el logo de Vaico Works aquí -->
       <!-- Una duda es si cargar el método o sólo la página -->
       <!-- Por ahora en esta línea sólo carga la página como tal, pero realiza todo por la ruta url -->
+      <a href="index"><img src="../static/images/logo.png" alt="logo" width="60px" height="60px"></a>
       <a class="navbar-brand" href="index">Vaico Works</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="gallery">Procesamiento de imágenes</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
@@ -41,20 +47,10 @@
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
+
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Portfolio
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-              <a class="dropdown-item" href="gallery">2 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Blog
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
@@ -64,7 +60,8 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Other Pages
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
@@ -94,7 +91,12 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
+<<<<<<< HEAD
         <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+=======
+
+        <div class="carousel-item active" style="background-image: url('../static/images/2.jpg')">
+>>>>>>> 8385e8037b46bc2d5aed3b0b0f281795b70b691f
           <div class="carousel-caption d-none d-md-block">
             <h3>First Slide</h3>
             <p>This is a description for the first slide.</p>
@@ -108,7 +110,7 @@
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('../static/images/3.jpeg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>Third Slide</h3>
             <p>This is a description for the third slide.</p>
@@ -177,6 +179,7 @@
 
     <!-- Features Section -->
     <div class="row">
+<<<<<<< HEAD
         <div class="col-lg-6">
           <h1 class="my-4">Vaico Works</h1>
           <p>The Modern Business template by Start Bootstrap includes:</p>
@@ -196,6 +199,32 @@
           <img class="img-fluid rounded" src="data:image/png;base64, {{image}}" alt="">
         </div>
       </div>
+=======
+      <div class="col-lg-6">
+        <h1 class="my-4">Vaico Works</h1>
+        <p>Somos una startup que hace uso de técnicas de:</p>
+        <ul>
+          <li>Visión artificial</li>
+          <li>Machine learning</li>
+          <li>Realidad aumentada</li>
+          <li>Desarrollo de productos y servicios</li>
+        </ul>
+          <p>con el fin de proveer a nuestros clientes soluciones en diferentes mercados como los seguros, la banca,
+            manufactura, entre otros.</p>
+          <p>Nuestros productos abarcan diversos temas como: reducción de accidentes en los puestos de trabajo,
+            automatización y aumento de eficiencia en pagos, predicción del estado de ocupación de lugares, predicciónes
+            de tráfico y mucho más.</p>
+          <p>Somos una empresa en constante crecimiento, dinámica y comprometida con la satisfacción de las necesidades
+            de nuestros clientes y la generación de valor para ellos. Utilizamos tecnología que esta en la frontera de
+            la ciencia y nos esforzamos sin descanso para ofrecer un excelente servicio.</p>
+      </div>
+      <div class="col-lg-6">
+        <br>
+        <img class="img-fluid rounded" src="../static/images/logo.png" alt="logo" width="500px" height="500px">
+        <!-- <img class="img-fluid rounded" src="data:image/png;base64, {{image}}" alt=""> -->
+      </div>
+    </div>
+>>>>>>> 8385e8037b46bc2d5aed3b0b0f281795b70b691f
 
     <!-- Acá pueden ir varias imágenes de obras diferentes -->
 
@@ -209,7 +238,9 @@
             <h4 class="card-title">
               <a href="#">Project One</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum
+              quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum
+              tempora ex quae? Nihil, dolorem!</p>
           </div>
         </div>
       </div>
@@ -220,7 +251,8 @@
             <h4 class="card-title">
               <a href="#">Project Two</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+              gravida pellentesque urna varius vitae.</p>
           </div>
         </div>
       </div>
@@ -231,7 +263,9 @@
             <h4 class="card-title">
               <a href="#">Project Three</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed
+              cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia
+              recusandae vero vel quam!</p>
           </div>
         </div>
       </div>
@@ -242,7 +276,8 @@
             <h4 class="card-title">
               <a href="#">Project Four</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+              gravida pellentesque urna varius vitae.</p>
           </div>
         </div>
       </div>
@@ -253,7 +288,8 @@
             <h4 class="card-title">
               <a href="#">Project Five</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+              gravida pellentesque urna varius vitae.</p>
           </div>
         </div>
       </div>
@@ -264,7 +300,9 @@
             <h4 class="card-title">
               <a href="#">Project Six</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit
+              ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat
+              fugiat excepturi! Nemo, esse.</p>
           </div>
         </div>
       </div>
@@ -277,7 +315,8 @@
     <!-- Call to Action Section -->
     <div class="row mb-4">
       <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti
+          beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
       </div>
       <div class="col-md-4">
         <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>

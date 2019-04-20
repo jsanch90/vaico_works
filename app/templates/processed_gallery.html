@@ -26,7 +26,7 @@
         <!-- La idea es poner el logo de Vaico Works aquí -->
         <!-- Una duda es si cargar el método o sólo la página -->
         <!-- Por ahora en esta línea sólo carga la página como tal, pero realiza todo por la ruta url -->
-        <a class="navbar-brand" href="index">Vaico Works</a>
+        <a class="navbar-brand" href="/index">Vaico Works</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
           data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -89,22 +89,22 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Imágenes sin clasificación
+    <h1 class="mt-4 mb-3">Imágenes clasificadas
       <!-- <small>Subheading</small> -->
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="index">Inicio</a>
+        <a href="/index">Inicio</a>
       </li>
-      <li class="breadcrumb-item active">Imágenes sin clasificación</li>
+      <li class="breadcrumb-item active">Imágenes clasificadas</li>
     </ol>
 
     <div class="row">
       {% for img in data %}
       <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="image/{{img.date}}"><img class="card-img-top" src="data:image/png;base64, {{img.original}}" alt=""></a>
+          <a href="image/{{img.date}}"><img class="card-img-top" src="data:image/png;base64, {{img.processed}}" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="image/{{img.date}}">Registro {{ loop.index }}</a>
