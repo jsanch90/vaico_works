@@ -5,7 +5,10 @@ import pytest
 def test_cam_connect():
     video_capture = cv2.VideoCapture(0)
     #print(video_capture.isOpened())
-    return True
+    if not video_capture.isOpened():
+        return True
+    return False
+    
 
 @pytest.fixture()
 def test_cam_not_connect():
