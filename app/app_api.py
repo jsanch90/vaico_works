@@ -237,7 +237,7 @@ def view_reports(date):
         description = request.form['description']
         save_report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, str(datetime.datetime.now()), description)
         reports = Report.objects()
-        return render_template("reports.html",data = reports)
+        return render_template("reports.html", data = reports)
 
 
 if __name__ == '__main__':
