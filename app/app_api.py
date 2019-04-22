@@ -1,7 +1,6 @@
 import base64
 import os
 import cv2
-import tensorflow as tf
 import datetime
 from flask import Flask, jsonify, request, render_template, redirect, url_for
 from flask_wtf import FlaskForm
@@ -14,14 +13,14 @@ from flask_cors import CORS
 from flask_pymongo import PyMongo
 from io import BytesIO
 from PIL import Image
-from model_test import Vaico_helmet_detection
+from db_config import db_config
 
 app = Flask(__name__)
 CORS(app)
 
 app.config['MONGODB_SETTINGS'] = {
     'db': 'vaico_works',
-    'host': 'mongodb://localhost:27017/vaico_works'
+    'host': db_config['host']
 }
 
 db = MongoEngine(app)
@@ -29,41 +28,6 @@ app.config['SECRET_KEY'] = 'vaico123s'
 login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'login'
-
-global graph
-graph = tf.get_default_graph()
-
-model = Vaico_helmet_detection()
-#model = 1 # descomentar la linea de arriba y borrar esta, y descomentar el import 
-print('----------Model loaded----------')
-
-# @app.route('/predict', methods=['POST'])
-# def predict_on_image():
-#     img = str(request.json['image'])
-#     model.get_image_from_base64(img)
-#     with graph.as_default():
-#         model.compute_current_detection()
-#         res_img = model.draw_boundig_box(model.get_current_detection())
-#     model.clear_temp_imgs()
-#     I = cv2.cvtColor(res_img, cv2.COLOR_BGR2RGB)
-#     pil_img = Image.fromarray(I,mode='RGB')
-#     buff = BytesIO()
-#     pil_img.save(buff, format="JPEG")
-#     new_image_string = base64.b64encode(buff.getvalue()).decode("utf-8")
-#     return jsonify({"predicted": new_image_string})
-
-def predict(img):
-    model.get_image_from_base64(img)
-    with graph.as_default():
-        model.compute_current_detection()
-        res_img = model.draw_boundig_box(model.get_current_detection())
-    model.clear_temp_imgs()
-    I = cv2.cvtColor(res_img, cv2.COLOR_BGR2RGB)
-    pil_img = Image.fromarray(I,mode='RGB')
-    buff = BytesIO()
-    pil_img.save(buff, format="JPEG")
-    new_image_string = base64.b64encode(buff.getvalue()).decode("utf-8")
-    return new_image_string
 
 ################################################################################################
                                            #Models
@@ -143,31 +107,7 @@ def logout():
 @app.route('/index', methods=['GET', 'POST'])
 @login_required
 def show_index():
-    #email = request.args['email']
-    res_img = take_picture()
-    pil_img = Image.fromarray(res_img,mode='RGB')
-    buff = BytesIO()
-    pil_img.save(buff, format="JPEG")
-    new_image_string = base64.b64encode(buff.getvalue()).decode("utf-8")
-    res_pred = predict(new_image_string)
-    save_register(new_image_string,res_pred,str(datetime.datetime.now()))
-    return render_template('index.html',image=new_image_string, pred=res_pred)
-
-
-def take_picture():
-    video_capture = cv2.VideoCapture(0) 
-    if not video_capture.isOpened():                                                                                                                                          
-        raise Exception("Could not open video device")                                                                                                                        
-        # Read picture. ret === True on success                                                                                                                               
-    ret, frame = video_capture.read()                                                                                                                                         
-    frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)                                                                                                                            
-    #cv2.imwrite('./test_cam.jpg', frame)
-    # Close device                                                                                                                                                            
-    video_capture.release()
-    return frame
-
-def save_register(original_img, proc_img, date):
-    Image_Register(original_img,proc_img,date).save()
+    return render_template('index.html')
 
 
 @app.route('/original_gallery', methods=['GET', 'POST'])
