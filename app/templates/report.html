@@ -16,6 +16,9 @@
   <!-- Custom styles for this template -->
   <link href="../static/css/modern-business.css" rel="stylesheet">
 
+
+  <link rel="stylesheet" href="../static/css/sweetalert2.min.css">
+
 </head>
 
 <body>
@@ -134,11 +137,12 @@
     <div class="row">
       <div class="col-lg-8 mb-4">
         <h3>Send us a Message</h3>
-        <form action="/reports/{{img.date}}" method="POST">
+        <form method="POST">
           <div class="control-group form-group">
             <div class="controls">
               <label>Título</label>
-              <input type="text" class="form-control" name="title" required data-validation-required-message="Ingrese un título por favor.">
+              <input type="text" class="form-control" name="title" required
+                data-validation-required-message="Ingrese un título por favor.">
               <p class="help-block"></p>
             </div>
           </div>
@@ -152,7 +156,20 @@
           </div>
           <div id="success"></div>
           <!-- For success/fail messages -->
-          <button type="submit" value="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+
+
+            <button type="submit" onclick="clickHandler()" value="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+            
+          <script>
+            function clickHandler() {
+              Swal.fire(
+                'The Internet?',
+                'That thing is still around?',
+                'question'
+              )
+            }
+
+          </script>
         </form>
       </div>
 
@@ -179,6 +196,7 @@
   <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
   <script src="../static/js/jqBootstrapValidation.js"></script>
   <script src="../static/js/contact_me.js"></script>
+  <script src="../static/js/sweetaler2.min.js"></script>
 
 </body>
 

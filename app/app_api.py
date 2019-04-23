@@ -148,18 +148,9 @@ def generate_report(date):
     month = info['date'].split(" ")[0].split("-")[1]
     day = info['date'].split(" ")[0].split("-")[2]
     time = info['date'].split(" ")[1].split(".")[0]
-    print(year, month, day, time)
-    return render_template('report.html', data=img, year=year, month=month, day=day, time=time)
-
-def save_report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description):
-    Report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description).save()
-
-@app.route('/reports/<date>', methods=['GET', 'POST'])
-@login_required
-def view_reports(date):
     if request.method == 'POST':
         for i in Image_Register.objects:
-            if (i.date == date):
+            if(i.date == date):
                 original_img = i.original
                 processed_img = i.processed
                 complete_date = i.date
@@ -176,8 +167,18 @@ def view_reports(date):
         title = request.form['title']
         description = request.form['description']
         save_report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, str(datetime.datetime.now()), description)
-        reports = Report.objects()
-        return render_template("reports.html", data = reports)
+    print(year, month, day, time)
+    return render_template('report.html', data=img, year=year, month=month, day=day, time=time)
+
+def save_report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description):
+    Report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description).save()
+
+@app.route('/reports', methods=['GET', 'POST'])
+@login_required
+def view_reports():
+    
+    reports = Report.objects()
+    return render_template("reports.html", data = reports)
 
 
 if __name__ == '__main__':

@@ -104,7 +104,7 @@
       {% for img in data %}
       <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="image/{{img.date}}"><img class="card-img-top" src="data:image/png;base64, {{img.processed}}" alt=""></a>
+          <a href="image/{{img.date}}"><img class="card-img-top" src="data:image/png;base64, {{img.prediction}}" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="image/{{img.date}}">Registro {{ loop.index }}</a>
