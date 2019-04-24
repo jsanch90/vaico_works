@@ -137,8 +137,8 @@ def show_index():
 @app.route('/original_gallery', methods=['GET', 'POST'])
 @login_required
 def original_gallery():
-    imgs = Image_Register.objects
-    #imgs = mongo.db.image_registers.find()
+    imgs = Image_Register.objects()
+ 
     return render_template('original_gallery.html',data=imgs)
 
 @app.route('/processed_gallery', methods=['GET', 'POST'])
@@ -151,8 +151,9 @@ def processed_gallery():
 @login_required
 def view_image(date):
     img = Image_Register.objects(date=date)
-    print(len(img))
+    print(img)
     info = img._query
+    print(info)
     year = info['date'].split(" ")[0].split("-")[0]
     month = info['date'].split(" ")[0].split("-")[1]
     day = info['date'].split(" ")[0].split("-")[2]
@@ -163,7 +164,14 @@ def view_image(date):
 @app.route('/gallery', methods=['GET', 'POST'])
 @login_required
 def gallery():
-    return render_template('gallery.html')
+    data = {}
+    imgs = Image_Register.objects()
+    for img in imgs:
+        data[img.place] = img.place
+    print(data)
+    for i in data:
+        print()
+    return render_template('gallery.html', imgs = data)
 
 @app.route('/report/<date>', methods=['GET', 'POST'])
 @login_required
@@ -174,6 +182,13 @@ def generate_report(date):
     month = info['date'].split(" ")[0].split("-")[1]
     day = info['date'].split(" ")[0].split("-")[2]
     time = info['date'].split(" ")[1].split(".")[0]
+    name = ""
+    user = current_user
+    name = user['name']
+    email = user['email']
+    cel = user['cel']
+    occupation = user['occupation']
+    print(name)
     if request.method == 'POST':
         for i in Image_Register.objects:
             if(i.date == date):
@@ -181,20 +196,10 @@ def generate_report(date):
                 processed_img = i.prediction
                 complete_date = i.date
 
-        year_img = complete_date.split(" ")[0].split("-")[0]
-        month_img = complete_date.split(" ")[0].split("-")[1]
-        day_img = complete_date.split(" ")[0].split("-")[2]
-        time_img = complete_date.split(" ")[1].split(".")[0]
-        user = current_user
-        name = user['name']
-        email = user['email']
-        cel = user['cel']
-        occupation = user['occupation']
         title = request.form['title']
         description = request.form['description']
-        save_report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, str(datetime.datetime.now()), description)
-    print(year, month, day, time)
-    return render_template('report.html', data=img, year=year, month=month, day=day, time=time)
+        save_report(title, name, email, cel, occupation, original_img, processed_img, year, month, day, time, str(datetime.datetime.now()), description)
+    return render_template('report.html', data=img, year=year, month=month, day=day, time=time, name=name, email=email, cel=cel, occupation=occupation)
 
 def save_report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description):
     Report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description).save()

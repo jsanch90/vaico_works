@@ -26,6 +26,7 @@
       <!-- La idea es poner el logo de Vaico Works aquí -->
       <!-- Una duda es si cargar el método o sólo la página -->
       <!-- Por ahora en esta línea sólo carga la página como tal, pero realiza todo por la ruta url -->
+      <a href="/index"><img src="../static/images/logo.png" alt="logo" width="60px" height="60px"></a>
       <a class="navbar-brand" href="/index">Vaico Works</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -35,50 +36,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="/gallery">Procesamiento de imágenes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link" href="gallery">Reportes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="gallery">Acerca de</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Portfolio
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-              <a class="dropdown-item" href="gallery">2 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="reports">Contacto</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Blog
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-              <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Other Pages
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-              <a class="dropdown-item" href="404.html">404</a>
-              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery">Cerrar sesión</a>
           </li>
         </ul>
       </div>
@@ -89,14 +59,14 @@
   <div class="container">
     <!-- Page Heading/Breadcrumbs -->
     <h1 class="mt-4 mb-3">Registro
-      <small>{{day}} / {{month}} / {{year}}</small>
+      <small>{{day}}/{{month}}/{{year}}</small>
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
         <a href="/index">Inicio</a>
       </li>
-      <li class="breadcrumb-item active">Registro {{day}} / {{month}} / {{year}}</li>
+      <li class="breadcrumb-item active">Registro {{day}}/{{month}}/{{year}}</li>
     </ol>
 
     <!-- Portfolio Item Row -->
@@ -109,16 +79,17 @@
       </div>
 
       <div class="col-md-4">
-        <h3 class="my-3">Registro</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-          varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu
-          convallis placerat, felis enim.</p>
-        <h3 class="my-3">Project Details</h3>
+        <h3 class="my-3">Registro tomado</h3>
+        <p>Descripción de la foto</p>
+        <h3 class="my-3">Fecha: </h3>
         <ul>
-          <li>Lorem Ipsum</li>
-          <li>Dolor Sit Amet</li>
-          <li>Consectetur</li>
-          <li>Adipiscing Elit</li>
+          <li>Día: {{day}}</li>
+          <li>Mes: {{month}}</li>
+          <li>Año: {{year}}</li>
+        </ul>
+        <h3 class="my-3">Lugar: </h3>
+        <ul>
+          <li>{{img.place}}</li>
         </ul>
       </div>
 
@@ -131,23 +102,16 @@
 
     <div class="row">
 
+
+
       <div class="col-md-8">
         <img class="img-fluid" src="data:image/png;base64, {{img.prediction}}" alt="original">
       </div>
 
       <div class="col-md-4">
-        <h3 class="my-3">Registro</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-          varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu
-          convallis placerat, felis enim.</p>
-        <h3 class="my-3">Project Details</h3>
-        <ul>
-          <li>Lorem Ipsum</li>
-          <li>Dolor Sit Amet</li>
-          <li>Consectetur</li>
-          <li>Adipiscing Elit</li>
-        </ul>
-        <a class="btn btn-primary" href="/report/{{img.date}}">View Project
+        <h3 class="my-3">Realizar reporte</h3>
+        <p>Si la imagen reporta alguna anomalía, puede realizar un reporte desde aquí:</p>
+        <a class="btn btn-danger" href="/report/{{img.date}}">Reporte
           <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
       </div>

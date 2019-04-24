@@ -26,7 +26,8 @@
       <!-- La idea es poner el logo de Vaico Works aquí -->
       <!-- Una duda es si cargar el método o sólo la página -->
       <!-- Por ahora en esta línea sólo carga la página como tal, pero realiza todo por la ruta url -->
-      <a class="navbar-brand" href="/index">Vaico Works</a>
+      <a href="index"><img src="../static/images/logo.png" alt="logo" width="60px" height="60px"></a>
+      <a class="navbar-brand" href="index">Vaico Works</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -35,51 +36,45 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="gallery">Procesamiento de imágenes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link" href="/reports">Reportes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="gallery">Acerca de</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Portfolio
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-              <a class="dropdown-item" href="gallery">2 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="reports">Contacto</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Blog
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-              <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery">Cerrar sesión</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Other Pages
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-              <a class="dropdown-item" href="404.html">404</a>
-              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-            </div>
-          </li>
+
+          <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
+                <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
+                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Other Pages
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="full-width.html">Full Width Page</a>
+                <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
+                <a class="dropdown-item" href="faq.html">FAQ</a>
+                <a class="dropdown-item" href="404.html">404</a>
+                <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+              </div>
+            </li> -->
         </ul>
       </div>
     </div>
@@ -89,15 +84,14 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Blog Home Two
-      <small>Subheading</small>
+    <h1 class="mt-4 mb-3">Reportes
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="index.html">Home</a>
+        <a href="/index">Inicio</a>
       </li>
-      <li class="breadcrumb-item active">Blog Home 2</li>
+      <li class="breadcrumb-item active">Reportes</li>
     </ol>
 
     <!-- Blog Post -->
@@ -108,34 +102,31 @@
 
           <div class="col-lg-6">
             <a href="#">
-              <img class="img-fluid rounded" src="data:image/png;base64, {{report.original_img}}" alt="">
+              <img class="img-fluid rounded" src="data:image/png;base64, {{report.processed_img}}" alt="">
             </a>
           </div>
           <div class="col-lg-6">
             <h2 class="card-title">{{report.title}}</h2>
             <p class="card-text">{{report.description}}</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            <h4 class="my-3">Fecha </h4>
+            <ul>
+              <li>Día/Mes/Año: {{report.day_img}}/{{report.month_img}}/{{report.year_img}}</li>
+              <li>Hora: {{report.time_img}}</li>
+            </ul>
+            <h4 class="my-3">Encargado</h4>
+            <ul>
+              <li>Nombre: {{report.name}}</li>
+              <li>Correo: {{report.email}}</li>
+              <li>Ocupación: {{report.occupation}}</li>
+              <li>Celular: {{report.cel}}</li>
+            </ul>
+            <a href="#" class="btn btn-danger">Enviar</a>
           </div>
 
         </div>
       </div>
-      <div class="card-footer text-muted">
-        Reporte realizado: {{report.date_report}}
-        Reporte realizado el día: {{report.day_img}} del mes: {{report.month_img}} del año: {{report.year_img}}
-        <a href="#">Start Bootstrap</a>
-      </div>
     </div>
     {% endfor %}
-
-    <!-- Pagination -->
-    <ul class="pagination justify-content-center mb-4">
-      <li class="page-item">
-        <a class="page-link" href="#">&larr; Older</a>
-      </li>
-      <li class="page-item disabled">
-        <a class="page-link" href="#">Newer &rarr;</a>
-      </li>
-    </ul>
 
   </div>
 
@@ -145,7 +136,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Vaico Works</p>
     </div>
     <!-- /.container -->
   </footer>

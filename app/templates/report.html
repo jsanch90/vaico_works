@@ -29,6 +29,7 @@
       <!-- La idea es poner el logo de Vaico Works aquí -->
       <!-- Una duda es si cargar el método o sólo la página -->
       <!-- Por ahora en esta línea sólo carga la página como tal, pero realiza todo por la ruta url -->
+      <a href="/index"><img src="../static/images/logo.png" alt="logo" width="60px" height="60px"></a>
       <a class="navbar-brand" href="/index">Vaico Works</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -38,50 +39,19 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="/gallery">Procesamiento de imágenes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link" href="/reports">Reportes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="gallery">Acerca de</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Portfolio
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-              <a class="dropdown-item" href="gallery">2 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="/reports">Contacto</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Blog
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-              <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-            </div>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Other Pages
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-              <a class="dropdown-item" href="404.html">404</a>
-              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery">Cerrar sesión</a>
           </li>
         </ul>
       </div>
@@ -93,15 +63,14 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Contact
-      <small>Subheading</small>
+    <h1 class="mt-4 mb-3">Reporte
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="/index">Home</a>
+        <a href="/index">Inicio</a>
       </li>
-      <li class="breadcrumb-item active">Contact</li>
+      <li class="breadcrumb-item active">Reporte</li>
     </ol>
 
     <!-- Content Row -->
@@ -111,32 +80,31 @@
       </div>
       <!-- Contact Details Column -->
       <div class="col-lg-4 mb-4">
-        <h3>Contact Details</h3>
-        <p>
-          3481 Melrose Place
-          <br>Beverly Hills, CA 90210
-          <br>
-        </p>
-        <p>
-          <abbr title="Phone">P</abbr>: (123) 456-7890
-        </p>
-        <p>
-          <abbr title="Email">E</abbr>:
-          <a href="mailto:name@example.com">name@example.com
-          </a>
-        </p>
-        <p>
-          <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
-        </p>
+        <h3>Registro tomado:</h3>
+        <h3 class="my-3">Fecha: </h3>
+        <ul>
+          <li>Día: {{day}}</li>
+          <li>Mes: {{month}}</li>
+          <li>Año: {{year}}</li>
+          <li>Hora: {{time}}</li>
+        </ul>
+        <h3 class="my-3">Encargado</h3>
+        <ul>
+          <li>Nombre: {{name}}</li>
+          <li>Correo: {{email}}</li>
+          <li>Ocupación: {{occupation}}</li>
+          <li>Celular: {{cel}}</li>
+        </ul>
       </div>
     </div>
     <!-- /.row -->
 
     <!-- Contact Form -->
     <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <hr>
     <div class="row">
       <div class="col-lg-8 mb-4">
-        <h3>Send us a Message</h3>
+        <h3>Realizar reporte</h3>
         <form method="POST">
           <div class="control-group form-group">
             <div class="controls">
@@ -158,14 +126,15 @@
           <!-- For success/fail messages -->
 
 
-            <button type="submit" onclick="clickHandler()" value="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
-            
+          <button type="submit" onclick="clickHandler()" value="submit" class="btn btn-danger"
+            id="sendMessageButton">Enviar reporte</button>
+
           <script>
             function clickHandler() {
               Swal.fire(
-                'The Internet?',
-                'That thing is still around?',
-                'question'
+                '¡Reporte enviado!',
+                'Puedes revisar en la sección de reportes, el reporte realizado',
+                'success'
               )
             }
 
@@ -183,7 +152,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Vaico Works</p>
     </div>
     <!-- /.container -->
   </footer>
