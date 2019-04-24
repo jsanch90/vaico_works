@@ -98,11 +98,14 @@
 
     </div>
 
+    <h1 class="mt-4 mb-3">Zonas de trabajo</h1>
+
     <div class="row">
       {% for img in imgs %}
       <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="image/{{img.date}}"><img class="card-img-top" src="data:image/png;base64, {{img.prediction}}" alt=""></a>
+          <a href="image/{{img.date}}"><img class="card-img-top" src="data:image/png;base64, {{img.prediction}}"
+              alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="image/{{img.date}}">Registro {{ img }}</a>

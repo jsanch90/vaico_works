@@ -1,9 +1,6 @@
 import smtplib, ssl
 from email.message import EmailMessage
 
-
-
-
 class Email_services():
 
     def __init__(self, sender_email="vaicoworksreportes@gmail.com", password="vaicoworks"):
@@ -25,8 +22,9 @@ class Email_services():
         msg['To'] = ', '.join(recipients)
         msg.set_content(message)
 
+        server = smtplib.SMTP(self.smtp_server,self.port)
+
         try:
-            server = smtplib.SMTP(self.smtp_server,self.port)
             server.ehlo() 
             server.starttls(context=self.context) # Secure the connection
             server.ehlo() # Can be omitted

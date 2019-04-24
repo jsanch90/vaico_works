@@ -167,11 +167,15 @@ def view_image(date):
 def gallery():
     data = {}
     imgs = Image_Register.objects()
+    print(len(imgs))
     for img in imgs:
-        data[img.place] = img.place
+        if img.place in data.keys():
+            data[img.place].append(img.date)    
+        else:
+            data[img.place] = [img.date]
+    
     print(data)
-    for i in data:
-        print()
+    
     return render_template('gallery.html', imgs = data)
 
 @app.route('/contact', methods=['GET'])
