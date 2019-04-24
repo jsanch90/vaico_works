@@ -56,7 +56,7 @@ class Cam_Client():
             print('initializing prediction')
             pred = self.predict(img)
             print('sending to db')
-            self.db.image_registers.insert_one({'original':img,'prediction':pred,'place':self.place,'date':datetime.datetime.now()})
+            self.db.image_registers.insert_one({'original':img,'prediction':pred,'place':self.place,'date':str(datetime.datetime.now())})
         
 if __name__ == "__main__":
 

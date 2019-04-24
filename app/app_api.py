@@ -14,16 +14,25 @@ from flask_pymongo import PyMongo
 from io import BytesIO
 from PIL import Image
 from db_config import db_config
+from mongoengine import connect
 
 app = Flask(__name__)
 CORS(app)
+
 
 app.config['MONGODB_SETTINGS'] = {
     'db': 'vaico_works',
     'host': db_config['host']
 }
 
+
+# app.config['MONGO_DBNAME'] = 'vaico_works'
+# app.config['MONGO_URI'] = 'mongodb://vaico_works:vaico_works1@ds145916.mlab.com:45916/vaico_works'
+
+
 db = MongoEngine(app)
+#mongo = PyMongo(app)
+
 app.config['SECRET_KEY'] = 'vaico123s'
 login_manager = LoginManager()
 login_manager.init_app(app)
@@ -40,11 +49,18 @@ class User(UserMixin, db.Document):
     cel = db.StringField()
     occupation = db.StringField()
 
-class Image_Register(db.Document):                                                                                            
-    meta = {'collection': 'image_registers'}                                                                                             
-    original = db.StringField()
-    processed = db.StringField()
+# class Image_Register(db.Document):                                                                                            
+#     meta = {'collection': 'image_registers'}                                                                                             
+#     original = db.StringField()
+#     processed = db.StringField()
+#     date = db.StringField()
+
+class Image_Register(db.Document):
+    meta = {'collection': 'image_registers'}
+    place = db.StringField()
     date = db.StringField()
+    original = db.StringField()
+    prediction = db.StringField()
 
 class Report(db.Document):                                                                                            
     meta = {'collection': 'reports'}  
@@ -85,6 +101,7 @@ def register():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+    print(app.config)
     print(current_user.is_authenticated,'---------------------------------------------------')
     if current_user.is_authenticated == True:
         return redirect(url_for('show_index'))
@@ -107,6 +124,13 @@ def logout():
 @app.route('/index', methods=['GET', 'POST'])
 @login_required
 def show_index():
+    print(current_user.name)
+    users = User.objects()
+    print("soy el numero de usuarios:", len(users))
+    imgs = Image_Register.objects()
+    for i in imgs:
+        print(i.date)
+    print("soy el len: ", len(imgs))
     return render_template('index.html')
 
 
@@ -114,6 +138,7 @@ def show_index():
 @login_required
 def original_gallery():
     imgs = Image_Register.objects
+    #imgs = mongo.db.image_registers.find()
     return render_template('original_gallery.html',data=imgs)
 
 @app.route('/processed_gallery', methods=['GET', 'POST'])
@@ -126,6 +151,7 @@ def processed_gallery():
 @login_required
 def view_image(date):
     img = Image_Register.objects(date=date)
+    print(len(img))
     info = img._query
     year = info['date'].split(" ")[0].split("-")[0]
     month = info['date'].split(" ")[0].split("-")[1]
@@ -152,7 +178,7 @@ def generate_report(date):
         for i in Image_Register.objects:
             if(i.date == date):
                 original_img = i.original
-                processed_img = i.processed
+                processed_img = i.prediction
                 complete_date = i.date
 
         year_img = complete_date.split(" ")[0].split("-")[0]
