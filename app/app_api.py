@@ -173,6 +173,16 @@ def gallery():
         print()
     return render_template('gallery.html', imgs = data)
 
+@app.route('/contact', methods=['GET'])
+@login_required
+def contact():
+    return render_template('contact.html')
+
+@app.route('/about', methods=['GET'])
+@login_required
+def about():
+    return render_template('about.html')
+
 @app.route('/report/<date>', methods=['GET', 'POST'])
 @login_required
 def generate_report(date):

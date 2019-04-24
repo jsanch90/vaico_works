@@ -8,13 +8,13 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Modern Business - Start Bootstrap Template</title>
+  <title>Vaico Works</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="../static/css/modern-business.css" rel="stylesheet">
 
 </head>
 
@@ -23,35 +23,37 @@
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- La idea es poner el logo de Vaico Works aquí -->
+      <!-- Una duda es si cargar el método o sólo la página -->
+      <!-- Por ahora en esta línea sólo carga la página como tal, pero realiza todo por la ruta url -->
+      <a href="index"><img src="../static/images/logo.png" alt="logo" width="60px" height="60px"></a>
+      <a class="navbar-brand" href="index">Vaico Works</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="about.html">About</a>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery">Procesamiento de imágenes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link" href="gallery">Reportes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="about">Acerca de</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Portfolio
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="contact">Contacto</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li class="nav-item">
+            <a class="nav-link" href="gallery">Cerrar sesión</a>
+          </li>
+
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Blog
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
@@ -61,7 +63,8 @@
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
               Other Pages
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
@@ -71,7 +74,7 @@
               <a class="dropdown-item" href="404.html">404</a>
               <a class="dropdown-item" href="pricing.html">Pricing Table</a>
             </div>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -81,99 +84,138 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">About
-      <small>Subheading</small>
+    <h1 class="mt-4 mb-3">Acerca de 
+      <small>Vaico Works</small>
     </h1>
 
     <ol class="breadcrumb">
       <li class="breadcrumb-item">
-        <a href="index.html">Home</a>
+        <a href="index.html">Inicio</a>
       </li>
-      <li class="breadcrumb-item active">About</li>
+      <li class="breadcrumb-item active">Acerca de </li>
     </ol>
 
     <!-- Intro Content -->
     <div class="row">
       <div class="col-lg-6">
-        <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+        <img class="img-fluid rounded mb-4" src="../static/images/logo.png" alt="logo" width="500px" height="500px">
       </div>
       <div class="col-lg-6">
-        <h2>About Modern Business</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
-      </div>
+        <h2>Acerca de Vaico Works</h2>
+        <p>Somos una startup que hace uso de técnicas de:</p>
+        <ul>
+          <li>Visión artificial</li>
+          <li>Machine learning</li>
+          <li>Realidad aumentada</li>
+          <li>Desarrollo de productos y servicios</li>
+        </ul>
+        <p>con el fin de proveer a nuestros clientes soluciones en diferentes mercados como los seguros, la banca,
+          manufactura, entre otros.</p>
+        <p>Nuestros productos abarcan diversos temas como: reducción de accidentes en los puestos de trabajo,
+          automatización y aumento de eficiencia en pagos, predicción del estado de ocupación de lugares, predicciónes
+          de tráfico y mucho más.</p>
+        <p>Somos una empresa en constante crecimiento, dinámica y comprometida con la satisfacción de las necesidades
+          de nuestros clientes y la generación de valor para ellos. Utilizamos tecnología que esta en la frontera de
+          la ciencia y nos esforzamos sin descanso para ofrecer un excelente servicio.</p>
+        </div>
     </div>
     <!-- /.row -->
 
     <!-- Team Members -->
-    <h2>Our Team</h2>
-
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Team Member</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#">name@example.com</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Team Member</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#">name@example.com</a>
+   
+    <center>
+      <h2>Nuestro Equipo</h2>
+    </center>
+      <center>
+      <div class="row" position="center" text-align="center">
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 text-center">
+            <img class="card-img-top" src="../static/images/manuel.png" alt="" width="750px" height="400px">
+            <div class="card-body">
+              <h4 class="card-title">Manuel Felipe Echeverri Vélez</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Diseñador estratégico</h6>
+              <p class="card-text">con experiencia en la creación y desarrollo de modelos de negocio, servicios y productos. Aplicando diversas técnicas de “Design thinking” apunta siempre al descubrimiento de oportunidades estratégicas para la generación de soluciones que generan valor y tienen alto impacto.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#">name@example.com</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100 text-center">
-          <img class="card-img-top" src="http://placehold.it/750x450" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Team Member</h4>
-            <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#">name@example.com</a>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 text-center">
+            <img class="card-img-top" src="../static/images/JuanCarlos.jpg" alt="" width="750px" height="400px">
+            <div class="card-body">
+              <h4 class="card-title">Juan Carlos Arbeláez Estrada</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Doctor en ingeniería</h6>
+              <p class="card-text">del Politecnico Di Milano que ha enfocado su trabajo en los campos de Visión por Computador y Realidad Aumentada con énfasis en factores tanto tecnológicos como humanos, buscando siempre desarrollar productos usables y significativos para los usuarios.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#">name@example.com</a>
+            </div>
           </div>
         </div>
+      
       </div>
-    </div>
+    </center>
     <!-- /.row -->
 
     <!-- Our Customers -->
-    <h2>Our Customers</h2>
-    <div class="row">
-      <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-      </div>
-      <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-      </div>
-      <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-      </div>
-      <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-      </div>
-      <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-      </div>
-      <div class="col-lg-2 col-sm-4 mb-4">
-        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-      </div>
-    </div>
+    <center>
+    <h2>Vaico Rockets</h2>
+    <div class="row" position="center" text-align="center">
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 text-center">
+            <img class="card-img-top" src="../static/images/villa.jpg" alt="" width="750px" height="400px">
+            <div class="card-body">
+              <h4 class="card-title">Camilo Villa Restrepo</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Estudiante</h6>
+              <p class="card-text">Ingenieria de Sistemas 7° semestre Universidad EAFIT</p>
+            </div>
+            <div class="card-footer">
+              <a href="#">cvillar4@eafit.edu.co</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100 text-center">
+            <img class="card-img-top" src="../static/images/joshua.jpg" alt="" width="750px" height="400px">
+            <div class="card-body">
+              <h4 class="card-title">Joshua Sanchez Alvarez</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Estudiante</h6>
+              <p class="card-text">Ingenieria de Sistemas 7° semestre Universidad EAFIT</p>
+            </div>
+            <div class="card-footer">
+              <a href="#">jsanch90@eafit.edu.co</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="card h-100 text-center">
+              <img class="card-img-top" src="../static/images/esteban.jpg" alt="" width="750px" height="400px">
+              <div class="card-body">
+                <h4 class="card-title">Esteban Perez Noreña</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Estudiante</h6>
+                <p class="card-text">Ingenieria de Sistemas 7° semestre Universidad EAFIT</p>
+              </div>
+              <div class="card-footer">
+                <a href="#">eperezn@eafit.edu.co</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4">
+              <div class="card h-100 text-center">
+                <img class="card-img-top" src="../static/images/edwin.jpg" alt="" width="750px" height="400px">
+                <div class="card-body">
+                  <h4 class="card-title">Edwin Arley Rengifo Villa</h4>
+                  <h6 class="card-subtitle mb-2 text-muted">Estudiante</h6>
+                  <p class="card-text">Ingenieria de Sistemas 7° semestre Universidad EAFIT</p>
+                </div>
+                <div class="card-footer">
+                  <a href="#">erengif1@eafit.edu.co</a>
+                </div>
+              </div>
+            </div>
+  </center>
     <!-- /.row -->
 
   </div>
@@ -182,14 +224,14 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Vaico Works</p>
     </div>
     <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/vendor/jquery/jquery.min.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

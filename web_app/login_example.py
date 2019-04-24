@@ -1,15 +1,18 @@
-from flask import Flask, render_template, url_for, request, session, redirect, send_from_directory
-from flask_pymongo import PyMongo
+from flask import Flask, render_template, url_for, request, session, redirect, send_from_directory,jsonify,json
 from uuid import uuid4
 import bcrypt
 import os
+import base64
+import requests
+from flask import current_app
+import pymongo
 
 app = Flask(__name__)
+global name
 
-app.config['MONGO_DBNAME'] = 'loginexample'
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/loginexample'
-
-mongo = PyMongo(app)
+mongo = pymongo.MongoClient("mongodb+srv://vaico:7iBcC3Pqk3RuNnYK@vaicorockets-05ijn.mongodb.net/test?retryWrites=true")
+print(mongo.mflix)
+db = mongo.login
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 @app.route('/')
@@ -18,14 +21,20 @@ def index():
         return render_template("upload.html")
     return render_template('index.html')
 
+@app.route('/logout')
+def logout():
+    session.clear()
+    return render_template('index.html')
+
 @app.route('/login', methods=['POST', 'GET'])
 def login():
     if request.method == 'POST':    
-        users = mongo.db.users
-        login_user = users.find_one({'name' : request.form['username']})
+        login_user = db.users.find_one({'name' : request.form['username']})
 
         if login_user:
-            if bcrypt.hashpw(request.form['pass'].encode('utf-8'), login_user['password'].encode('utf-8')) == login_user['password'].encode('utf-8'):
+            print("____________________________")
+            print(login_user['password'])
+            if bcrypt.hashpw(request.form['pass'].encode('utf-8'), login_user['password']) == login_user['password']:
                 session['username'] = request.form['username']
                 return redirect(url_for('index'))
                 # return 'You are logged in as ' + session['username']
@@ -35,12 +44,11 @@ def login():
 @app.route('/register', methods=['POST', 'GET'])
 def register():
     if request.method == 'POST':
-        users = mongo.db.users
-        existing_user = users.find_one({'name' : request.form['username']})
+        existing_user = db.users.find_one({'name' : request.form['username']})
 
         if existing_user is None:
             hashpass = bcrypt.hashpw(request.form['pass'].encode('utf-8'), bcrypt.gensalt())
-            users.insert({'name' : request.form['username'], 'password' : hashpass})
+            db.users.insert_one({'name' : request.form['username'], 'password' : hashpass})
             session['username'] = request.form['username']
             return redirect(url_for('index'))
         
@@ -50,7 +58,8 @@ def register():
 
 @app.route("/upload", methods=["POST"])
 def upload():
-    target = os.path.join(APP_ROOT, 'images/')
+    global name
+    target = os.path.join(APP_ROOT, 'C:/Users/ESTEBAN/Documents/EAFIT/Proyecto2/vaico_works\web_app/static/img/')
     # target = os.path.join(APP_ROOT, 'static/')
     print(target)
     if not os.path.isdir(target):
@@ -62,6 +71,7 @@ def upload():
         print(upload)
         print("{} is the file name".format(upload.filename))
         filename = upload.filename
+        name = filename
         destination = "/".join([target, filename])
         print ("Accept incoming file:", filename)
         print ("Save it to:", destination)
@@ -72,8 +82,22 @@ def upload():
 
 @app.route('/upload/<filename>')
 def send_image(filename):
-    return send_from_directory("images", filename)
+    print(send_from_directory("static/img/", filename,as_attachment=True))
+    return send_from_directory("static/img/", filename)
 
+@app.route("/send", methods=["GET"])
+def send_images():
+    global name
+    with open("./static/img/"+name, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read())
+    return jsonify({'result' : str(encoded_string)})
+
+@app.route("/recieve", methods=["GET"])
+def recieve():
+    r = requests.get(url = 'http://localhost:5000/send')
+    json_data = json.loads(r.text)
+    # imgdata = base64.b64decode(json_data['result'])
+    return "<html><body><img src=\"data:image/jpeg;base64,"+json_data['result']+"\" /></body></html>"
 
 if __name__ == '__main__':
     app.secret_key = 'mysecret'
