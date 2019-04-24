@@ -40,5 +40,5 @@ class Email_services():
             server.quit()
         print('Message sent')
 
-x = Email_services()
-x.send_email(['este991@gmail.com','p4rsek@gmail.com'])
+# x = Email_services()
+# x.send_email(['este991@gmail.com','p4rsek@gmail.com'])

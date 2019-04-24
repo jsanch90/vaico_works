@@ -15,6 +15,7 @@ from io import BytesIO
 from PIL import Image
 from db_config import db_config
 from mongoengine import connect
+from email_service import Email_services
 
 app = Flask(__name__)
 CORS(app)
@@ -208,6 +209,10 @@ def generate_report(date):
 
         title = request.form['title']
         description = request.form['description']
+        recipients = request.form['recipients']
+        recipientsAux = recipients.split(",")
+        email_service = Email_services()
+        email_service.send_email(recipientsAux, message = description, subject = title)
         save_report(title, name, email, cel, occupation, original_img, processed_img, year, month, day, time, str(datetime.datetime.now()), description)
     return render_template('report.html', data=img, year=year, month=month, day=day, time=time, name=name, email=email, cel=cel, occupation=occupation)
 
