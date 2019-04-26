@@ -220,7 +220,8 @@ def generate_report(date):
         recipients = request.form['recipients']
         recipientsAux = recipients.split(",")
         email_service = Email_services()
-        email_service.send_email(recipientsAux, message = description, subject = title)
+        email_service.get_image_from_base64(processed_img, out_name = "reporte_de_obra")
+        email_service.send_email(recipientsAux, message = description, subject = title, attachment = "static/img/reporte_de_obra.jpg")
         save_report(title, name, email, cel, occupation, original_img, processed_img, year, month, day, time, str(datetime.datetime.now()), description)
     return render_template('report.html', data=img, year=year, month=month, day=day, time=time, name=name, email=email, cel=cel, occupation=occupation)
 
