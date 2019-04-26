@@ -145,7 +145,7 @@ def original_gallery():
 @app.route('/processed_gallery', methods=['GET', 'POST'])
 @login_required
 def processed_gallery():
-    imgs = Image_Register.objects
+    imgs = Image_Register.objects()
     return render_template('processed_gallery.html',data=imgs)
 
 @app.route('/image/<date>', methods=['GET', 'POST'])
@@ -167,16 +167,20 @@ def view_image(date):
 def gallery():
     data = {}
     imgs = Image_Register.objects()
-    print(len(imgs))
     for img in imgs:
         if img.place in data.keys():
-            data[img.place].append(img.date)    
+            data[img.place].append(img)    
         else:
-            data[img.place] = [img.date]
-    
-    print(data)
+            data[img.place] = [img]
     
     return render_template('gallery.html', imgs = data)
+
+@app.route('/sector_gallery/<place>', methods=['GET', 'POST'])
+@login_required
+def sector_gallery(place):
+    imgs = Image_Register.objects(place = place)
+    print("Se recuperaron estos lugares", len(imgs))
+    return render_template('sector_gallery.html', data = imgs)
 
 @app.route('/contact', methods=['GET'])
 @login_required

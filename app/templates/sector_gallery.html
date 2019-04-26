@@ -56,7 +56,7 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Galería
+    <h1 class="mt-4 mb-3">{{ data[0].place }}
       <!-- <small>Subheading</small> -->
     </h1>
 
@@ -64,61 +64,32 @@
       <li class="breadcrumb-item">
         <a href="/index">Inicio</a>
       </li>
-      <li class="breadcrumb-item active">Galería</li>
+      <li class="breadcrumb-item active">{{ data[0].place }}</li>
     </ol>
 
-    <!-- La idea es poner una imagen de una costrucción sin identificar nada -->
-
     <div class="row">
-      <div class="col-lg-6 portfolio-item">
-        <div class="card h-100">
-          <a href="original_gallery"><img class="card-img-top" src="../static/images/2.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="original_gallery">Imágenes sin clasificación</a>
-            </h4>
-            <p class="card-text">Una pequeña descripción que relate la cotidianidad de los obreros</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- En cambio acá, la idea es poner imágenes con la clasificación -->
-
-      <div class="col-lg-6 portfolio-item">
-        <div class="card h-100">
-          <a href="processed_gallery"><img class="card-img-top" src="../static/images/3.jpeg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="processed_gallery">Imágenes clasificadas</a>
-            </h4>
-            <p class="card-text">Pequeña descripción de la clasificación de imágenes</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <h1 class="mt-4 mb-3">Zonas de trabajo</h1>
-
-    <hr>
-
-    <div class="row">
-      {% for img in imgs %}
+      {% for img in data %}
       <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="sector_gallery/{{imgs[img][0].place}}"><img class="card-img-top" src="data:image/png;base64, {{imgs[img][0].original}}"
+          <a href="/image/{{img.date}}"><img class="card-img-top" src="data:image/png;base64, {{img.prediction}}"
               alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="sector_gallery/{{imgs[img][0].place}}">{{ imgs[img][0].place }}</a>
+              <a href="/image/{{img.date}}">Registro {{ loop.index }}</a>
             </h4>
-            <p class="card-text">Pulsando clic sobre esta sección, podrá ver todos los registros tomados en esta zona en particular</p>
+            <p class="card-text">Día/Mes/Año:
+              {{ img.date.split(" ")[0].split("-")[2] }}/{{img.date.split(" ")[0].split("-")[1]}}/{{img.date.split(" ")[0].split("-")[0]}}
+              <span>
+                Hora: {{ img.date.split(" ")[1].split(".")[0] }}
+                <br>
+                Lugar: {{ img.place }}
+              </span>
+            </p>
           </div>
         </div>
       </div>
       {% endfor %}
     </div>
-    <!-- /.row -->
 
   </div>
   <!-- /.container -->
