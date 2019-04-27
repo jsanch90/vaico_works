@@ -16,12 +16,14 @@
   <!-- Custom styles for this template -->
   <link href="../static/css/modern-business.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="../static/css/sweetalert2.min.css">
+
 </head>
 
 <body>
 
-<!-- Navigation -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a href="/index"><img src="../static/images/logo.png" alt="logo" width="60px" height="60px"></a>
       <a class="navbar-brand" href="/index">Vaico Works</a>
@@ -71,7 +73,9 @@
       <!-- Map Column -->
       <div class="col-lg-8 mb-4">
         <!-- Embedded Google Map -->
-        <div style="width: 100%"><iframe width="100%" height="400" src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;coord=6.199548,-75.5815287&amp;q=Carrera%2049%2C%20n%C3%BAmero%207%20sur%2050%2C%20Medell%C3%ADn%2C%20Antioquia%2C%20Colombia%20(Bloque%2019-522)+(Vaico%20Works)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><br />
+        <div style="width: 100%"><iframe width="100%" height="400"
+            src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;coord=6.199548,-75.5815287&amp;q=Carrera%2049%2C%20n%C3%BAmero%207%20sur%2050%2C%20Medell%C3%ADn%2C%20Antioquia%2C%20Colombia%20(Bloque%2019-522)+(Vaico%20Works)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><br />
       </div>
       <!-- Contact Details Column -->
       <div class="col-lg-4 mb-4">
@@ -101,35 +105,53 @@
     <div class="row">
       <div class="col-lg-8 mb-4">
         <h3>Envíanos un mensaje</h3>
-        <form name="sentMessage" id="contactForm" novalidate>
+        <form method="POST">
           <div class="control-group form-group">
             <div class="controls">
               <label>Nombre completo:</label>
-              <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+              <input type="text" class="form-control" name="name" required
+                data-validation-required-message="Ingrese su nombre por favor.">
               <p class="help-block"></p>
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
               <label>Número de teléfono:</label>
-              <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+              <input type="text" class="form-control" name="cel" required
+                data-validation-required-message="Ingrese su número de celular por favor.">
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
               <label>Dirección de correo:</label>
-              <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+              <input type="text" class="form-control" name="email" required
+                data-validation-required-message="Ingrese su correo por favor.">
             </div>
           </div>
           <div class="control-group form-group">
             <div class="controls">
               <label>Mensaje:</label>
-              <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+              <textarea rows="10" cols="100" class="form-control" name="message" required
+                data-validation-required-message="Ingrese su mensaje por favor" maxlength="999"
+                style="resize:none"></textarea>
             </div>
           </div>
           <div id="success"></div>
           <!-- For success/fail messages -->
-          <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>
+          <button type="submit" onclick="clickHandler()" value="submit" class="btn btn-danger"
+            id="sendMessageButton">Enviar
+            mensaje</button>
+
+          <script>
+            function clickHandler() {
+              Swal.fire(
+                'Mensaje enviado!',
+                'Pronto Vaico Works estará comunicándose contigo',
+                'success'
+              )
+            }
+
+          </script>
         </form>
       </div>
 
@@ -155,6 +177,7 @@
   <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
   <script src="../static/js/jqBootstrapValidation.js"></script>
   <script src="../static/js/contact_me.js"></script>
+  <script src="../static/js/sweetaler2.min.js"></script>
 
 </body>
 

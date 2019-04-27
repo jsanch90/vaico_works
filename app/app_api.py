@@ -50,12 +50,6 @@ class User(UserMixin, db.Document):
     cel = db.StringField()
     occupation = db.StringField()
 
-# class Image_Register(db.Document):                                                                                            
-#     meta = {'collection': 'image_registers'}                                                                                             
-#     original = db.StringField()
-#     processed = db.StringField()
-#     date = db.StringField()
-
 class Image_Register(db.Document):
     meta = {'collection': 'image_registers'}
     place = db.StringField()
@@ -79,6 +73,12 @@ class Report(db.Document):
     date_report = db.StringField()
     description = db.StringField()
 
+class Customer(db.Document):
+    meta = {'collection': 'customers'}
+    name = db.StringField()
+    cel = db.StringField()
+    email = db.StringField()
+    
 @login_manager.user_loader
 def load_user(user_id):
     return User.objects(pk=user_id).first()
@@ -182,9 +182,22 @@ def sector_gallery(place):
     print("Se recuperaron estos lugares", len(imgs))
     return render_template('sector_gallery.html', data = imgs)
 
-@app.route('/contact', methods=['GET'])
+@app.route('/contact', methods=['GET', 'POST'])
 @login_required
 def contact():
+    if request.method == 'POST':
+        name = request.form['name']
+        cel = request.form['cel']
+        email = request.form['email']
+        save_customer(name, cel, email)
+        message = "Nombre: " + name + "\n" + "Celular: " + cel + "\n" + "Dirección de correo: " + email + "\n" + "Mensaje: " + request.form['message']
+        recipient = email.split(",")
+        vaico_contact = "vaicoworkscontacto@gmail.com".split(",")
+        email_service = Email_services(sender_email="vaicoworkscontacto@gmail.com", password="vaico_works")
+        # Email to Vaico Works
+        email_service.send_email(vaico_contact, message = message, subject = "Nuevo contacto", attachment = None)
+        # Email to customer
+        email_service.send_email(recipient, message = "Muchas gracias por contactarnos, estamos trabajando para ofrecer un mejor servicio.", subject = "Vaico Works", attachment = None)
     return render_template('contact.html')
 
 @app.route('/about', methods=['GET'])
@@ -227,6 +240,10 @@ def generate_report(date):
 
 def save_report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description):
     Report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description).save()
+
+
+def save_customer(name, cel, email):
+    Customer(name, cel, email).save()
 
 @app.route('/reports', methods=['GET', 'POST'])
 @login_required

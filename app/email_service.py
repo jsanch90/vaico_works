@@ -67,7 +67,8 @@ class Email_services():
             # Print any error messages to stdout
             print('Error',e)
         finally:
-            self.clear_temp_imgs()
+            if (attachment is not None):
+                self.clear_temp_imgs()
             server.quit()
         print('Message sent')
     
