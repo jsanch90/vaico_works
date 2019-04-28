@@ -5,7 +5,7 @@ import time
 
 
 def take_pictures(dir_name,name,cam=0):
-    video_capture = cv2.VideoCapture(0)
+    video_capture = cv2.VideoCapture(cam)
     if not video_capture.isOpened():
         raise Exception("Could not open video device")
     ret, frame = video_capture.read()
