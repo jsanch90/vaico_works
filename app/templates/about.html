@@ -23,6 +23,9 @@
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
+      <!-- La idea es poner el logo de Vaico Works aquí -->
+      <!-- Una duda es si cargar el método o sólo la página -->
+      <!-- Por ahora en esta línea sólo carga la página como tal, pero realiza todo por la ruta url -->
       <a href="/index"><img src="../static/images/logo.png" alt="logo" width="60px" height="60px"></a>
       <a class="navbar-brand" href="/index">Vaico Works</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -44,6 +47,18 @@
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contacto</a>
           </li>
+          {% if permissions %}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Gestión de usuarios
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="/register">Agregar usuario</a>
+              <a class="dropdown-item" href="/delete_user">Eliminar usuario</a>
+            </div>
+          </li>
+          {% endif %}
           <li class="nav-item">
             <a class="nav-link" href="/logout">Cerrar sesión</a>
           </li>

@@ -20,19 +20,12 @@ from email_service import Email_services
 app = Flask(__name__)
 CORS(app)
 
-
 app.config['MONGODB_SETTINGS'] = {
     'db': 'vaico_works',
     'host': db_config['host']
 }
 
-
-# app.config['MONGO_DBNAME'] = 'vaico_works'
-# app.config['MONGO_URI'] = 'mongodb://vaico_works:vaico_works1@ds145916.mlab.com:45916/vaico_works'
-
-
 db = MongoEngine(app)
-#mongo = PyMongo(app)
 
 app.config['SECRET_KEY'] = 'vaico123s'
 login_manager = LoginManager()
@@ -42,6 +35,7 @@ login_manager.login_view = 'login'
 ################################################################################################
                                            #Models
 ################################################################################################
+
 class User(UserMixin, db.Document):                                                                                            
     meta = {'collection': 'users'}                                                                                             
     email = db.StringField(max_length=30)
@@ -49,6 +43,7 @@ class User(UserMixin, db.Document):
     name = db.StringField()
     cel = db.StringField()
     occupation = db.StringField()
+    permissions = db.BooleanField()
 
 class Image_Register(db.Document):
     meta = {'collection': 'image_registers'}
@@ -66,10 +61,7 @@ class Report(db.Document):
     occupation = db.StringField()                                                                                           
     original_img = db.StringField()
     processed_img = db.StringField()
-    year_img = db.StringField()
-    month_img = db.StringField()
-    day_img = db.StringField()
-    time_img = db.StringField()
+    date_img = db.StringField()
     date_report = db.StringField()
     description = db.StringField()
 
@@ -78,32 +70,30 @@ class Customer(db.Document):
     name = db.StringField()
     cel = db.StringField()
     email = db.StringField()
+
+@app.route('/')
+def index():
+    return redirect(url_for('show_index'))
     
 @login_manager.user_loader
 def load_user(user_id):
     return User.objects(pk=user_id).first()
 
 @app.route('/register', methods=['GET', 'POST'])
+@login_required
 def register():
-    #print(request.form['first_name'])
     if request.method == 'POST':
-        print('init validaton')
-        print(request.form['email'])
         existing_user = User.objects(email=request.form['email']).first()
-        print('validation ended')
         if existing_user is None:
             hashpass = generate_password_hash(request.form['password'], method='sha256')
-            hey = User(request.form['email'],hashpass,request.form['first_name'],request.form['cel'],request.form['occupation']).save()
-            login_user(hey)
-            print(request.form['first_name'])
-            return redirect(url_for('show_index',email=request.form['email']))
+            hey = User(request.form['email'],hashpass,request.form['first_name'],request.form['cel'],request.form['occupation'], False).save()
+            # login_user(hey)
+            # return redirect(url_for('show_index',email=request.form['email']))
     
     return render_template('register.html')
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-    print(app.config)
-    print(current_user.is_authenticated,'---------------------------------------------------')
     if current_user.is_authenticated == True:
         return redirect(url_for('show_index'))
     if request.method == 'POST':
@@ -123,48 +113,43 @@ def logout():
 
 
 @app.route('/index', methods=['GET', 'POST'])
-@login_required
 def show_index():
-    print(current_user.name)
     users = User.objects()
-    print("soy el numero de usuarios:", len(users))
+    permissions = current_user.permissions
     imgs = Image_Register.objects()
-    for i in imgs:
-        print(i.date)
-    print("soy el len: ", len(imgs))
-    return render_template('index.html')
+    return render_template('index.html', permissions = permissions)
 
 
 @app.route('/original_gallery', methods=['GET', 'POST'])
 @login_required
 def original_gallery():
     imgs = Image_Register.objects()
- 
-    return render_template('original_gallery.html',data=imgs)
+    permissions = current_user.permissions
+    return render_template('original_gallery.html', data = imgs, permissions = permissions)
 
 @app.route('/processed_gallery', methods=['GET', 'POST'])
 @login_required
 def processed_gallery():
     imgs = Image_Register.objects()
-    return render_template('processed_gallery.html',data=imgs)
+    permissions = current_user.permissions
+    return render_template('processed_gallery.html', data = imgs, permissions = permissions)
 
 @app.route('/image/<date>', methods=['GET', 'POST'])
 @login_required
 def view_image(date):
+    permissions = current_user.permissions
     img = Image_Register.objects(date=date)
-    print(img)
     info = img._query
-    print(info)
     year = info['date'].split(" ")[0].split("-")[0]
     month = info['date'].split(" ")[0].split("-")[1]
     day = info['date'].split(" ")[0].split("-")[2]
     time = info['date'].split(" ")[1].split(".")[0]
-
-    return render_template('view_image.html', data=img, year=year, month=month, day=day, time=time)
+    return render_template('view_image.html', data=img, year=year, month=month, day=day, time=time, permissions = permissions)
 
 @app.route('/gallery', methods=['GET', 'POST'])
 @login_required
 def gallery():
+    permissions = current_user.permissions
     data = {}
     imgs = Image_Register.objects()
     for img in imgs:
@@ -173,18 +158,18 @@ def gallery():
         else:
             data[img.place] = [img]
     
-    return render_template('gallery.html', imgs = data)
+    return render_template('gallery.html', imgs = data, permissions = permissions)
 
 @app.route('/sector_gallery/<place>', methods=['GET', 'POST'])
 @login_required
 def sector_gallery(place):
     imgs = Image_Register.objects(place = place)
-    print("Se recuperaron estos lugares", len(imgs))
-    return render_template('sector_gallery.html', data = imgs)
+    permissions = current_user.permissions
+    return render_template('sector_gallery.html', data = imgs, permissions = permissions)
 
 @app.route('/contact', methods=['GET', 'POST'])
-@login_required
 def contact():
+    permissions = current_user.permissions
     if request.method == 'POST':
         name = request.form['name']
         cel = request.form['cel']
@@ -198,35 +183,30 @@ def contact():
         email_service.send_email(vaico_contact, message = message, subject = "Nuevo contacto", attachment = None)
         # Email to customer
         email_service.send_email(recipient, message = "Muchas gracias por contactarnos, estamos trabajando para ofrecer un mejor servicio.", subject = "Vaico Works", attachment = None)
-    return render_template('contact.html')
+    return render_template('contact.html', permissions = permissions)
 
 @app.route('/about', methods=['GET'])
-@login_required
 def about():
-    return render_template('about.html')
+    permissions = current_user.permissions
+    return render_template('about.html', permissions = permissions)
 
 @app.route('/report/<date>', methods=['GET', 'POST'])
 @login_required
 def generate_report(date):
+    permissions = current_user.permissions
     img = Image_Register.objects(date=date)
-    info = img._query
-    year = info['date'].split(" ")[0].split("-")[0]
-    month = info['date'].split(" ")[0].split("-")[1]
-    day = info['date'].split(" ")[0].split("-")[2]
-    time = info['date'].split(" ")[1].split(".")[0]
     name = ""
     user = current_user
     name = user['name']
     email = user['email']
     cel = user['cel']
     occupation = user['occupation']
-    print(name)
     if request.method == 'POST':
         for i in Image_Register.objects:
             if(i.date == date):
                 original_img = i.original
                 processed_img = i.prediction
-                complete_date = i.date
+                date_img = i.date
 
         title = request.form['title']
         description = request.form['description']
@@ -235,11 +215,11 @@ def generate_report(date):
         email_service = Email_services()
         email_service.get_image_from_base64(processed_img, out_name = "reporte_de_obra")
         email_service.send_email(recipientsAux, message = description, subject = title, attachment = "static/img/reporte_de_obra.jpg")
-        save_report(title, name, email, cel, occupation, original_img, processed_img, year, month, day, time, str(datetime.datetime.now()), description)
-    return render_template('report.html', data=img, year=year, month=month, day=day, time=time, name=name, email=email, cel=cel, occupation=occupation)
+        save_report(title, name, email, cel, occupation, original_img, processed_img, date_img, str(datetime.datetime.now()), description)
+    return render_template('report.html', data=img, name=name, email=email, cel=cel, occupation=occupation, permissions = permissions)
 
-def save_report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description):
-    Report(title, name, email, cel, occupation, original_img, processed_img, year_img, month_img, day_img, time_img, date_report, description).save()
+def save_report(title, name, email, cel, occupation, original_img, processed_img, date_img, date_report, description):
+    Report(title, name, email, cel, occupation, original_img, processed_img, date_img, date_report, description).save()
 
 
 def save_customer(name, cel, email):
@@ -248,10 +228,22 @@ def save_customer(name, cel, email):
 @app.route('/reports', methods=['GET', 'POST'])
 @login_required
 def view_reports():
-    
+    permissions = current_user.permissions
     reports = Report.objects()
-    return render_template("reports.html", data = reports)
+    return render_template("reports.html", data = reports, permissions = permissions)
 
+@app.route('/delete_user', methods=['GET', 'POST'])
+@login_required
+def delete_user():
+    users = User.objects(permissions = False)
+    permissions = current_user.permissions
+    return render_template("delete_user.html", data = users, permissions = permissions)
+
+@app.route('/delete_user/<email>', methods=['GET', 'POST'])
+@login_required
+def delete_specific_user(email):
+    User.objects(email = email).delete()
+    return redirect(url_for('delete_user'))
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',debug=True)

@@ -47,34 +47,21 @@
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contacto</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/logout">Cerrar sesión</a>
-          </li>
-
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Blog
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-              <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-            </div>
-          </li>
+          {% if permissions %}
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Other Pages
+              Gestión de usuarios
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-              <a class="dropdown-item" href="faq.html">FAQ</a>
-              <a class="dropdown-item" href="404.html">404</a>
-              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+              <a class="dropdown-item" href="/register">Agregar usuario</a>
+              <a class="dropdown-item" href="/delete_user">Eliminar usuario</a>
             </div>
-          </li> -->
+          </li>
+          {% endif %}
+          <li class="nav-item">
+            <a class="nav-link" href="/logout">Cerrar sesión</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -165,8 +152,8 @@
             <h4 class="card-title">
               Piso 2
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
-              gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">Edificio de ciencias visto desde el segundo piso del bloque 19 de la Universidad EAFIT
+            </p>
           </div>
         </div>
       </div>
@@ -177,9 +164,8 @@
             <h4 class="card-title">
               Piso 4
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed
-              cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia
-              recusandae vero vel quam!</p>
+            <p class="card-text">Edificio de ciencias visto desde el cuarto piso del bloque 19 de la Universidad EAFIT
+            </p>
           </div>
         </div>
       </div>
@@ -190,8 +176,8 @@
             <h4 class="card-title">
               Piso 5
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
-              gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">Edificio de ciencias visto desde el quinto piso del bloque 19 de la Universidad EAFIT
+            </p>
           </div>
         </div>
       </div>
@@ -202,8 +188,8 @@
             <h4 class="card-title">
               Piso 6
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
-              gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">Edificio de ciencias visto desde el sexto piso del bloque 19 de la Universidad EAFIT.
+            </p>
           </div>
         </div>
       </div>
@@ -214,9 +200,8 @@
             <h4 class="card-title">
               Piso 7
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit
-              ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat
-              fugiat excepturi! Nemo, esse.</p>
+            <p class="card-text">Edificio de ciencias visto desde el séptimo piso del bloque 19 de la Universidad EAFIT
+            </p>
           </div>
         </div>
       </div>
@@ -227,9 +212,8 @@
             <h4 class="card-title">
               Piso 8
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum
-              quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum
-              tempora ex quae? Nihil, dolorem!</p>
+            <p class="card-text">Edificio de ciencias visto desde el octavo piso del bloque 19 de la Universidad EAFIT
+            </p>
           </div>
         </div>
       </div>

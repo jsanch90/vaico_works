@@ -20,37 +20,52 @@
 
 <body>
 
- <!-- Navigation -->
- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a href="/index"><img src="../static/images/logo.png" alt="logo" width="60px" height="60px"></a>
-      <a class="navbar-brand" href="/index">Vaico Works</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/gallery">Procesamiento de imágenes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/reports">Reportes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about">Acerca de</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/logout">Cerrar sesión</a>
-          </li>
-        </ul>
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <!-- La idea es poner el logo de Vaico Works aquí -->
+        <!-- Una duda es si cargar el método o sólo la página -->
+        <!-- Por ahora en esta línea sólo carga la página como tal, pero realiza todo por la ruta url -->
+        <a href="/index"><img src="../static/images/logo.png" alt="logo" width="60px" height="60px"></a>
+        <a class="navbar-brand" href="/index">Vaico Works</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/gallery">Procesamiento de imágenes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/reports">Reportes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">Acerca de</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contacto</a>
+            </li>
+            {% if permissions %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Gestión de usuarios
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="/register">Agregar usuario</a>
+                <a class="dropdown-item" href="/delete_user">Eliminar usuario</a>
+              </div>
+            </li>
+            {% endif %}
+            <li class="nav-item">
+              <a class="nav-link" href="/logout">Cerrar sesión</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
   <!-- Page Content -->
   <div class="container">
@@ -73,7 +88,7 @@
         <div class="row">
 
           <div class="col-lg-6">
-            <a href="#">
+            <a href="/image/{{report.date_img}}">
               <img class="img-fluid rounded" src="data:image/png;base64, {{report.processed_img}}" alt="">
             </a>
           </div>
@@ -81,10 +96,11 @@
             <h2 class="card-title">{{report.title}}</h2>
             <p class="card-text">{{report.description}}</p>
             <h4 class="my-3">Fecha </h4>
-            <ul>
-              <li>Día/Mes/Año: {{report.day_img}}/{{report.month_img}}/{{report.year_img}}</li>
-              <li>Hora: {{report.time_img}}</li>
-            </ul>
+            <li>
+              {{report.date_report.split(" ")[0].split("-")[2]}}/{{report.date_report.split(" ")[0].split("-")[1]}}/{{report.date_report.split(" ")[0].split("-")[0]}}
+            </li>
+            <h4 class="my-3">Horario </h4>
+            <li>{{report.date_report.split(" ")[1].split(".")[0]}}</li>
             <h4 class="my-3">Encargado</h4>
             <ul>
               <li>Nombre: {{report.name}}</li>
