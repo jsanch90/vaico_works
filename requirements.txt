@@ -6,7 +6,7 @@ Flask_Login==0.4.1
 Werkzeug==0.14.1
 numpy==1.16.2
 setuptools==40.8.0
-opencv_contrib_python==3.4.1.15
+opencv-python==4.0.1.23
 pytest==3.3.2
 imageai==2.0.2
 Keras==2.2.4
