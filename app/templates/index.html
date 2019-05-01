@@ -59,9 +59,15 @@
             </div>
           </li>
           {% endif %}
+          {% if session %}
           <li class="nav-item">
             <a class="nav-link" href="/logout">Cerrar sesión</a>
           </li>
+          {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Iniciar sesión</a>
+          </li>
+          {% endif %}
         </ul>
       </div>
     </div>
@@ -83,16 +89,11 @@
 
         <div class="carousel-item active" style="background-image: url('../static/images/2.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Imágenes sin procesar</h3>
-            <p>Imágenes tomadas desde distintas zonas de la obra</p>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('../static/images/3.jpeg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Imágenes procesadas</h3>
-            <p>Imágenes procesadas por el modelo de inteligencia artificial donde se reconoce cuándo un obrero está o
-              no, usando casco.</p>
           </div>
         </div>
       </div>

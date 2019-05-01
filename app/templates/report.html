@@ -94,9 +94,9 @@
       <div class="col-lg-4 mb-4">
         <h3>Registro tomado:</h3>
         <h3 class="my-3">Fecha</h3>
-        <li>{{day}}/{{month}}/{{year}}</li>
+        <li>{{img.date.split(" ")[0].split("-")[2]}}/{{img.date.split(" ")[0].split("-")[1]}}/{{img.date.split(" ")[0].split("-")[0]}}</li>
         <h3 class="my-3">Horario</h3>
-        <li>{{time}}</li>
+        <li>{{img.date.split(" ")[1].split(".")[0]}}</li>
         <h3 class="my-3">Lugar</h3>
         <li>{{img.place}}</li>
         <h3 class="my-3">Encargado</h3>

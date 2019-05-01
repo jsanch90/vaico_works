@@ -115,9 +115,14 @@ def logout():
 @app.route('/index', methods=['GET', 'POST'])
 def show_index():
     users = User.objects()
-    permissions = current_user.permissions
+    if(current_user.is_authenticated):
+        permissions = current_user.permissions 
+        session = True
+    else:
+        permissions = False
+        session = False 
     imgs = Image_Register.objects()
-    return render_template('index.html', permissions = permissions)
+    return render_template('index.html', permissions = permissions, session = session)
 
 
 @app.route('/original_gallery', methods=['GET', 'POST'])
@@ -169,7 +174,12 @@ def sector_gallery(place):
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
-    permissions = current_user.permissions
+    if(current_user.is_authenticated):
+        permissions = current_user.permissions
+        session = True 
+    else:
+        permissions = False
+        session = False 
     if request.method == 'POST':
         name = request.form['name']
         cel = request.form['cel']
@@ -182,13 +192,18 @@ def contact():
         # Email to Vaico Works
         email_service.send_email(vaico_contact, message = message, subject = "Nuevo contacto", attachment = None)
         # Email to customer
-        email_service.send_email(recipient, message = "Muchas gracias por contactarnos, estamos trabajando para ofrecer un mejor servicio.", subject = "Vaico Works", attachment = None)
-    return render_template('contact.html', permissions = permissions)
+        email_service.send_email(recipient, message = "Hola,\n\n Gracias por contactarnos! Nuestro personal revisará tu mensaje y lo responderá lo más pronto posible. \n\n Un saludo cordial, \n\n Vaico Works.", subject = "Vaico Works", attachment = None)
+    return render_template('contact.html', permissions = permissions, session = session)
 
 @app.route('/about', methods=['GET'])
 def about():
-    permissions = current_user.permissions
-    return render_template('about.html', permissions = permissions)
+    if(current_user.is_authenticated):
+        permissions = current_user.permissions
+        session = True 
+    else:
+        permissions = False
+        session = False 
+    return render_template('about.html', permissions = permissions, session = session)
 
 @app.route('/report/<date>', methods=['GET', 'POST'])
 @login_required

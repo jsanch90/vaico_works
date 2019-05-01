@@ -59,9 +59,15 @@
             </div>
           </li>
           {% endif %}
+          {% if session %}
           <li class="nav-item">
             <a class="nav-link" href="/logout">Cerrar sesión</a>
           </li>
+          {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="/login">Iniciar sesión</a>
+          </li>
+          {% endif %}
         </ul>
       </div>
     </div>
