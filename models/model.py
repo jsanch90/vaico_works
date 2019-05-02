@@ -1,6 +1,6 @@
 #install pip install https://github.com/OlafenwaMoses/ImageAI/releases/download/2.0.2/imageai-2.0.2-py3-none-any.whl
-from keras.models import load_model
 from imageai.Detection import ObjectDetection
+from imageai.Prediction.Custom import CustomImagePrediction
 import numpy as np
 from PIL import Image
 from skimage import transform
@@ -13,13 +13,18 @@ from io import BytesIO
 
 class Vaico_helmet_detection:
 
-    def __init__(self,yolo_weigths='../../models_h5/yolo.h5', model_weigths='../../models_h5/vaico_mobilenet.h5'):
+    def __init__(self,yolo_weigths='../../models_h5/yolo.h5', model_weigths='../../models_h5/model_ex-009_acc-0.921875.h5', model_json='../../models_h5/model_class.json'):
         self.detector = ObjectDetection()
         self.detector.setModelTypeAsYOLOv3()
         self.detector.setModelPath(yolo_weigths)
         self.detector.loadModel()
         
-        self.classifier = load_model(model_weigths)
+        self.classifier = CustomImagePrediction()
+        self.classifier.setModelTypeAsResNet()
+        self.classifier.setModelPath(model_weigths)
+        self.classifier.setJsonPath(model_json)
+        self.classifier.loadModel(num_objects=2)
+        
 
         self.current_detection = []
 
@@ -76,7 +81,7 @@ class Vaico_helmet_detection:
                 cv2.imwrite(person_path, person)
                 person_points = (person,(y1_new, y2_new, x1_new, x2_new),person_path)
                 persons_in_image.append(person_points)
-        print(persons_in_image)
+        #print(persons_in_image)
         return persons_in_image
     
     def load_image_for_model(self, image_path):
@@ -96,21 +101,21 @@ class Vaico_helmet_detection:
         return np_image
     
     def predict_on_image(self,image):
-        res = self.classifier.predict(image)
+        res = self.classifier.predictImage(image)
+        #print(res,'Debug--------------------------------------------------------------------')
         return res
     
-    def prediction_map(self,res,threshold=0.8):
-        if res[0][0] > threshold:
-            return 'Tiene casco'
-        else:
-            return 'No tiene Casco'
+    # def prediction_map(self,res,threshold=0.8):
+    #     if res[0][0] > threshold:
+    #         return 'Tiene casco'
+    #     else:
+    #         return 'No tiene Casco'
     
     def compute_current_detection(self,img_path):
         res = self.find_persons(img_path)
         current_detection = []
         for image,coord,path in res:
-            img = self.load_image_for_model(path)
-            label = self.prediction_map(self.predict_on_image(img))
+            label = self.predict_on_image(path)[0][0]
             current_detection.append((label,coord,path))
 
         self.set_current_detection(current_detection)
@@ -138,8 +143,8 @@ class Vaico_helmet_detection:
 model = Vaico_helmet_detection()
 #model.compute_current_detection("/home/josh/MEGA/Keras/test_vaico/test_helmets/no_helmets/IMG_20190405_110505348.jpg")
 #model.draw_boundig_box(model.get_current_detection(),"/home/josh/MEGA/Keras/test_vaico/test_helmets/no_helmets/IMG_20190405_110505348.jpg")
-model.compute_current_detection("/home/josh/Descargas/WhatsApp Image 2019-04-18 at 3.49.19 PM.jpeg")
-model.draw_boundig_box(model.get_current_detection(),"/home/josh/Descargas/WhatsApp Image 2019-04-18 at 3.49.19 PM.jpeg")
+model.compute_current_detection("/home/josh/MEGA/U_S_VII/P2/datasets/datos_29_abril_2019/no_casco/29-5/29-598.jpg")
+model.draw_boundig_box(model.get_current_detection(),"/home/josh/MEGA/U_S_VII/P2/datasets/datos_29_abril_2019/no_casco/29-5/29-598.jpg")
 model.clear_temp_imgs()
 
 

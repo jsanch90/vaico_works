@@ -4,7 +4,7 @@ import numpy as np
 import os
 import cv2
 import io
-from keras.models import load_model
+from imageai.Prediction.Custom import CustomImagePrediction
 from imageai.Detection import ObjectDetection
 from PIL import Image
 from skimage import transform
@@ -13,13 +13,17 @@ from imageio import imread
 
 class Vaico_helmet_detection:
 
-    def __init__(self,yolo_weigths='../../models_h5/yolo.h5', model_weigths='../../models_h5/vaico_mobilenet.h5'):
+    def __init__(self,yolo_weigths='../../models_h5/yolo.h5', model_weigths='../../models_h5/model_ex-009_acc-0.921875.h5', model_json='../../models_h5/model_class.json'):
         self.detector = ObjectDetection()
         self.detector.setModelTypeAsYOLOv3()
         self.detector.setModelPath(yolo_weigths)
         self.detector.loadModel()
         
-        self.classifier = load_model(model_weigths)
+        self.classifier = CustomImagePrediction()
+        self.classifier.setModelTypeAsResNet()
+        self.classifier.setModelPath(model_weigths)
+        self.classifier.setJsonPath(model_json)
+        self.classifier.loadModel(num_objects=2)
 
         self.current_detection = []
 
@@ -88,15 +92,15 @@ class Vaico_helmet_detection:
         return np_image
     
     def predict_on_image(self,image):
-        res = self.classifier.predict(image)
+        res = self.classifier.predictImage(image)
         print(res,'-------------------------debug---------------------------------\n borrar est en /app/model_test.py metodo predict_on_image()')
         return res
     
-    def prediction_map(self,res,threshold=0.8):
-        if res[0][0] > threshold:
-            return 'Tiene casco'
-        else:
-            return 'No tiene Casco'
+    # def prediction_map(self,res,threshold=0.8):
+    #     if res[0][0] > threshold:
+    #         return 'Tiene casco'
+    #     else:
+    #         return 'No tiene Casco'
 
     def get_image_from_base64(self,base64_str):
         #b64_string = base64_str.decode()
@@ -108,8 +112,7 @@ class Vaico_helmet_detection:
         res = self.find_persons(img_path)
         current_detection = []
         for image,coord,path in res:
-            img = self.load_image_for_model(path)
-            label = self.prediction_map(self.predict_on_image(img))
+            label = self.predict_on_image(path)[0][0]
             current_detection.append((label,coord,path))
 
         self.set_current_detection(current_detection)

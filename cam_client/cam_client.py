@@ -25,7 +25,7 @@ class Cam_Client():
         
 
     def take_picture(self):
-        video_capture = cv2.VideoCapture(0)
+        video_capture = cv2.VideoCapture(1)
         if not video_capture.isOpened():
             raise Exception("Could not open video device")
         ret, frame = video_capture.read()
