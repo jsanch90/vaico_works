@@ -14,11 +14,14 @@
 
     <!-- Custom styles for this template -->
     <link href="../static/css/validation.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../static/images/favicon.ico" />
+
 </head>
 
 <body style="background: #373B43;">
-    <div class="signup-form" >
-        <form action="{{ url_for('register') }}" method="POST" >
+    <div class="signup-form">
+        <form action="{{ url_for('register') }}" method="POST">
             <h2>Registro</h2>
             <p class="hint-text">Crea tu cuenta. Tomará tan solo unos minutos.</p>
             <div class="form-group">
