@@ -1,0 +1,8 @@
+version: '3'
+services:
+  vaico:
+    container_name: vaico
+    restart: always
+    build: .
+    ports:
+     - "80:80"
