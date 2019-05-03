@@ -13,7 +13,7 @@ from io import BytesIO
 
 class Vaico_helmet_detection:
 
-    def __init__(self,yolo_weigths='../../models_h5/yolo.h5', model_weigths='../../models_h5/model_ex-009_acc-0.921875.h5', model_json='../../models_h5/model_class.json'):
+    def __init__(self,yolo_weigths='../../models_h5/yolo.h5', model_weigths='../../models_h5/model_ex-055_acc-0.996250.h5', model_json='../../models_h5/model_class.json'):
         self.detector = ObjectDetection()
         self.detector.setModelTypeAsYOLOv3()
         self.detector.setModelPath(yolo_weigths)
@@ -143,8 +143,8 @@ class Vaico_helmet_detection:
 model = Vaico_helmet_detection()
 #model.compute_current_detection("/home/josh/MEGA/Keras/test_vaico/test_helmets/no_helmets/IMG_20190405_110505348.jpg")
 #model.draw_boundig_box(model.get_current_detection(),"/home/josh/MEGA/Keras/test_vaico/test_helmets/no_helmets/IMG_20190405_110505348.jpg")
-model.compute_current_detection("/home/josh/MEGA/U_S_VII/P2/datasets/datos_29_abril_2019/no_casco/29-5/29-598.jpg")
-model.draw_boundig_box(model.get_current_detection(),"/home/josh/MEGA/U_S_VII/P2/datasets/datos_29_abril_2019/no_casco/29-5/29-598.jpg")
+model.compute_current_detection("/home/josh/MEGA/U_S_VII/P2/datasets/test_vaico_imgs/70.jpg")
+model.draw_boundig_box(model.get_current_detection(),"/home/josh/MEGA/U_S_VII/P2/datasets/test_vaico_imgs/70.jpg")
 model.clear_temp_imgs()
 
 
