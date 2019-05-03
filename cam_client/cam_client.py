@@ -56,7 +56,7 @@ class Cam_Client():
             pred = self.predict(img)
             print('sending to db')
             self.db.image_registers.insert_one({'original':img,'prediction':pred,'place':self.place,'date':str(datetime.datetime.now())})
-        
+
 if __name__ == "__main__":
 
     if len(sys.argv) <= 1:
@@ -66,7 +66,6 @@ if __name__ == "__main__":
         sys.exit(0)
     cc = Cam_Client(sys.argv[1])
     cc.start_capture()
-
 
 #global graph
 # graph = tf.get_default_graph()
