@@ -1,7 +1,6 @@
 #install requeriments.txt
 import cv2
 import base64
-import os
 import time
 import sys
 import datetime
