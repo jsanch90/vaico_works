@@ -167,10 +167,10 @@ def sector_gallery(place):
 def contact():
     if(current_user.is_authenticated):
         permissions = current_user.permissions
-        session = True 
+        session = True
     else:
         permissions = False
-        session = False 
+        session = False
     if request.method == 'POST':
         name = request.form['name']
         cel = request.form['cel']
