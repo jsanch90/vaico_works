@@ -1,20 +1,12 @@
-import base64
-import os
-import cv2
 import datetime
-from flask import Flask, jsonify, request, render_template, redirect, url_for
-from flask_wtf import FlaskForm
+from flask import Flask, request, render_template, redirect, url_for
 from flask_mongoengine import MongoEngine, Document
-from wtforms import StringField, PasswordField
-from wtforms.validators import Email, Length, InputRequired
+from wtforms import StringField
+from wtforms.validators import Email, Length
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from flask_cors import CORS
-from flask_pymongo import PyMongo
-from io import BytesIO
-from PIL import Image
 from db_config import db_config
-from mongoengine import connect
 from email_service import Email_services
 
 app = Flask(__name__)
@@ -36,8 +28,8 @@ login_manager.login_view = 'login'
                                            #Models
 ################################################################################################
 
-class User(UserMixin, db.Document):                                                                                            
-    meta = {'collection': 'users'}                                                                                             
+class User(UserMixin, db.Document):
+    meta = {'collection': 'users'}
     email = db.StringField(max_length=30)
     password = db.StringField()
     name = db.StringField()
@@ -52,13 +44,13 @@ class Image_Register(db.Document):
     original = db.StringField()
     prediction = db.StringField()
 
-class Report(db.Document):                                                                                            
-    meta = {'collection': 'reports'}  
+class Report(db.Document):
+    meta = {'collection': 'reports'}
     title = db.StringField()
     name = db.StringField()
     email = db.StringField()
     cel = db.StringField()
-    occupation = db.StringField()                                                                                           
+    occupation = db.StringField()
     original_img = db.StringField()
     processed_img = db.StringField()
     date_img = db.StringField()
@@ -116,7 +108,7 @@ def logout():
 def show_index():
     users = User.objects()
     if(current_user.is_authenticated):
-        permissions = current_user.permissions 
+        permissions = current_user.permissions
         session = True
     else:
         permissions = False
@@ -159,10 +151,9 @@ def gallery():
     imgs = Image_Register.objects()
     for img in imgs:
         if img.place in data.keys():
-            data[img.place].append(img)    
+            data[img.place].append(img)
         else:
             data[img.place] = [img]
-    
     return render_template('gallery.html', imgs = data, permissions = permissions)
 
 @app.route('/sector_gallery/<place>', methods=['GET', 'POST'])
@@ -199,10 +190,10 @@ def contact():
 def about():
     if(current_user.is_authenticated):
         permissions = current_user.permissions
-        session = True 
+        session = True
     else:
         permissions = False
-        session = False 
+        session = False
     return render_template('about.html', permissions = permissions, session = session)
 
 @app.route('/report/<date>', methods=['GET', 'POST'])
