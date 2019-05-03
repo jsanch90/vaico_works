@@ -31,10 +31,8 @@ class Email_services():
     def clear_temp_imgs(self):
         os.remove('static/img/reporte_de_obra.jpg')
 
-    """
-    + Recipients must be a list with the email addresses that you want to send the message.
-    + Attachment parameter must be a string with the path of the image.
-    """
+    """+ Recipients must be a list with the email addresses that you want to send the message.
+    + Attachment parameter must be a string with the path of the image."""
     def send_email(self,recipients,subject='Reporte de la obra',
                         message="Vaico Works email service is working",
                         attachment=None):
