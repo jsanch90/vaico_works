@@ -8,7 +8,7 @@ def test_cam_connect():
     if not video_capture.isOpened():
         return True
     return False
-    
+
 
 @pytest.fixture()
 def test_cam_not_connect():

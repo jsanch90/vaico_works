@@ -1,8 +1,8 @@
 import datetime
 from flask import Flask, request, render_template, redirect, url_for
 from flask_mongoengine import MongoEngine, Document
-from wtforms import StringField
-from wtforms.validators import Email
+#from wtforms import StringField
+#from wtforms.validators import Email
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, login_user, login_required, logout_user, current_user
 from flask_cors import CORS
@@ -81,7 +81,7 @@ def register():
             hey = User(request.form['email'],hashpass,request.form['first_name'],request.form['cel'],request.form['occupation'], False).save()
             # login_user(hey)
             # return redirect(url_for('show_index',email=request.form['email']))
-    
+
     return render_template('register.html')
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -112,8 +112,7 @@ def show_index():
         session = True
     else:
         permissions = False
-        session = False 
-    imgs = Image_Register.objects()
+        session = False
     return render_template('index.html', permissions = permissions, session = session)
 
 

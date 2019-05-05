@@ -9,7 +9,7 @@ def test_connection():
 @pytest.fixture()
 def test_bad_connection():
     try:
-        client = pymongo.MongoClient("mongodb+srv://vaico:7iBC3Pqk3RuNnYK@vaicorockets-0jn.mongodb.net/test?retryWrites=true")
+        pymongo.MongoClient("mongodb+srv://vaico:7iBC3Pqk3RuNnYK@vaicorockets-0jn.mongodb.net/test?retryWrites=true")
     except:
         return False
 

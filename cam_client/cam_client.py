@@ -4,7 +4,6 @@ import base64
 import time
 import sys
 import datetime
-import tensorflow as tf
 from io import BytesIO
 from PIL import Image
 from pymongo import MongoClient
@@ -27,7 +26,7 @@ class Cam_Client():
         video_capture = cv2.VideoCapture(1)
         if not video_capture.isOpened():
             raise Exception("Could not open video device")
-        ret, frame = video_capture.read()
+        _, frame = video_capture.read()
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         video_capture.release()
         pil_img = Image.fromarray(frame,mode='RGB')
@@ -47,7 +46,7 @@ class Cam_Client():
         pil_img.save(buff, format="JPEG")
         new_image_string = base64.b64encode(buff.getvalue()).decode("utf-8")
         return new_image_string
-    
+
     def start_capture(self,interval=10):
         while True:
             time.sleep(interval)

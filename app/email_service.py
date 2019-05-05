@@ -20,13 +20,13 @@ class Email_services():
     def get_sender(self):
         return self.sender_email
     
-    def get_image_from_base64(self,base64_str, out_name='b64img'):
-        out_name = out_name+'.jpg'
-        out_name = "static/img/" + out_name
-        #b64_string = base64_str.decode()
-        img_temp = imread(io.BytesIO(base64.b64decode(base64_str)))
-        cv2_img = cv2.cvtColor(img_temp, cv2.COLOR_RGB2BGR)
-        cv2.imwrite(out_name, cv2_img)
+    # def get_image_from_base64(self,base64_str, out_name='b64img'):
+    #     out_name = out_name+'.jpg'
+    #     out_name = "static/img/" + out_name
+    #     #b64_string = base64_str.decode()
+    #     img_temp = imread(io.BytesIO(base64.b64decode(base64_str)))
+    #     cv2_img = cv2.cvtColor(img_temp, cv2.COLOR_RGB2BGR)
+    #     cv2.imwrite(out_name, cv2_img)
 
     def clear_temp_imgs(self):
         os.remove('static/img/reporte_de_obra.jpg')
@@ -55,7 +55,7 @@ class Email_services():
         server = smtplib.SMTP(self.smtp_server,self.port)
 
         try:
-            server.ehlo() 
+            server.ehlo()
             server.starttls(context=self.context) # Secure the connection
             server.ehlo()
             server.login(self.get_sender(), self.password)
@@ -69,7 +69,7 @@ class Email_services():
                 self.clear_temp_imgs()
             server.quit()
         print('Message sent')
-    
+
 
 #x = Email_services()
 #x.send_email(['p4rsek@gmail.com','camilovilla699@gmail.com'],attachment='/home/josh/MEGA/Keras/test_vaico/person6.jpg')#

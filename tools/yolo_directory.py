@@ -27,12 +27,11 @@ def find_persons(imgs_dir, out_dir, margin=0.02):
         detections = detector.detectObjectsFromImage(input_image=image, minimum_percentage_probability=30)
         os.remove('.png')
         img = cv2.imread(image)
-        persons_in_image =[]
         for each_object in detections:
             name = each_object["name"]
             if( name == "person"):
                 x1,y1,x2,y2 = each_object["box_points"]
-                height, width, channels = img.shape
+                height, width, _ = img.shape
                 """
                 print(height, width)#debug
                 print(x1,x2,y1,y2)#debug
@@ -76,7 +75,7 @@ if __name__ == "__main__":
         print("Example" )
         print("python yolo_directory.py '/home/user/images' '/home/user/persons'")
         sys.exit(0)
-    
+
     _input = sys.argv[1]
     out = sys.argv[2]
 

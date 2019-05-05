@@ -8,7 +8,7 @@ def take_pictures(dir_name,name,cam=0):
     video_capture = cv2.VideoCapture(cam)
     if not video_capture.isOpened():
         raise Exception("Could not open video device")
-    ret, frame = video_capture.read()
+    _, frame = video_capture.read()
     full_path = dir_name+'/'+name+'.jpg'
     cv2.imwrite(full_path,frame)
     print("image '{0}' saved".format(full_path))

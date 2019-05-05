@@ -7,7 +7,7 @@ from skimage import transform
 import os
 import cv2
 import random
-from io import BytesIO    
+#from io import BytesIO
 
 
 
@@ -44,7 +44,7 @@ class Vaico_helmet_detection:
             name = each_object["name"]
             if( name == "person"):
                 x1,y1,x2,y2 = each_object["box_points"]
-                height, width, channels = img.shape
+                height, width, _ = img.shape
                 """
                 print(height, width)#debug
                 print(x1,x2,y1,y2)#debug
@@ -114,7 +114,7 @@ class Vaico_helmet_detection:
     def compute_current_detection(self,img_path):
         res = self.find_persons(img_path)
         current_detection = []
-        for image,coord,path in res:
+        for _,coord,path in res:
             label = self.predict_on_image(path)[0][0]
             current_detection.append((label,coord,path))
 
@@ -123,7 +123,7 @@ class Vaico_helmet_detection:
     def draw_boundig_box(self, data, original_img_path):
         img = cv2.imread(original_img_path)
 
-        for label,coords,path in data:
+        for label,coords,_ in data:
             y1,y2,x1,x2 = coords
             if label == 'Tiene casco':
                 cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0),thickness = 3)
@@ -139,7 +139,7 @@ class Vaico_helmet_detection:
             os.remove(path)
 
     
-    
+
 model = Vaico_helmet_detection()
 #model.compute_current_detection("/home/josh/MEGA/Keras/test_vaico/test_helmets/no_helmets/IMG_20190405_110505348.jpg")
 #model.draw_boundig_box(model.get_current_detection(),"/home/josh/MEGA/Keras/test_vaico/test_helmets/no_helmets/IMG_20190405_110505348.jpg")

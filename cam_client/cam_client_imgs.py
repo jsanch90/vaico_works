@@ -1,11 +1,10 @@
 #install requeriments.txt
 import cv2
 import base64
-import os
+#import os
 import time
 import sys
 import datetime
-import tensorflow as tf
 from io import BytesIO
 from PIL import Image
 from pymongo import MongoClient
@@ -58,15 +57,15 @@ class Cam_Client():
         pil_img.save(buff, format="JPEG")
         new_image_string = base64.b64encode(buff.getvalue()).decode("utf-8")
         return new_image_string
-    
-    def start_capture(self,interval=10):
-        while True:
-            time.sleep(interval)
-            img = self.take_picture()
-            print('initializing prediction')
-            pred = self.predict(img)
-            print('sending to db')
-            self.db.image_registers.insert_one({'original':img,'prediction':pred,'place':self.place,'date':str(datetime.datetime.now())})
+
+    # def start_capture(self,interval=10):
+    #     while True:
+    #         time.sleep(interval)
+    #         img = self.take_picture()
+    #         print('initializing prediction')
+    #         pred = self.predict(img)
+    #         print('sending to db')
+    #         self.db.image_registers.insert_one({'original':img,'prediction':pred,'place':self.place,'date':str(datetime.datetime.now())})
 
 ##
 #UNCOMENT THIS 
@@ -83,13 +82,13 @@ class Cam_Client():
 #     cc.start_capture()
 
 ##
-#UNCOMENT THIS 
-## 
+#UNCOMENT THIS
+##
 
 if __name__ == "__main__":
 
     cc = Cam_Client(sys.argv[1])
-    cc.take_picture(sys.argv[2])
+    #cc.take_picture(sys.argv[2])
     img = cc.take_picture(sys.argv[2])
     print('initializing prediction')
     pred = cc.predict(img)

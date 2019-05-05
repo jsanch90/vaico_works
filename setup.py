@@ -3,7 +3,7 @@ try: # for pip >= 10
     from pip._internal.req import parse_requirements
 except ImportError: # for pip <= 9.0.3
     from pip.req import parse_requirements
-import re, ast
+import re
 
 #get version from version variable in plaid_integration/init.py
 _version_re = re.compile(r'version\s+=\s+(.*)')
