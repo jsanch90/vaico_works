@@ -2,7 +2,7 @@
 import cv2
 import base64
 #import os
-import time
+#import time
 import sys
 import datetime
 from io import BytesIO
@@ -27,7 +27,7 @@ class Cam_Client():
         ##
         #UNCOMENT THIS 
         ## 
-        
+
         #video_capture = cv2.VideoCapture(1)
         #if not video_capture.isOpened():
         #    raise Exception("Could not open video device")
@@ -68,8 +68,8 @@ class Cam_Client():
     #         self.db.image_registers.insert_one({'original':img,'prediction':pred,'place':self.place,'date':str(datetime.datetime.now())})
 
 ##
-#UNCOMENT THIS 
-## 
+#UNCOMENT THIS
+##
 
 # if __name__ == "__main__":
 

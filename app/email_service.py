@@ -1,9 +1,9 @@
 import smtplib, ssl
-import cv2
-from imageio import imread
-import io
+#import cv2
+#from imageio import imread
+#import io
 import os
-import base64
+#import base64
 from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -19,7 +19,7 @@ class Email_services():
     
     def get_sender(self):
         return self.sender_email
-    
+
     # def get_image_from_base64(self,base64_str, out_name='b64img'):
     #     out_name = out_name+'.jpg'
     #     out_name = "static/img/" + out_name

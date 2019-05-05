@@ -56,7 +56,7 @@ def find_persons(imgs_dir, out_dir, margin=0.02):
                     y2_new = y2
                 else:
                     y2_new = int((y2+(y2*margin)))
-                
+             
                 if (x2+(x2*margin)) > width:
                     x2_new = x2
                 else:

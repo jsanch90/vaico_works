@@ -20,7 +20,7 @@ class Cam_Client():
         if saved_places == None:
             self.db.places.insert_one({'place':place})
         self.place = place
-        
+
 
     def take_picture(self):
         video_capture = cv2.VideoCapture(1)

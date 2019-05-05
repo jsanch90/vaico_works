@@ -5,6 +5,6 @@ import sys
 data = pd.read_csv(sys.argv[1])
 
 train, test = train_test_split(data, shuffle=True)
- 
+
 train.to_csv('train.csv',index=False)
 test.to_csv('test.csv',index=False)

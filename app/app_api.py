@@ -66,7 +66,7 @@ class Customer(db.Document):
 @app.route('/')
 def index():
     return redirect(url_for('show_index'))
-    
+
 @login_manager.user_loader
 def load_user(user_id):
     return User.objects(pk=user_id).first()

@@ -102,7 +102,7 @@ class Vaico_helmet_detection:
         img_temp = imread(io.BytesIO(base64.b64decode(base64_str)))
         cv2_img = cv2.cvtColor(img_temp, cv2.COLOR_RGB2BGR)
         cv2.imwrite("static/img/temp_img.jpg", cv2_img)
-    
+
     def compute_current_detection(self,img_path='static/img/temp_img.jpg'):
         res = self.find_persons(img_path)
         current_detection = []

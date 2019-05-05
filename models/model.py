@@ -138,7 +138,6 @@ class Vaico_helmet_detection:
         for _,_,path in self.current_detection:
             os.remove(path)
 
-    
 
 model = Vaico_helmet_detection()
 #model.compute_current_detection("/home/josh/MEGA/Keras/test_vaico/test_helmets/no_helmets/IMG_20190405_110505348.jpg")
