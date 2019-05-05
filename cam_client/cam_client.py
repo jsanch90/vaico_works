@@ -11,7 +11,7 @@ from db_config import db_config
 from model_test import Vaico_helmet_detection
 
 class Cam_Client():
-    
+
     def __init__(self,place):
         self.client = MongoClient(db_config['host'])
         self.db = self.client.vaico_works

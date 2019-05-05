@@ -16,7 +16,7 @@ class Email_services():
         self.smtp_server = "smtp.gmail.com"
         self.port = 587  # For starttls
         self.context = ssl.create_default_context()
-    
+
     def get_sender(self):
         return self.sender_email
 

@@ -12,7 +12,7 @@ from db_config import db_config
 from model_test import Vaico_helmet_detection
 
 class Cam_Client():
-    
+
     def __init__(self,place):
         self.client = MongoClient(db_config['host'])
         self.db = self.client.vaico_works
@@ -21,12 +21,12 @@ class Cam_Client():
         if saved_places == None:
             self.db.places.insert_one({'place':place})
         self.place = place
-        
+
 
     def take_picture(self,path):
         ##
-        #UNCOMENT THIS 
-        ## 
+        #UNCOMENT THIS
+        ##
 
         #video_capture = cv2.VideoCapture(1)
         #if not video_capture.isOpened():
@@ -34,8 +34,8 @@ class Cam_Client():
         #ret, frame = video_capture.read()
 
         ##
-        #UNCOMENT THIS 
-        ## 
+        #UNCOMENT THIS
+        ##
 
         frame = cv2.imread(path)
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)

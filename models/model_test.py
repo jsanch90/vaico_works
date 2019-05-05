@@ -18,14 +18,14 @@ class Vaico_helmet_detection:
         self.detector.setModelTypeAsYOLOv3()
         self.detector.setModelPath(yolo_weigths)
         self.detector.loadModel()
-        
+
         self.classifier = load_model(model_weigths)
 
         self.current_detection = []
 
     def get_current_detection(self):
         return self.current_detection
-    
+
     def set_current_detection(self,current_detection):
         self.current_detection = current_detection
 
@@ -65,7 +65,7 @@ class Vaico_helmet_detection:
                     y2_new = y2
                 else:
                     y2_new = int((y2+(y2*margin)))
-                
+
                 if (x2+(x2*margin)) > width:
                     x2_new = x2
                 else:
@@ -79,18 +79,18 @@ class Vaico_helmet_detection:
                 persons_in_image.append(person_points)
 
         return persons_in_image
-    
+
     def load_image_for_model(self, image_path):
         np_image = Image.open(image_path)
         np_image = np.array(np_image).astype('float32')/255
         np_image = transform.resize(np_image, (350, 350, 3))
         np_image = np.expand_dims(np_image, axis=0)
         return np_image
-    
+
     def predict_on_image(self,image):
         res = self.classifier.predict(image)
         return res
-    
+
     def prediction_map(self,res,threshold=0.8):
         if res[0][0] > threshold:
             return 'Tiene casco'
