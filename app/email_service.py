@@ -1,9 +1,9 @@
 import smtplib, ssl
-#import cv2
-#from imageio import imread
-#import io
+import cv2
+from imageio import imread
+import io
 import os
-#import base64
+import base64
 from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -20,13 +20,13 @@ class Email_services():
     def get_sender(self):
         return self.sender_email
 
-    # def get_image_from_base64(self,base64_str, out_name='b64img'):
-    #     out_name = out_name+'.jpg'
-    #     out_name = "static/img/" + out_name
-    #     #b64_string = base64_str.decode()
-    #     img_temp = imread(io.BytesIO(base64.b64decode(base64_str)))
-    #     cv2_img = cv2.cvtColor(img_temp, cv2.COLOR_RGB2BGR)
-    #     cv2.imwrite(out_name, cv2_img)
+    def get_image_from_base64(self,base64_str, out_name='b64img'):
+        out_name = out_name+'.jpg'
+        out_name = "static/img/" + out_name
+        #b64_string = base64_str.decode()
+        img_temp = imread(io.BytesIO(base64.b64decode(base64_str)))
+        cv2_img = cv2.cvtColor(img_temp, cv2.COLOR_RGB2BGR)
+        cv2.imwrite(out_name, cv2_img)
 
     def clear_temp_imgs(self):
         os.remove('static/img/reporte_de_obra.jpg')

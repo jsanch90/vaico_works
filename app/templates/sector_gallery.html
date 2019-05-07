@@ -85,14 +85,14 @@
     </ol>
 
     <div class="row">
-      {% for img in data %}
+      {% for img in data|reverse %}
       <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
         <div class="card h-100">
           <a href="/image/{{img.date}}"><img class="card-img-top" src="data:image/png;base64, {{img.prediction}}"
               alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="/image/{{img.date}}">Registro {{ loop.index }}</a>
+              <a href="/image/{{img.date}}">Registro {{ data|length + 1 - loop.index }}</a>
             </h4>
             <p class="card-text">Día/Mes/Año:
               {{ img.date.split(" ")[0].split("-")[2] }}/{{img.date.split(" ")[0].split("-")[1]}}/{{img.date.split(" ")[0].split("-")[0]}}

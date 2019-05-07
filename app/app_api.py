@@ -126,7 +126,7 @@ def original_gallery():
 @app.route('/processed_gallery', methods=['GET', 'POST'])
 @login_required
 def processed_gallery():
-    imgs = Image_Register.objects()
+    imgs = Image_Register.objects() #.order_by('-date')
     permissions = current_user.permissions
     return render_template('processed_gallery.html', data = imgs, permissions = permissions)
 
