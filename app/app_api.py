@@ -79,6 +79,7 @@ def register():
         existing_user = User.objects(email=request.form['email']).first()
         if existing_user is None:
             hashpass = generate_password_hash(request.form['password'], method='sha256')
+            print(request.form.get("occupation"))
             hey = User(request.form['email'],hashpass,request.form['first_name'],request.form['cel'],request.form['occupation'], False).save()
             # login_user(hey)
             # return redirect(url_for('show_index',email=request.form['email']))
@@ -125,13 +126,14 @@ def original_gallery():
     if request.method == 'POST':
         date1 = request.form['date1']
         date2 = request.form['date2']
-        if(date1 == ""):
+        print(date1, date2)
+        if (date1 == "" and date2 == ""):
+            date1 = "1000-01-01"
+            date2 = "4000-12-31"
+        elif(date1 == ""):
             date1 = "1000-01-01"
         elif (date2 == ""):
-            date2 = "4000-12-31"
-        elif  (date1 == "" and date2 == ""):
-            date1 = "1000-01-01"
-            date2 = "4000-12-31"
+            date2 = "4000-12-31"    
         date1 += " 00:00:00.0000"
         date2 += " 23:59:59.0000"
         imgs = Image_Register.objects(Q(date__gte=date1) & Q(date__lte=date2))
@@ -145,13 +147,14 @@ def processed_gallery():
     if request.method == 'POST':
         date1 = request.form['date1']
         date2 = request.form['date2']
-        if(date1 == ""):
+        print(date1, date2)
+        if (date1 == "" and date2 == ""):
+            date1 = "1000-01-01"
+            date2 = "4000-12-31"
+        elif(date1 == ""):
             date1 = "1000-01-01"
         elif (date2 == ""):
-            date2 = "4000-12-31"
-        elif  (date1 == "" and date2 == ""):
-            date1 = "1000-01-01"
-            date2 = "4000-12-31"
+            date2 = "4000-12-31"    
         date1 += " 00:00:00.0000"
         date2 += " 23:59:59.0000"
         imgs = Image_Register.objects(Q(date__gte=date1) & Q(date__lte=date2))
@@ -187,7 +190,21 @@ def gallery():
 def sector_gallery(place):
     imgs = Image_Register.objects(place = place)
     permissions = current_user.permissions
-    return render_template('sector_gallery.html', data = imgs, permissions = permissions)
+    if request.method == 'POST':
+        date1 = request.form['date1']
+        date2 = request.form['date2']
+        print(date1, date2)
+        if (date1 == "" and date2 == ""):
+            date1 = "1000-01-01"
+            date2 = "4000-12-31"
+        elif(date1 == ""):
+            date1 = "1000-01-01"
+        elif (date2 == ""):
+            date2 = "4000-12-31"    
+        date1 += " 00:00:00.0000"
+        date2 += " 23:59:59.0000"
+        imgs = Image_Register.objects(Q(place = place) & Q(date__gte=date1) & Q(date__lte=date2))
+    return render_template('sector_gallery.html', data = imgs, permissions = permissions, place = place)
 
 @app.route('/contact', methods=['GET', 'POST'])
 def contact():
@@ -262,6 +279,20 @@ def save_customer(name, cel, email):
 def view_reports():
     permissions = current_user.permissions
     reports = Report.objects()
+    if request.method == 'POST':
+        date1 = request.form['date1']
+        date2 = request.form['date2']
+        print(date1, date2)
+        if (date1 == "" and date2 == ""):
+            date1 = "1000-01-01"
+            date2 = "4000-12-31"
+        elif(date1 == ""):
+            date1 = "1000-01-01"
+        elif (date2 == ""):
+            date2 = "4000-12-31"    
+        date1 += " 00:00:00.0000"
+        date2 += " 23:59:59.0000"
+        reports = Report.objects(Q(date_report__gte=date1) & Q(date_report__lte=date2))
     return render_template("reports.html", data = reports, permissions = permissions)
 
 @app.route('/delete_user', methods=['GET', 'POST'])

@@ -84,8 +84,21 @@
       <li class="breadcrumb-item active">Reportes</li>
     </ol>
 
+    <h4>Filtro de búsqueda</h4>
+    <form method="POST">
+      <div class="col-lg-6 portfolio-item">
+        Desde:
+        <input class="form-control" type="date" name="date1">
+        hasta:
+        <input class="form-control" type="date" name="date2">
+        <br>
+        <button type="submit" value="submit" class="btn btn-primary">Buscar</button>
+      </div>
+    </form>
+    <hr>
+
     <!-- Blog Post -->
-    {% for report in data %}
+    {% for report in data|reverse %}
     <div class="card mb-4">
       <div class="card-body">
         <div class="row">

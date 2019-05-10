@@ -31,7 +31,12 @@
                 <input type="text" class="form-control" name="cel" placeholder="Celular" required="required">
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" name="occupation" placeholder="Ocupación" required="required">
+                <select class="form-control" name="occupation">
+                    <option value="sst" selected>Cargo</option>
+                    <option value="administrador">Administrador</option>
+                    <option value="sst">SST</option>
+                    <option value="cliente">Cliente</option>
+                </select>
             </div>
             <div class="form-group">
                 <input type="email" class="form-control" name="email" placeholder="Email" required="required">
@@ -45,7 +50,8 @@
                     required="required">
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-success btn-lg btn-block">Regístrate ahora</button>
+                <button type="submit" class="btn btn-success btn-lg btn-block">Regístrate
+                    ahora</button>
             </div>
         </form>
         <div class="text-center">Volver a inicio: <a href="/index">Inicio</a></div>
