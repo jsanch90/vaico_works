@@ -155,7 +155,6 @@ def processed_gallery():
         date1 += " 00:00:00.0000"
         date2 += " 23:59:59.0000"
         imgs = Image_Register.objects(Q(date__gte=date1) & Q(date__lte=date2))
-        
     return render_template('processed_gallery.html', data = imgs, permissions = permissions)
 
 @app.route('/image/<date>', methods=['GET', 'POST'])
@@ -188,19 +187,6 @@ def gallery():
 def sector_gallery(place):
     imgs = Image_Register.objects(place = place)
     permissions = current_user.permissions
-    if request.method == 'POST':
-        date1 = request.form['date1']
-        date2 = request.form['date2']
-        if(date1 == ""):
-            date1 = "1000-01-01"
-        elif (date2 == ""):
-            date2 = "4000-12-31"
-        elif  (date1 == "" and date2 == ""):
-            date1 = "1000-01-01"
-            date2 = "4000-12-31"
-        date1 += " 00:00:00.0000"
-        date2 += " 23:59:59.0000"
-        imgs = Image_Register.objects(Q(date__gte=date1) & Q(date__lte=date2))
     return render_template('sector_gallery.html', data = imgs, permissions = permissions)
 
 @app.route('/contact', methods=['GET', 'POST'])
