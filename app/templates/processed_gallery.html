@@ -23,52 +23,52 @@
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <!-- La idea es poner el logo de Vaico Works aquí -->
-        <!-- Una duda es si cargar el método o sólo la página -->
-        <!-- Por ahora en esta línea sólo carga la página como tal, pero realiza todo por la ruta url -->
-        <a href="/index"><img src="../static/images/vaico_icon.png" alt="logo" width="60px" height="60px"></a>
-        <a class="navbar-brand" href="/index">Vaico Works</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-          data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/gallery">Procesamiento de imágenes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/reports">Reportes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about">Acerca de</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact">Contacto</a>
-            </li>
-            {% if permissions %}
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Gestión de usuarios
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="/register">Agregar usuario</a>
-                <a class="dropdown-item" href="/delete_user">Eliminar usuario</a>
-              </div>
-            </li>
-            {% endif %}
-            <li class="nav-item">
-              <a class="nav-link" href="/logout">Cerrar sesión</a>
-            </li>
-          </ul>
-        </div>
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <!-- La idea es poner el logo de Vaico Works aquí -->
+      <!-- Una duda es si cargar el método o sólo la página -->
+      <!-- Por ahora en esta línea sólo carga la página como tal, pero realiza todo por la ruta url -->
+      <a href="/index"><img src="../static/images/vaico_icon.png" alt="logo" width="60px" height="60px"></a>
+      <a class="navbar-brand" href="/index">Vaico Works</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/gallery">Procesamiento de imágenes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/reports">Reportes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">Acerca de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contacto</a>
+          </li>
+          {% if permissions %}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Gestión de usuarios
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="/register">Agregar usuario</a>
+              <a class="dropdown-item" href="/delete_user">Eliminar usuario</a>
+            </div>
+          </li>
+          {% endif %}
+          <li class="nav-item">
+            <a class="nav-link" href="/logout">Cerrar sesión</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
   <!-- Page Content -->
   <div class="container">
@@ -84,6 +84,19 @@
       </li>
       <li class="breadcrumb-item active">Imágenes clasificadas</li>
     </ol>
+
+    <h4>Filtro de búsqueda</h4>
+    <form method="POST">
+      <div class="col-lg-6 portfolio-item">
+        Desde:
+        <input class="form-control" type="date" name="date1">
+        hasta:
+        <input class="form-control" type="date" name="date2">
+        <br>
+        <button type="submit" value="submit" class="btn btn-primary">Buscar</button>
+      </div>
+    </form>
+    <hr>
 
     <div class="row">
       {% for img in data|reverse %}
