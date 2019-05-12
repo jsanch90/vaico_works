@@ -11,9 +11,9 @@ Para utilizar el cliente que captura las imagenes, las procesa y las guarda en l
 Ejemplo:
 
 home/
-    --vaico_works
-    |
-    --models_h5
+--vaico_works
+|
+--models_h5
 
 Una vez se haga esto, ya se puede ejecutar el cliente que esta en:
 
