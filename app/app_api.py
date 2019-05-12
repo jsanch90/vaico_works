@@ -289,7 +289,7 @@ def view_reports():
         elif(date1 == ""):
             date1 = "1000-01-01"
         elif (date2 == ""):
-            date2 = "4000-12-31"    
+            date2 = "4000-12-31"
         date1 += " 00:00:00.0000"
         date2 += " 23:59:59.0000"
         reports = Report.objects(Q(date_report__gte=date1) & Q(date_report__lte=date2))
