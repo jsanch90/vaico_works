@@ -2,7 +2,7 @@
 ## Pioneros.
 ### En camino de la senda dorada
 
-Reconocimiento de cascos en obras de contrucción
+Reconocimiento de cascos en obras de contrucción.
 
 ### Uso del cliente para capturar imagenes
 
