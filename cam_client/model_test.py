@@ -124,10 +124,10 @@ class Vaico_helmet_detection:
             y1,y2,x1,x2 = coords
             if label == 'Tiene casco':
                 cv2.rectangle(img, (x1, y1), (x2, y2), (0, 255, 0),thickness = 3)
-                cv2.putText(img,'Tiene casco' , (x1, y1-7), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255),thickness = 3, lineType=cv2.LINE_AA)
+                cv2.putText(img,'' , (x1, y1-7), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255),thickness = 3, lineType=cv2.LINE_AA)
             else:
                 cv2.rectangle(img, (x1, y1), (x2, y2), (0, 0, 255),thickness = 3)
-                cv2.putText(img,'No tiene casco' , (x1, y1-7), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255),thickness = 3, lineType=cv2.LINE_AA)
+                cv2.putText(img,'' , (x1, y1-7), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255),thickness = 3, lineType=cv2.LINE_AA)
 
         return img#return cv2.imwrite('./out.jpg' , img)#return img #return cv2.imwrite('./out.jpg' , img)
 
