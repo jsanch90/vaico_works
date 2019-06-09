@@ -12,4 +12,4 @@ Una vez se haga esto, ya se puede ejecutar el cliente que esta en:
 
 vaico_works/cam_client/cam_client.py
 
-[Hassler es un pendejo](https://www.google.com)
+[Hassler es un pendejo](https://drive.google.com/drive/folders/14A_g5tHHFfEjL4o4MAVl-CDvhhHAUTVu)
