@@ -12,4 +12,4 @@ Una vez se haga esto, ya se puede ejecutar el cliente que esta en:
 
 vaico_works/cam_client/cam_client.py
 
-[I'm an inline-style link](https://www.google.com)
+[Hassler es un pendejo](https://www.google.com)
