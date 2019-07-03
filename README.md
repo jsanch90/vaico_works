@@ -14,4 +14,4 @@ vaico_works/cam_client/cam_client.py
 
 ### Inferencia
 
-Para realizar inferencia con el modelo ya entrenado, se deben haber descargado los pesos del modelo (model_ex-055_acc-0.996250.h5) que esta en drive, y se debe poner en el directorio creado anteriormente, "models_h5/", tambien se debe descargar el archivo "model_class.json" en el cual se hace el mapeo de las predicciones y las clases correspondientes y se debe ubicar en el mismo directorio "models_h5/"
+Para realizar inferencia con el modelo ya entrenado, se deben haber descargado los pesos del modelo (model_ex-055_acc-0.996250.h5) en el siguiente enlace https://drive.google.com/drive/folders/1g7rp13kWP2dhKc0GQb7dVORwMFSALiMf?usp=sharing, y se debe poner en el directorio creado anteriormente, "models_h5/", tambien se debe descargar el archivo "model_class.json" en el cual se hace el mapeo de las predicciones y las clases correspondientes y se debe ubicar en el mismo directorio "models_h5/"
